@@ -29,7 +29,7 @@ export default defineConfig({
   },
   buildEnd: async (config) => {
     const feed = new Feed({
-      title: 'Nyabsi\'s Blogs',
+      title: 'Nyabsi\'s Blog',
       description: 'A blog where I dump my thoughts when I feel like it.',
       id: hostname,
       link: hostname,
