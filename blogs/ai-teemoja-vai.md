@@ -11,11 +11,9 @@ Tämä mielessä, päätin ottaa haasteen vastaan, joten vietin jonkin aikaa sel
 
 https://github.com/user-attachments/assets/470fcc1f-a664-4835-8e33-f9287c330697
 
-<template>
-  <div style="text-align: center;">
-    <p>Fig 1: Pico Environment Selection -ympäristön valintaa esittelevä video</a>
-  </div>
-</template>
+<div align="center">
+  ???
+</div>
 
 ### Ensimmäinen askel
 
