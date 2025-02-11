@@ -8,15 +8,11 @@ Ostin hiljattain viime vuoden joulukuussa uuden vekottimen, Pico 4 Ultra -virtua
 
 Tämä mielessä, päätin ottaa haasteen vastaan, joten vietin jonkin aikaa selvittääkseni, miten se tehdään, ja dokumentoida ja toteuttaa työkalut muille ihmisille. Tässä artikkelissa kerrotaan, miten selvitin, miten se tehdään, ja esitetään lähestymistapani analyysiin.
 
-<div style="text-align: center;">
-    <p>Fig 1: Pico Environment Selection -ympäristön valintaa esittelevä video</a>
-</div>
-
 ### Ensimmäinen askel
 
 Koska tiesin, että Pico 4 Ultra käyttää muokattua Androidia, pystyin helposti aloittamaan järjestelmän tutkimisen adb:n kautta.
 
-> ![INFO]
+> ![NOTE]
 > adb (Android Debug Bridge) on työkalu, jolla voi kommunikoida Android-laitteiden kanssa kehitystarkoituksiin.
 
 Ensin minun piti ottaa kehittäjätila käyttöön, mutta se oli yllättävän helppoa, minun piti vain tehdä;
@@ -24,10 +20,6 @@ Ensin minun piti ottaa kehittäjätila käyttöön, mutta se oli yllättävän h
 Mene kohtaan Asetukset -> Tietoja -> Ohjelmistoversio (klikkaa 7 kertaa).
 
 ja uusi välilehti nimeltä ”Developer” ilmestyi, jonka avulla voit ottaa käyttöön ”USB Debug”, joka mahdollistaa ADB-vianmäärityksen.
-
-<div style="text-align: center;">
-    <p>Fig 2: Kehittäjätila</a>
-</div>
 
 Tämä mielessä seuraava asia, jonka tein, oli tyhjentää kaikki asennetut järjestelmäpaketit `adb shell pm list packages` -komennolla ja tarkastaa tulosteet:
 
@@ -52,7 +44,7 @@ Siirsin yhden paketeista tietokoneelleni jatkoanalyysiä varten ratkaisemalla en
 
 Ensimmäiseksi purin apk-tiedoston [apktool](https://apktool.org/) avulla selvittääkseni kansiorakenteen.
 
-> [!INFO]
+> [!NOTE]
 > Apktool on apk (Android Package) -tiedostojen käänteistekniikkaan tarkoitettu työkalu, jonka avulla voit purkaa ja kääntää apk(t) uudelleen.
 
 ```
@@ -101,7 +93,7 @@ Se sisältää muutamia merkkijonomääritelmiä, joita ilmeisesti käytetään 
 
 Käytin [AssetRipperiä](https://github.com/AssetRipper/AssetRipper) purkaamaan nipun Unity-projektiin, ja se pystyi myös määrittämään Unityn kohdeversion nipun metatiedoista.
 
-> [!INFO]
+> [!NOTE]
 > AssetRipper on työkalu serialisoitujen Unity-paketti:en purkamiseen ja niiden viemiseen projekteiksi.
 
 Se ehdotti, että `.unity3d`-tiedosto luotiin Unity 2021.3.5f1:llä, joten asensin sen Android-tuella.
@@ -213,10 +205,6 @@ adb shell settings put global SceneManager.CurrentScene [Nimi]
 adb shell settings put global current_scene /assets/scene/[Nimi]/Scene_[Nimi]_1_1.unity3d
 ```
 
-<div style="text-align: center;">
-    <p>Fig 3: Unity Default scene -teema ladattuna Picoon</a>
-</div>
-
 Ja rummut soikoon, *Dudududud psst*, ja se toimi! Meillä on mukautettu unity-paketti ladattuna laitteeseen!
 
 ### Entä Virtuaaliympäristö-välilehti?
@@ -234,10 +222,6 @@ Vaikka on olemassa menetelmiä, joilla tämä yhteys voidaan siepata, ohjata se 
     - Palvelimen isännöinti ei ole ilmaista
 
 Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager) avulla.
-
-<div style="text-align: center;">
-    <p>Fig 4: PicoThemeManager</a>
-</div>
 
 ### Loppu
 
