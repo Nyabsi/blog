@@ -72,11 +72,11 @@ The first thing I did was decompile the apk with [apktool](https://apktool.org/)
 ```
 assets
   -> scene
-      -> {Nimi}
-          -> Scene_{Nimi}_1_1.unity3d
+      -> {Name}
+          -> Scene_{Name}_1_1.unity3d
   -> thumbs
-      -> {Nimi}
-          -> Scene_{Nimi}_1_1.png
+      -> {Name}
+          -> Scene_{Name}_1_1.png
 res
   -> values
       -> integers.xml
