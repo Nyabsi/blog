@@ -15,25 +15,33 @@ Tämä mielessä, päätin ottaa haasteen vastaan, joten vietin jonkin aikaa sel
   <p>Fig 1: Video showcasing the Pico Environment Selection</p>
 </div>
 
-### Ensimmäinen askel
+### Ensimmäinen askele
 
 Koska tiesin, että Pico 4 Ultra käyttää muokattua Androidia, pystyin helposti aloittamaan järjestelmän tutkimisen adb:n kautta.
 
 > [!NOTE]
-> adb (Android Debug Bridge) on työkalu, jolla voi kommunikoida Android-laitteiden kanssa kehitystarkoituksiin.
+> adb eli Android Debug Bridge on työkalu, jolla voi kommunikoida Android-laitteiden kanssa kehitystarkoituksiin.
+
+<br/>
+
+#### Kehitystila
 
 Ensin minun piti ottaa kehittäjätila käyttöön, mutta se oli yllättävän helppoa, minun piti vain tehdä;
 
 Mene kohtaan Asetukset -> Tietoja -> Ohjelmistoversio (klikkaa 7 kertaa).
 
-ja uusi välilehti nimeltä ”Developer” ilmestyi, jonka avulla voit ottaa käyttöön ”USB Debug”, joka mahdollistaa ADB-vianmäärityksen.
+ja uusi välilehti nimeltä ”Developer” ilmestyi, jonka avulla voit ottaa käyttöön ”USB Debug” joka mahdollistaa ADB-vianmäärityksen.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/pico_developer.jpg"/>
   <p>Fig 2: Kehittäjätila</p>
 </div>
 
-Tämä mielessä seuraava asia, jonka tein, oli tyhjentää kaikki asennetut järjestelmäpaketit `adb shell pm list packages` -komennolla ja tarkastaa tulosteet:
+<br/>
+
+#### Asennettujen pakettien tutkiminen
+
+Seuraava asia, jonka tein, oli listata kaikki asennetut järjestelmäpaketit `adb shell pm list packages` -komennolla ja tarkastaa tulosteet:
 
 ```
 // ...
@@ -48,9 +56,11 @@ package:com.pvr.SeaviewVilla.scene
 // ...
 ```
 
-Kaivettuani luetteloa jonkin aikaa voin muutaman tietyn paketin, jolla oli etuliite `com.pvr` ja loppuliite `scene`, jonka nimi myös vastasi niitä, jotka olin ladannut ympäristövalitsimesta, joten minulla oli kohtuullinen epäilys siitä, että nämä paketit ovat niitä, joita olen etsimässä.
+Kaivettuani luetteloa jonkin aikaa muutama pakettia näyttivät mielenkiintoista, jolla oli etuliite `com.pvr` ja loppuliite `scene`, nimi myös vastasi niitä, jotka olin ladannut ympäristövalitsimesta, joten minulla oli kohtuullinen epäilys siitä, että nämä paketit ovat niitä, joita olen etsimässä.
 
 Siirsin yhden paketeista tietokoneelleni jatkoanalyysiä varten ratkaisemalla ensin paketin koko polun `adb shell pm path` -komennolla ja kopioimalla sitten apk-tiedoston `adb pull` -komennolla tietokoneelleni.
+
+<br/>
 
 ### Paketin tarkempi analyysi
 
@@ -101,6 +111,8 @@ Se sisältää `sceneType`, joka näyttää siltä, että sitä käytetään ymp
 
 Se sisältää muutamia merkkijonomääritelmiä, joita ilmeisesti käytetään tunnistamiseen, mikä tulee tärkeäksi myöhemmin.
 
+<br/>
+
 ### se Unity3D-tiedosto
 
 Käytin [AssetRipperiä](https://github.com/AssetRipper/AssetRipper) purkaamaan nipun Unity-projektiin, ja se pystyi myös määrittämään Unityn kohdeversion nipun metatiedoista.
@@ -114,6 +126,8 @@ Kun avasin projektin, näin lukemattomia virheitä, joten asensin [Pico Unity In
 
 Tietäen, että tarvitsin `Unity 2021.3.5f1` ja `Pico Unity Integration SDK`, minulla oli kaikki tiedot oman paketin luomiseen.
 
+<br/>
+
 ### Epäonnistunut yritys
 
 Ensimmäinen asia, jonka tein sen jälkeen, kun olin selvittänyt formaatin, oli yrittää asentaa uudelleen nimetty paketti, mutta se ei näkynyt virtuaaliympäristö-välilehdellä.
@@ -121,6 +135,8 @@ Ensimmäinen asia, jonka tein sen jälkeen, kun olin selvittänyt formaatin, oli
 Aloin miettiä, ehkä järjestelmä ei pidä tuntemattomista allekirjoituksista tai ehkä siinä on jotain muuta.
 
 Joten aloin tutkia järjestelmää selvittääkseni, miten teemat ladataan.
+
+<br/>
 
 ### Scenemanagerin ymmärtäminen
 
@@ -179,6 +195,8 @@ private synchronized void saveScene(String sceneTag, String scenePath, String sc
 
 Näytti siltä, että tiedot nykyisestä teemasta oli tallennettu [Global System Settings](https://developer.android.com/reference/android/provider/Settings.Global), mikä tarkoitti, että voisimme muuttaa näitä arvoja.
 
+<br/>
+
 ### Mukautetun paketin luominen ja sen lataaminen
 
 Kun olin aseistettu kaiken tämän tiedon kanssa, loin tyhjän Unity-Scene:n Unity 2021.3.5f1:llä (w/ Pico Unity Integration SDK) ja loin paketin skriptin avulla, jonka otin [Unity Documentation](https://docs.unity3d.com/6000.0/Documentation/Manual/AssetBundles-Workflow.html) ja jota muokkasin hieman rakentaakseni sen Androidille Windowsin sijasta.
@@ -226,6 +244,8 @@ adb shell settings put global current_scene /assets/scene/[Nimi]/Scene_[Nimi]_1_
 
 Ja rummut soikoon, *Dudududud psst*, ja se toimi! Meillä on mukautettu unity-paketti ladattuna laitteeseen!
 
+<br/>
+
 ### Entä Virtuaaliympäristö-välilehti?
 
 Pico pitää kirjaa palvelimella olevasta virallisten teemojen luettelosta, josta käyttöjärjestelmä sitten pyytää luetteloita, ja tämä täyttää Virtual Environment -välilehden. Tämä tarkoittaa sitä, että vain Picon hyväksymät teemat näkyvät Virtual Environment -välilehdellä.
@@ -249,16 +269,16 @@ Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden [PicoTheme
   <p>Fig 4: PicoThemeManager</p>
 </div>
 
+<br/>
+
 ### Loppu
 
 Onnistuin tavoitteessani tehdä mahdolliseksi mukautettujen ympäristöjen luominen Pico OS:lle, ja näin tein sen. 
 
 Toivottavasti nautit prosessista yhtä paljon kuin minä. Minulla ei ole muuta sanottavaa, toivon teille mukavaa iltaa tai aamua tai yötä.
 
-#### Reference Links
+#### Käytetyttyökalut
 
-- [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager)
-- [Custom Environment Guide](https://gist.github.com/Nyabsi/c14bd38d03d6dc44721779c182762627)
 - [AssetRipper](https://github.com/AssetRipper/AssetRipper)
 - [Apktool](https://apktool.org/)
 - [jadx](https://github.com/skylot/jadx)
