@@ -8,11 +8,20 @@ Ostin hiljattain viime vuoden joulukuussa uuden vekottimen, Pico 4 Ultra -virtua
 
 Tämä mielessä, päätin ottaa haasteen vastaan, joten vietin jonkin aikaa selvittääkseni, miten se tehdään, ja dokumentoida ja toteuttaa työkalut muille ihmisille. Tässä artikkelissa kerrotaan, miten selvitin, miten se tehdään, ja esitetään lähestymistapani analyysiin.
 
+
+https://github.com/user-attachments/assets/470fcc1f-a664-4835-8e33-f9287c330697
+
+<template>
+  <div style="text-align: center;">
+    <p>Fig 1: Pico Environment Selection -ympäristön valintaa esittelevä video</a>
+  </div>
+</template>
+
 ### Ensimmäinen askel
 
 Koska tiesin, että Pico 4 Ultra käyttää muokattua Androidia, pystyin helposti aloittamaan järjestelmän tutkimisen adb:n kautta.
 
-> ![NOTE]
+> [!NOTE]
 > adb (Android Debug Bridge) on työkalu, jolla voi kommunikoida Android-laitteiden kanssa kehitystarkoituksiin.
 
 Ensin minun piti ottaa kehittäjätila käyttöön, mutta se oli yllättävän helppoa, minun piti vain tehdä;
