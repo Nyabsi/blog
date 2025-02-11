@@ -19,7 +19,7 @@ export default defineConfig({
         text: 'Blogs',
         items: [
           { text: 'Make it, if it\'s so easy.', link: '/blogs/make-it-if-its-so-easy' },
-          { text: 'Oh, you want environments? ', link: 'blogs/oh-you-want-environments' }
+          { text: 'Oh, you want environments? ', link: '/blogs/oh-you-want-environments' }
         ]
       }
     ],
