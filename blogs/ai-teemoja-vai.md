@@ -9,7 +9,7 @@ Ostin hiljattain viime vuoden joulukuussa uuden vekottimen, Pico 4 Ultra -virtua
 Tämä mielessä, päätin ottaa haasteen vastaan, joten vietin jonkin aikaa selvittääkseni, miten se tehdään, ja dokumentoida ja toteuttaa työkalut muille ihmisille. Tässä artikkelissa kerrotaan, miten selvitin, miten se tehdään, ja esitetään lähestymistapani analyysiin.
 
 <div align="center">
-  <video loop autoplay>
+  <video loop autoplay muted>
     <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/virtual_environment.mp4" type="video/mp4">
   </video>
   <p>Fig 1: Video showcasing the Pico Environment Selection</p>
@@ -211,6 +211,13 @@ adb shell settings put global SceneManager.CurPackage com.pvr.[Nimi].scene
 adb shell settings put global SceneManager.CurrentScene [Nimi]
 adb shell settings put global current_scene /assets/scene/[Nimi]/Scene_[Nimi]_1_1.unity3d
 ```
+
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/custom_theme.mp4" type="video/mp4">
+  </video>
+  <p>Fig 3: Unity Default scene -teema ladattuna Picoon</p>
+</div>
 
 Ja rummut soikoon, *Dudududud psst*, ja se toimi! Meillä on mukautettu unity-paketti ladattuna laitteeseen!
 
