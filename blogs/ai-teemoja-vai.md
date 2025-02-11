@@ -9,10 +9,13 @@ Ostin hiljattain viime vuoden joulukuussa uuden vekottimen, Pico 4 Ultra -virtua
 Tämä mielessä, päätin ottaa haasteen vastaan, joten vietin jonkin aikaa selvittääkseni, miten se tehdään, ja dokumentoida ja toteuttaa työkalut muille ihmisille. Tässä artikkelissa kerrotaan, miten selvitin, miten se tehdään, ja esitetään lähestymistapani analyysiin.
 
 
-https://github.com/user-attachments/assets/470fcc1f-a664-4835-8e33-f9287c330697
+
 
 <div align="center">
-  ???
+  <video loop>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/virtual_environment.mp4" type="video/mp4">
+  </video>
+  <p>Fig 1: Video showcasing the Pico Environment Selection</p>
 </div>
 
 ### Ensimmäinen askel
