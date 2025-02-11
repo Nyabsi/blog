@@ -4,8 +4,6 @@ outline: deep
 
 # Make it, if it's so easy.
 
-You can read this [here](/blogs/ai-teemoja-vai.html) in Finnish.
-
 We all have had those moments, when you have such a great idea, and you say, "Oh, that's so easy; I can easily do it!", but can you really?
 
 I've been having countless "such" ideas for years, and I can count a total of one successful project that I actually saw through and finished, so lately I thought, what's up with that? What is stopping me from doing those projects, if they are as simple as *I* claim them to be?
