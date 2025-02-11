@@ -4,9 +4,6 @@ outline: deep
 
 # Ai, haluatko teemoja?
 
-
-### Introduction
-
 Ostin hiljattain viime vuoden joulukuussa uuden vekottimen, Pico 4 Ultra -virtuaalitodellisuuslasit, jotka julkaistiin elokuussa 2024. Pidän laitteesta monilta osin, mutta kykyä luoda tai käyttää mukautettuja teemoja ei ollut, ajattelin, että se olisi hauska haaste.
 
 Tämä mielessä, päätin ottaa haasteen vastaan, joten vietin jonkin aikaa selvittääkseni, miten se tehdään, ja dokumentoida ja toteuttaa työkalut muille ihmisille. Tässä artikkelissa kerrotaan, miten selvitin, miten se tehdään, ja esitetään lähestymistapani analyysiin.
