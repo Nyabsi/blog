@@ -138,7 +138,7 @@ Joten aloin tutkia järjestelmää selvittääkseni, miten teemat ladataan.
 
 <br/>
 
-### Scenemanagerin ymmärtäminen
+#### Scenemanagerin ymmärtäminen
 
 Epäonnistuneen yrityksen jälkeen minulle jäi yksi kysymys:
 
