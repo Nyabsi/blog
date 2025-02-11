@@ -24,7 +24,7 @@ Knowing that the Pico 4 Ultra runs a modified flavour of Android I was able to e
 
 <br/>
 
-#### Kehitystila
+#### Developer Mode
 
 First, I had to enable developer mode, but this was suprisingly easy, all I had to do is;
 
@@ -138,7 +138,7 @@ So I started digging into the system to find out how are the themes loaded.
 
 <br/>
 
-### Understanding scenemanager
+#### Understanding scenemanager
 
 After the failed attempt, I was left with one question:
 
