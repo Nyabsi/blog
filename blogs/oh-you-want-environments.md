@@ -4,6 +4,9 @@ outline: deep
 
 # Oh, you want environments?
 
+> [!NOTE]
+> You can read this [here](/blogs/ai-teemoja-vai.html) in Finnish.
+
 Recently I purchased a new gadget last year December, the Pico 4 Ultra virtual reality glasses, which had released in August of 2024. I like the device in many aspects, but the lack of ability to create or use custom themes was not there, I thought it would be a fun challenge.
 
 That in mind, I decided to take on the challenge so I spent some time time figuring out how it's done, and documenting and implementing the tooling for other people. This article shows how I figured out how to do it, laying down my approach to analysis.
