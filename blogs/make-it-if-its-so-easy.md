@@ -4,7 +4,7 @@ outline: deep
 
 # Make it, if it's so easy.
 
-You can read this [here](/ai-teemoja-vai.html) in Finnish.
+You can read this [here](/blogs/ai-teemoja-vai.html) in Finnish.
 
 We all have had those moments, when you have such a great idea, and you say, "Oh, that's so easy; I can easily do it!", but can you really?
 
