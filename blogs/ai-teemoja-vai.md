@@ -56,7 +56,7 @@ package:com.pvr.SeaviewVilla.scene
 // ...
 ```
 
-Kaivettuani luetteloa jonkin aikaa muutama pakettia näyttivät mielenkiintoista, jolla oli etuliite `com.pvr` ja loppuliite `scene`, nimi myös vastasi niitä, jotka olin ladannut ympäristövalitsimesta, joten minulla oli kohtuullinen epäilys siitä, että nämä paketit ovat niitä, joita olen etsimässä.
+Tarkasteltuani tulostetta jonkin aikaa muutama pakettia erottuivat joukosta, niilä oli etuliite `com.pvr` ja loppuliite `scene`, nimi myös vastasi niitä, jotka olin ladannut ympäristövalitsimesta, joten minulla oli kohtuullinen epäilys siitä, että nämä paketit ovat niitä, joita olen etsimässä.
 
 Siirsin yhden paketeista tietokoneelleni jatkoanalyysiä varten ratkaisemalla ensin paketin koko polun `adb shell pm path` -komennolla ja kopioimalla sitten apk-tiedoston `adb pull` -komennolla tietokoneelleni.
 
@@ -113,7 +113,7 @@ Se sisältää muutamia merkkijonomääritelmiä, joita ilmeisesti käytetään 
 
 <br/>
 
-### se Unity3D-tiedosto
+#### se Unity3D-tiedosto
 
 Käytin [AssetRipperiä](https://github.com/AssetRipper/AssetRipper) purkaamaan nipun Unity-projektiin, ja se pystyi myös määrittämään Unityn kohdeversion nipun metatiedoista.
 
@@ -250,7 +250,7 @@ Ja rummut soikoon, *Dudududud psst*, ja se toimi! Meillä on mukautettu unity-pa
 
 Pico pitää kirjaa palvelimella olevasta virallisten teemojen luettelosta, josta käyttöjärjestelmä sitten pyytää luetteloita, ja tämä täyttää Virtual Environment -välilehden. Tämä tarkoittaa sitä, että vain Picon hyväksymät teemat näkyvät Virtual Environment -välilehdellä.
 
-Vaikka on olemassa menetelmiä, joilla tämä yhteys voidaan siepata, ohjata se kolmannen osapuolen palvelimelle ja tarjota oma pakettiluettelomme, tämä ei ole hyvä ajatus useista eri syistä:
+Vaikka on olemassa menetelmiä, joilla tämä yhteys voidaan siepata ja ohjata se kolmannen osapuolen palvelimelle, tämä ei ole hyvä ajatus useista eri syistä:
 
 - Turvallisuus
     - PicoOS lähettää SN- ja muut tunnisteet (pyyntöä kohti).
