@@ -56,7 +56,7 @@ package:com.pvr.SeaviewVilla.scene
 // ...
 ```
 
-Tarkasteltuani tulostetta jonkin aikaa muutama pakettia erottuivat joukosta, niilä oli etuliite `com.pvr` ja loppuliite `scene`, nimi myös vastasi niitä, jotka olin ladannut ympäristövalitsimesta, joten minulla oli kohtuullinen epäilys siitä, että nämä paketit ovat niitä, joita olen etsimässä.
+Tarkasteltuani tulostetta jonkin aikaa muutama pakettia erottuivat joukosta, niillä oli etuliite `com.pvr` ja loppuliite `scene`, nimi myös vastasi niitä, jotka olin ladannut ympäristövalitsimesta, joten minulla oli kohtuullinen epäilys siitä, että nämä paketit ovat niitä, joita olen etsimässä.
 
 Siirsin yhden paketeista tietokoneelleni jatkoanalyysiä varten ratkaisemalla ensin paketin koko polun `adb shell pm path` -komennolla ja kopioimalla sitten apk-tiedoston `adb pull` -komennolla tietokoneelleni.
 
@@ -147,6 +147,9 @@ Epäonnistuneen yrityksen jälkeen minulle jäi yksi kysymys:
 Tätä ajatellen aloin tutkia asennettujen pakettien luetteloa, kunnes törmäsin `com.pvr.scenemanageriin`.
 
 Niinpä siirsin sen tietokoneelleni ja purin apk:n [jadx](https://github.com/skylot/jadx):ssa, jotta APK:sta tulisi luettavaa Java-koodia.
+
+> [!NOTE]
+> JADX on Dex -> Java käänto-apuri työkalu mikä mahdollistaa pakettien analysoinnin.
 
 Huomasin, että paketti sisälsi saman kansiorakenteen kuin teemapaketit, nämä olivat laitteeseen esiasennettuja oletusteemoja, mutta se sisälsi myös koodia.
 
