@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Ai, haluatko teemoja?
+# Ai, teemoja vai?
 
 Ostin hiljattain viime vuoden joulukuussa uuden vekottimen, Pico 4 Ultra -virtuaalitodellisuuslasit, jotka julkaistiin elokuussa 2024. Pidän laitteesta monilta osin, mutta kykyä luoda tai käyttää mukautettuja teemoja ei ollut, ajattelin, että se olisi hauska haaste.
 
@@ -251,7 +251,7 @@ Ja rummut soikoon, *Dudududud psst*, ja se toimi! Meillä on mukautettu unity-pa
 
 ### Entä Virtuaaliympäristö-välilehti?
 
-Pico pitää kirjaa palvelimella olevasta virallisten teemojen luettelosta, josta käyttöjärjestelmä sitten pyytää luetteloita, ja tämä täyttää Virtual Environment -välilehden. Tämä tarkoittaa sitä, että vain Picon hyväksymät teemat näkyvät Virtual Environment -välilehdellä.
+Pico pitää luetteloa palvelimella olevasta virallisten teemoista, josta käyttöjärjestelmä sitten pyytää luetteloa, ja tämä täyttää Virtual Environment -välilehden. Tämä tarkoittaa sitä, että vain Picon hyväksymät teemat näkyvät Virtual Environment -välilehdellä.
 
 Vaikka on olemassa menetelmiä, joilla tämä yhteys voidaan siepata ja ohjata se kolmannen osapuolen palvelimelle, tämä ei ole hyvä ajatus useista eri syistä:
 
@@ -263,7 +263,7 @@ Vaikka on olemassa menetelmiä, joilla tämä yhteys voidaan siepata ja ohjata s
 - Kustannukset
     - Palvelimen isännöinti ei ole ilmaista
 
-Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager) avulla.
+Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden: [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
 
 <div align="center">
   <video loop autoplay muted>
@@ -276,7 +276,7 @@ Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden [PicoTheme
 
 ### Loppu
 
-Onnistuin tavoitteessani tehdä mahdolliseksi mukautettujen ympäristöjen luominen Pico OS:lle, ja näin tein sen. 
+Onnistuin tavoitteessani tehdä mahdolliseksi mukautettujen ympäristöjen luomisen Pico OS:lle, ja näin tein sen. 
 
 Toivottavasti nautit prosessista yhtä paljon kuin minä. Minulla ei ole muuta sanottavaa, toivon teille mukavaa iltaa tai aamua tai yötä.
 
