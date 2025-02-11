@@ -28,6 +28,11 @@ Mene kohtaan Asetukset -> Tietoja -> Ohjelmistoversio (klikkaa 7 kertaa).
 
 ja uusi välilehti nimeltä ”Developer” ilmestyi, jonka avulla voit ottaa käyttöön ”USB Debug”, joka mahdollistaa ADB-vianmäärityksen.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/pico_developer.jpg"/>
+  <p>Fig 2: Kehittäjätila</p>
+</div>
+
 Tämä mielessä seuraava asia, jonka tein, oli tyhjentää kaikki asennetut järjestelmäpaketit `adb shell pm list packages` -komennolla ja tarkastaa tulosteet:
 
 ```
@@ -236,6 +241,13 @@ Vaikka on olemassa menetelmiä, joilla tämä yhteys voidaan siepata, ohjata se 
     - Palvelimen isännöinti ei ole ilmaista
 
 Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager) avulla.
+
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/pico_theme_manager.mp4" type="video/mp4">
+  </video>
+  <p>Fig 4: PicoThemeManager</p>
+</div>
 
 ### Loppu
 
