@@ -68,7 +68,7 @@ Ensimmäiseksi purin apk-tiedoston [apktool](https://apktool.org/) avulla selvit
 > [!NOTE]
 > Apktool on apk (Android Package) -tiedostojen käänteistekniikkaan tarkoitettu työkalu, jonka avulla voit purkaa ja kääntää apk(t) uudelleen.
 
-## paketti tiedostorakenne
+#### paketti tiedostorakenne
 
 ```
 assets
