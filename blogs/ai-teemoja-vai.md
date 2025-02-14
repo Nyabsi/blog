@@ -273,7 +273,7 @@ Tämä oli ehdottomasti hauska projekti, jossa pystyin vahvistamaan joitakin kyk
 
 Jos olet kiinnostunut käyttämään mukautettuja teemoja, tutustu [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager) ja [Pico Environment Archive](https://picoenvironmentarchive.ct.ws/).
 
-> [!HUOMAUTUS]
+> [!NOTE]
 > Pico Environment Archive ei ole sidoksissa kirjoittajaan eikä PicoThemeManageriin.
 
 Jos olet kiinnostunut omien teemojen luomisesta, tutustu oppaaseeni [täällä](https://gist.github.com/Nyabsi/c14bd38d03d6dc44721779c182762627).
