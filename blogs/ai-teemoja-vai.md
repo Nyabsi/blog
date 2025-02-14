@@ -47,7 +47,6 @@ Seuraava asia, jonka tein, oli listata kaikki asennetut järjestelmäpaketit `ad
 // ...
 package:com.pvr.ZeroIsland.scene
 package:com.pvr.EnchantedLibrary.scene <--
-package:com.pvr.CustomEnvironment.scene
 package:com.pvr.MountainVilla.scene
 package:com.pvr.MoonshadowDunes.scene
 package:com.pvr.ZeroIslandNight.scene
@@ -253,17 +252,9 @@ Ja rummut soikoon, *Dudududud psst*, ja se toimi! Meillä on mukautettu unity-pa
 
 Pico pitää luetteloa palvelimella olevasta virallisten teemoista, josta käyttöjärjestelmä sitten pyytää luetteloa, ja tämä täyttää Virtual Environment -välilehden. Tämä tarkoittaa sitä, että vain Picon hyväksymät teemat näkyvät Virtual Environment -välilehdellä.
 
-Vaikka on olemassa menetelmiä, joilla tämä yhteys voidaan siepata ja ohjata se kolmannen osapuolen palvelimelle, tämä ei ole hyvä ajatus useista eri syistä:
+Pico käyttää DoH:ta (DNS over HTTPS), mikä tekee DNS-uudelleenohjauksesta vaikeaa, ja lisäksi se vaatii järjestelmätason root CA:n ohituksen, mikä ei ole mahdollista Android 14:ssä, jolla Pico OS toimii.
 
-- Turvallisuus
-    - PicoOS lähettää SN- ja muut tunnisteet (pyyntöä kohti).
-    - Edellyttää koko järjestelmän kattavan juurivarmentajan (Root CA) asentamista
-- Monimutkaisuus
-    - vaatii DNS-pyyntöjen sieppaamista MITM:ää varten
-- Kustannukset
-    - Palvelimen isännöinti ei ole ilmaista
-
-Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden: [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
+Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden tekemällä: [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
 
 <div align="center">
   <video loop autoplay muted>
