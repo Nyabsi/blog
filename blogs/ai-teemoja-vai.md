@@ -265,14 +265,13 @@ Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden tekemäll�
 
 <br/>
 
-### Loppu
+### Tulkinta
 
-Onnistuin tavoitteessani tehdä mahdolliseksi mukautettujen ympäristöjen luomisen Pico OS:lle, ja näin tein sen. 
+Tämä oli ehdottomasti hauska projekti, jossa pystyin vahvistamaan joitakin kykyjäni.
 
-Toivottavasti nautit prosessista yhtä paljon kuin minä. Minulla ei ole muuta sanottavaa, toivon teille mukavaa iltaa tai aamua tai yötä.
+Jos olet kiinnostunut käyttämään mukautettuja teemoja, tutustu [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager) ja [Pico Environment Archive](https://picoenvironmentarchive.ct.ws/).
 
-#### Käytetyttyökalut
+> [!HUOMAUTUS]
+> Pico Environment Archive ei ole sidoksissa kirjoittajaan eikä PicoThemeManageriin.
 
-- [AssetRipper](https://github.com/AssetRipper/AssetRipper)
-- [Apktool](https://apktool.org/)
-- [jadx](https://github.com/skylot/jadx)
+Jos olet kiinnostunut omien teemojen luomisesta, tutustu oppaaseeni [täällä](https://gist.github.com/Nyabsi/c14bd38d03d6dc44721779c182762627).
