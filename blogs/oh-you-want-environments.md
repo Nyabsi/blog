@@ -268,14 +268,13 @@ So instead I decided to replicate the functionality of the official software wit
 
 <br/>
 
-### The End
+### Conclusion
 
-I succeeded in my goal of making it possible to create custom environments on the Pico OS, and this is how I did it. 
+This was definitely a fun project to work which I was able to reinforce some of my abilities.
 
-I hope you enjoyed the process as much as I did.
+If you are interested in using custom themes, please check out [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager) and [Pico Environment Archive](https://picoenvironmentarchive.ct.ws/)
 
-#### Tools used
+> [!NOTE]
+> Pico Environment Archive is not affiliated with the Author nor PicoThemeManager
 
-- [AssetRipper](https://github.com/AssetRipper/AssetRipper)
-- [Apktool](https://apktool.org/)
-- [jadx](https://github.com/skylot/jadx)
+If you are interested in creating custom themes, please check out my guide, [here](https://gist.github.com/Nyabsi/c14bd38d03d6dc44721779c182762627).
