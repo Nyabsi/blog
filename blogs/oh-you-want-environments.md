@@ -71,6 +71,8 @@ The first thing I did was decompile the apk with [apktool](https://apktool.org/)
 > [!NOTE]
 > Apktool is a tool for reverse engineering apk (Android Package) files which allows you to decompile and recompile apk(s).
 
+#### package structure
+
 ```
 assets
   -> scene
