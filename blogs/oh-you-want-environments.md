@@ -50,7 +50,6 @@ That in mind the next thing I did was dump to all the installed system packages 
 // ...
 package:com.pvr.ZeroIsland.scene
 package:com.pvr.EnchantedLibrary.scene <--
-package:com.pvr.CustomEnvironment.scene
 package:com.pvr.MountainVilla.scene
 package:com.pvr.MoonshadowDunes.scene
 package:com.pvr.ZeroIslandNight.scene
@@ -256,15 +255,7 @@ And let the drums roll, *Dududud psst*, and it worked! We have a custom unity bu
 
 Pico keeps track of a list of the official themess on a server, which the OS then requests the lists from, this will populate the Virtual Environment tab. This means that themes only approved by Pico are shown in the Virtual Environment tab.
 
-While there is methods to intercept this connection, redirect it to a third party server and serve our own list of packages, this is not a good idea for various of reasons:
-
-- Security
-    - PicoOS sends SN and other identifiers (per request)
-    - Requires installation of system-wide root CA
-- Complexity
-    - requires interception of DNS requests for MITM
-- Cost
-    - Server hosting is not free
+Pico uses DoH (DNS over HTTPS) which makes DNS redirection hard, on top of the it requiring a system-level root CA override, which is not possible on Android 14 which Pico OS runs on.
 
 So instead I decided to replicate the functionality of the official software with [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
 
