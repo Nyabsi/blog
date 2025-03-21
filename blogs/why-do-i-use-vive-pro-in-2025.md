@@ -43,13 +43,19 @@ Vive Pro has Fresnel lenses that are not that great, the clarity is heavily redu
 
 Which I've replaced with the GearVR optical lenses for enchanced clarity.
 
-<-- MARK IMG LENSES NEW, NO OLD SORRY!>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/lensshot.jpg"/>
+  <p>Picture: My Vive Pro lenses, Source: Me, License: All Rights Reserved</p>
+</div>
 
 #### Displays
 
 Vive Pro uses a 1440x1600 OLED panel with Pentile layout, which at the time was good, the colour constrast and brightness are okay I think the display is still lacking in black depth, I have seen better displays and it also suffers from SDE (Screen Door Effect) which I personally don't mind.
 
-<-- MARK IMG DISPLAY>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/thedisplay.jpg"/>
+  <p>Picture: Vive Pro display, Source: Me, License: All Rights Reserved</p>
+</div>
 
 ### Tracking
 
