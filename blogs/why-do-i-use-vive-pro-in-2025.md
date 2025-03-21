@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Why do I use a Vive Pro in 2025?
 
 In 2016, the first Virtual Reality devices (Oculus Rift, HTC Vive) were commercialized for the consumer market, such devices were marketed towards entertainment. These devices boasted specifications that for the first time in history made Virtual Reality actually enjoyable and immersive experience.
