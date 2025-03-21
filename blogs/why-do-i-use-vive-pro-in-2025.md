@@ -31,11 +31,11 @@ In 2019, Oculus released their first ever 6 DoF room-scale standalone device cal
 
 This caused a shift in the focus of the market, companies started producing more hardware that is geared towards standalone and lighthouse compatible hardware production started to stagnate.
 
-## Specs
+### Specs
 
 I've listed below the general important technical specifications of the device to give rough idea of the device.
 
-### Lenses
+#### Lenses
 
 Vive Pro has Fresnel lenses that are not that great, the clarity is heavily reduced due to the Fresnel elements, and it doesn;t have great edge to edge clarity. The lenses also contain a lot of glare which causes high contrast scenes to be slightly annoying.
 
@@ -46,7 +46,7 @@ Which I've replaced with the GearVR optical lenses for enchanced clarity.
   <p>Picture: My Vive Pro lenses, Source: Me, License: All Rights Reserved</p>
 </div>
 
-### Displays
+#### Displays
 
 Vive Pro uses a 1440x1600 OLED panel with Pentile layout, which at the time was good, the colour constrast and brightness are okay I think the display is still lacking in black depth, I have seen better displays and it also suffers from SDE (Screen Door Effect) which I personally don't mind.
 
@@ -55,7 +55,7 @@ Vive Pro uses a 1440x1600 OLED panel with Pentile layout, which at the time was 
   <p>Picture: Vive Pro display, Source: Me, License: All Rights Reserved</p>
 </div>
 
-### Tracking
+#### Tracking
 
 Vive Pro uses Lighthouse tracking system which has advantages in Full Body Tracking and ability to track in dark, this is my preferred tracking system as each object holds indepedent position so controllers or even trackers don't need to be in line of sight with the headset.
 
@@ -64,24 +64,24 @@ Vive Pro uses Lighthouse tracking system which has advantages in Full Body Track
   <p>Picture: Oculus Tracking/Valve Lighthouse, Source: My Krita skills, License: Creative Commons</p>
 </div>
 
-### Comfort
+#### Comfort
 
 the Vive Pro strap is not the best, it takes a lot of tinkering and adjusting to get it right, even then it's not really comfortable for long periods of time, I would recommend modding the strap to something else.
 
 <-- MARK IMG STRAP>
 
 
-### Passthrough
+#### Passthrough
 
 The passthrough boasts a whopping 640x480 stereo camera which is not great, it can be used for quickly taking a drink of avoiding collision with objects, but it's not really great for detail.
 
 <-- MARK VIDEO PASSTHROUGH>
 
-### Controllers
+#### Controllers
 
 The Vive Pro comes with the Vive Hands, but as I use the Valve knuckles I have not tried the controllers, they lack a Thumbstick and have a untypical layout which is undesirable.
 
-## So, why the Vive Pro?
+### So, why the Vive Pro?
 
 I have investing into a Lighthouse system for VR due to it's unique advantages and I required a cheap headset so when I saw a second hand Vive Pro for a relatively reasonable price, I decided to buy one. 
 
