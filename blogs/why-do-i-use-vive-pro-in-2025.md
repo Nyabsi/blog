@@ -33,6 +33,8 @@ This caused a shift in the focus of the market, companies started producing more
 
 ## Specs
 
+I've listed below the general important technical specifications of the device to give rough idea of the device.
+
 ### Lenses
 
 Vive Pro has Fresnel lenses that are not that great, the clarity is heavily reduced due to the Fresnel elements, and it doesn;t have great edge to edge clarity. The lenses also contain a lot of glare which causes high contrast scenes to be slightly annoying.
@@ -81,8 +83,14 @@ The Vive Pro comes with the Vive Hands, but as I use the Valve knuckles I have n
 
 ## So, why the Vive Pro?
 
-I have investing into a Lighthouse system for VR due to it's unique advantages and I required a cheap headset so when I saw a second hand Vive Pro for a relatively reasonable price, I decided to buy one. I think the technical specifications of the device are still acceptable in 2025, would I buy one unless it's cheap? Not really. But I do enjoy using the device as an temporary device before foreseeable upgrade. I know there is other Lighthouse device HMDs but these are outrageously expensive which I don't think I will be purchasing as I'm not one to take part in financial irresponsibility. 
+I have investing into a Lighthouse system for VR due to it's unique advantages and I required a cheap headset so when I saw a second hand Vive Pro for a relatively reasonable price, I decided to buy one. 
 
-Of course the primary reason was it being Lighthouse compatible, I do development for lighthouse hardware and I enjoy using Vive Trackers, there is a community solution called [OpenVR-SpaceCalibrator](https://github.com/hyblocker/OpenVR-SpaceCalibrator) which can be used to align playspace across devices but this is not a perfect solution and it makes my experience with other headsets (ie. Pico 4 Ultra or Quest 3) worse on lighthouse system.
+I think the technical specifications of the device are usable in 2025, would I buy one unless it's really cheap? Not really. But I do enjoy using the device as an temporary device before foreseeable upgrade.
 
-I also enjoy the perk of not requiring a battery this allows me to do longer playing session, as I am not limited by the headset but rather controller battery life. Combination of these perks has found me buying a Vive Pro in 2025. Would I suggest one? No :D Bigscreen very recently released the BSB2 during the writing of this post, and that seems like the next stop destionation.
+I know there is other Lighthouse device HMDs but these are outrageously expensive which I don't think I will be purchasing as I'm not one to take part in financial irresponsibility. Bigscreen has recently released with Beyond 2 which seems to be my next step in my journey of PCVR.
+
+Of course a massive weight for my decision of the purchase was it being Lighthouse compatible. I do development for lighthouse compatible hardware and I use Vive Trackers.
+
+There is a community solution called [OpenVR-SpaceCalibrator](https://github.com/hyblocker/OpenVR-SpaceCalibrator) which allows using Lighthouse hardware like Tundra or Vive Trackers or Valve Knuckles on headsets that are not lighthouse tracked, but this method has a quirks that make it particularly annoying to use.
+
+I am also fan of tethered displays, as this allows extremely low latency artifact free image and this is appreciated in more fast phased games such as Beat Saber. And not having compression artifacts make certain experiences like Half Life Alyyx, BONEWORKS and such more immersive.
