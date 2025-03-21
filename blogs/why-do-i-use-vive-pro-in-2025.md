@@ -4,7 +4,7 @@ In 2016, the first Virtual Reality devices (Oculus Rift, HTC Vive) were commerci
 
 Oculus implemented their own proprietary tracking, whereas Valve made their lighthouse tracking licensable by any vendor who wishes to use the tracking and technology in their products.
 
-<div align="center" style="height: 50%; width: 50%">
+<div align="center" style="height: 50%; width: 50%; content-align: center;">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/trackingsystems.jpg"/>
   <p>Picture: Oculus Tracking/Valve Lighthouse, Source: My Krita skills, License: Creative Commons</p>
 </div>
