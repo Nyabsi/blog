@@ -1,7 +1,5 @@
 # Why do I use a Vive Pro in 2025?
 
-## Context
-
 In 2016, the first Virtual Reality devices (Oculus Rift, HTC Vive) were commercialized for the consumer market, such devices were marketed towards entertainment. These devices boasted specifications that for the first time in history made Virtual Reality actually enjoyable and immersive experience.
 
 Oculus implemented their own proprietary tracking, whereas Valve made their lighthouse tracking licensable by any vendor who wishes to use the tracking and technology in their products.
@@ -35,9 +33,7 @@ This caused a shift in the focus of the market, companies started producing more
 
 ## Specs
 
-### Optics
-
-#### Lenses
+### Lenses
 
 Vive Pro has Fresnel lenses that are not that great, the clarity is heavily reduced due to the Fresnel elements, and it doesn;t have great edge to edge clarity. The lenses also contain a lot of glare which causes high contrast scenes to be slightly annoying.
 
@@ -48,7 +44,7 @@ Which I've replaced with the GearVR optical lenses for enchanced clarity.
   <p>Picture: My Vive Pro lenses, Source: Me, License: All Rights Reserved</p>
 </div>
 
-#### Displays
+### Displays
 
 Vive Pro uses a 1440x1600 OLED panel with Pentile layout, which at the time was good, the colour constrast and brightness are okay I think the display is still lacking in black depth, I have seen better displays and it also suffers from SDE (Screen Door Effect) which I personally don't mind.
 
