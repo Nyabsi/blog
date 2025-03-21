@@ -6,7 +6,10 @@ In 2016, the first Virtual Reality devices (Oculus Rift, HTC Vive) were commerci
 
 Oculus implemented their own proprietary tracking, whereas Valve made their lighthouse tracking licensable by any vendor who wishes to use the tracking and technology in their products.
 
-<-- MARK IMG SIDE-BY-SIDE OCULUS/LIGHTHOUSE>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/trackingsystems.jpg"/>
+  <p>Picture: Oculus Go, Source: Wired, License: Creative Commons</p>
+</div>
 
 Since then there has been bi-yearly *ish* releases of new hardware by various of vendors, vendors had two choices: (A) they lease Valve's technology at a fee, only accounting for mandatory training (B) They implement their own technology for head and controller tracking.
 
