@@ -18,12 +18,15 @@ In 2018, Oculus released the Oculus Go which was able to provide a 3 DoF station
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_go.jpg"/>
-  <p>Picture: Oculus Go, Attribution: Wired</p>
+  <p>Picture: Oculus Go, Source: Wired, License: Creative Commons</p>
 </div>
 
 In 2019, Oculus released their first ever 6 DoF room-scale standalone device called the Oculus Quest, this was an massive improvement over the Oculus Go, people now could play all of their immersive room-scale VR games on a device that doesn't need separate compute or sensors.
 
-<-- MARK IMG Q1>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_quest1.jpg"/>
+  <p>Picture: Oculus Go, Source: GameBlast, License: Creative Commons</p>
+</div>
 
 This caused a shift in the focus of the market, companies started producing more hardware that is geared towards standalone and lighthouse compatible hardware production started to stagnate.
 
