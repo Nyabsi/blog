@@ -8,7 +8,7 @@ Oculus implemented their own proprietary tracking, whereas Valve made their ligh
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/trackingsystems.jpg"/>
-  <p>Picture: Oculus Go, Source: Wired, License: Creative Commons</p>
+  <p>Picture: Oculus Tracking/Valve Lighthouse, Source: My Krita skills, License: Creative Commons</p>
 </div>
 
 Since then there has been bi-yearly *ish* releases of new hardware by various of vendors, vendors had two choices: (A) they lease Valve's technology at a fee, only accounting for mandatory training (B) They implement their own technology for head and controller tracking.
