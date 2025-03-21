@@ -5,7 +5,7 @@ In 2016, the first Virtual Reality devices (Oculus Rift, HTC Vive) were commerci
 Oculus implemented their own proprietary tracking, whereas Valve made their lighthouse tracking licensable by any vendor who wishes to use the tracking and technology in their products.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/trackingsystems.jpg" width="50%" height="50%"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/trackingsystems.jpg" width="80%" height="80%"/>
   <p>Picture: Oculus Tracking/Valve Lighthouse, Source: My Krita skills, License: Creative Commons</p>
 </div>
 
@@ -18,14 +18,14 @@ A new problem arised, people were happy with their existing hardware, so they di
 In 2018, Oculus released the Oculus Go which was able to provide a 3 DoF stationary VR experience at low cost, without any requirement for additional compute. This was beginning of the standalone revolution.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_go.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_go.jpg" width="80%" height="80%"/>
   <p>Picture: Oculus Go, Source: Wired, License: Creative Commons</p>
 </div>
 
 In 2019, Oculus released their first ever 6 DoF room-scale standalone device called the Oculus Quest, this was an massive improvement over the Oculus Go, people now could play all of their immersive room-scale VR games on a device that doesn't need separate compute or sensors.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_quest1.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_quest1.jpg" width="80%" height="80%"/>
   <p>Picture: Oculus Go, Source: GameBlast, License: Creative Commons</p>
 </div>
 
@@ -40,7 +40,7 @@ Vive Pro has Fresnel lenses that are not that great, the clarity is heavily redu
 Which I've replaced with the GearVR optical lenses for enchanced clarity.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/lensshot.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/lensshot.jpg" width="80%" height="80%"/>
   <p>Picture: My Vive Pro lenses, Source: Me, License: All Rights Reserved</p>
 </div>
 
@@ -49,7 +49,7 @@ Which I've replaced with the GearVR optical lenses for enchanced clarity.
 Vive Pro uses a 1440x1600 OLED panel with Pentile layout, which at the time was good, the colour constrast and brightness are okay I think the display is still lacking in black depth, I have seen better displays and it also suffers from SDE (Screen Door Effect) which I personally don't mind.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/thedisplay.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/thedisplay.jpg" width="80%" height="80%"/>
   <p>Picture: Vive Pro display, Source: Me, License: All Rights Reserved</p>
 </div>
 
