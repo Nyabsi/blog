@@ -16,7 +16,10 @@ A new problem arised, people were happy with their existing hardware, so they di
 
 In 2018, Oculus released the Oculus Go which was able to provide a 3 DoF stationary VR experience at low cost, without any requirement for additional compute. This was beginning of the standalone revolution.
 
-<-- MARK IMG OGO>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_go.jpg"/>
+  <p>Picture: Oculus Go, Attribution: Wired</p>
+</div>
 
 In 2019, Oculus released their first ever 6 DoF room-scale standalone device called the Oculus Quest, this was an massive improvement over the Oculus Go, people now could play all of their immersive room-scale VR games on a device that doesn't need separate compute or sensors.
 
