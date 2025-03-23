@@ -8,11 +8,6 @@ In 2016, the first Virtual Reality devices (Oculus Rift, HTC Vive) were commerci
 
 Oculus implemented their own proprietary tracking, whereas Valve made their lighthouse tracking licensable by any vendor who wishes to use the tracking and technology in their products.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/trackingsystems.jpg" width="80%" height="80%"/>
-  <p>Picture: Oculus Tracking/Valve Lighthouse, Source: My Krita skills</p>
-</div>
-
 Since then there has been bi-yearly *ish* releases of new hardware by various of vendors, vendors had two choices: (A) they lease Valve's technology at a fee, only accounting for mandatory training (B) They implement their own technology for head and controller tracking.
 
 At the beginning, everyone adopted Valve's tracking system, which was able to provide true room-scale tracking at reliability that could not be matched by the competition at the time.
@@ -21,19 +16,9 @@ A new problem arised, people were happy with their existing hardware, so they di
 
 In 2018, Oculus released the Oculus Go which was able to provide a 3 DoF stationary VR experience at low cost, without any requirement for additional compute. This was beginning of the standalone revolution.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_go.jpg" width="80%" height="80%"/>
-  <p>Picture: Oculus Go, Source: Wired</p>
-</div>
-
 In 2019, Oculus released their first ever 6 DoF room-scale standalone device called the Oculus Quest, this was an massive improvement over the Oculus Go, people now could play all of their immersive room-scale VR games on a device that doesn't need separate compute or sensors.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_quest1.jpg" width="80%" height="80%"/>
-  <p>Picture: Oculus Go, Source: GameBlast</p>
-</div>
-
-This caused a shift in the focus of the market, companies started producing more hardware that is geared towards standalone and lighthouse compatible hardware production started to stagnate.
+This caused a shift in the focus of the market, companies started producing more hardware that is geared towards standalone and lighthouse compatible hardware production started to stagnate which left customers with no good choice.
 
 ### Specs of the Vive Pro
 
@@ -58,7 +43,7 @@ Vive Pro uses Lighthouse tracking system which has advantages in Full Body Track
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/basestation.jpg" width="80%" height="80%"/>
-  <p>Picture: Valve Lighthouse, Source: Valve Softwarek</p>
+  <p>Picture: Valve Lighthouse, Source: Valve Software</p>
 </div>
 
 #### Comfort
