@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Why do I use a Vive Pro in 2025?
+# Miksi käytän Vive Pro Virtuaalitodellisuus laseja vuonna 2025?
 
 Vuonna 2016 ensimmäiset virtuaalitodellisuuslaitteet (Oculus Rift, HTC Vive) kaupallistettiin kuluttajamarkkinoille, ja niitä markkinoitiin viihdettä varten. Näissä laitteissa oli tekniset ominaisuudet, jotka tekivät virtuaalitodellisuudesta ensimmäistä kertaa historiassa todella nautinnollisen ja immersiivisen kokemuksen.
 
@@ -20,9 +20,9 @@ Vuonna 2019 Oculus julkaisi ensimmäisen 6 DoF:n huoneen mittakaavassa toimivan 
 
 Tämä aiheutti painopisteen siirtymisen markkinoilla, yritykset alkoivat tuottaa enemmän laitteistoja, jotka on suunnattu erillisille laitteistoille, ja majakkayhteensopivien laitteistojen tuotanto alkoi pysähtyä, mikä jätti asiakkaat vaille hyviä vaihtoehtoja.
 
-### Specs of the Vive Pro
+### Laitteen specit
 
-#### Lenses
+#### Linssit
 
 Vive Prossa on Fresnel-linssit, jotka eivät ole kovin hyviä, selkeys on heikentynyt huomattavasti Fresnel-elementtien vuoksi, eikä siinä ole suurta reunasta reunaan -selkeyttä. Linssit sisältävät myös paljon häikäisyä, mikä aiheuttaa sen, että kontrastikkaat kohtaukset ovat hieman ärsyttäviä.
 
@@ -33,11 +33,11 @@ Jonka olen korvannut GearVR:n optisilla linsseillä, jotka parantavat selkeyttä
   <p>Picture: My Vive Pro lenses, Source: Me</p>
 </div>
 
-#### Displays
+#### Näytöt
 
 Vive Pro käyttää 1440x1600 OLED-paneelia, jossa on Pentile-asettelu, joka tuolloin oli hyvä, värikonstrasti ja kirkkaus ovat kunnossa, mutta mielestäni näytöstä puuttuu edelleen mustan syvyys, olen nähnyt parempia näyttöjä, ja se kärsii myös SDE:stä (Screen Door Effect), joka ei henkilökohtaisesti haittaa minua.
 
-#### Tracking
+#### Seuranta
 
 Vive Pro käyttää Lighthouse-seurantajärjestelmää, jonka etuja ovat kokovartaloseuranta ja kyky seurata pimeässä, tämä on suosimani seurantajärjestelmä, koska jokainen kohde pitää itsenäisen sijaintinsa, joten ohjainten tai jopa seurantalaitteiden ei tarvitse olla näköyhteydessä lasien kanssa.
 
@@ -46,13 +46,13 @@ Vive Pro käyttää Lighthouse-seurantajärjestelmää, jonka etuja ovat kokovar
   <p>Picture: Valve Lighthouse, Source: Valve Software</p>
 </div>
 
-#### Comfort
+#### Mukavuus
 
 Vive Pron hihna ei ole paras mahdollinen, se vaatii paljon puuhastelua ja säätämistä, jotta se saadaan oikeaan asentoon, ja silloinkin se ei ole todella mukava pitkiä aikoja, suosittelisin hihnan muokkaamista johonkin muuhun.
 
-#### Passthrough
+#### Läpinäkymä
 
-Passhrough ylpeilee huikealla 640x480 stereokameralla, joka ei ole suuri, sitä voidaan käyttää nopeasti juoman ottamiseen ja törmäysten välttämiseen esineiden kanssa, mutta se ei ole todella hyvä yksityiskohtiin.
+Läpinäkymä ylpeilee huikealla 640x480 stereokameralla, joka ei ole suuri, sitä voidaan käyttää nopeasti juoman ottamiseen ja törmäysten välttämiseen esineiden kanssa, mutta se ei ole todella hyvä yksityiskohtiin.
 
 <div align="center">
   <video loop autoplay muted>
@@ -61,11 +61,11 @@ Passhrough ylpeilee huikealla 640x480 stereokameralla, joka ei ole suuri, sitä 
   <p>Video: Vive Pro Passthrough in action, Source: Me</p>
 </div>
 
-#### Controllers
+#### Ohjaimet
 
 Vive Pron mukana tulee Vive Hands, mutta koska käytän Valve knuckles en ole kokeillut ohjaimet, ne puuttuu Thumbstick ja on epätyypillinen layout, joka ei ole toivottavaa.
 
-### So, why the Vive Pro?
+### Joten miksi juuri Vive Pro?
 
 Olen investoinut Lighthouse-järjestelmään VR:ää varten sen ainutlaatuisten etujen vuoksi, ja tarvitsin halvan kuulokkeen, joten kun näin käytetyn Vive Pron suhteellisen kohtuulliseen hintaan, päätin ostaa sellaisen. 
 
