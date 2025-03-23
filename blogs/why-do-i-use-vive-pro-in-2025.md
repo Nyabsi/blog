@@ -72,14 +72,16 @@ Vive Pro uses Lighthouse tracking system which has advantages in Full Body Track
 
 the Vive Pro strap is not the best, it takes a lot of tinkering and adjusting to get it right, even then it's not really comfortable for long periods of time, I would recommend modding the strap to something else.
 
-<-- MARK IMG STRAP>
-
-
 #### Passthrough
 
 The passthrough boasts a whopping 640x480 stereo camera which is not great, it can be used for quickly taking a drink of avoiding collision with objects, but it's not really great for detail.
 
-<-- MARK VIDEO PASSTHROUGH>
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/custom_theme.mp4" type="video/mp4">
+  </video>
+  <p>Video: Vive Pro Passthrough in action, Source: Me, License: Rights Reserved</p>
+</div>
 
 #### Controllers
 
