@@ -12,7 +12,7 @@ Siitä lähtien eri toimittajat ovat julkaisseet puolivuosittain uusia laitteita
 
 Aluksi kaikki ottivat käyttöön Valven seurantajärjestelmän, joka pystyi tarjoamaan todellisen huoneen mittakaavan seurannan sellaisella luotettavuudella, johon kilpailijat eivät tuolloin pystyneet vastaamaan.
 
-Syntyi uusi ongelma: ihmiset olivat tyytyväisiä nykyiseen laitteistoonsa, joten he eivät halunneet käyttää älyttömältä tuntuvaa summaa lisäpäivitykseen. Tänä aikana Oculus alkoi keskittyä enemmän itsenäiseen laitteistoon, mikä tarkoitti sitä, että lasien ei enään tarvinnut erillistä tietokonetta prosessointiin, ja näin pystyttiin alentamaan teknologian hintaa.
+Syntyi uusi ongelma: ihmiset olivat tyytyväisiä nykyiseen laitteistoonsa, joten he eivät halunneet käyttää älyttömältä tuntuvaa summaa lisäpäivitykseen. Tänä aikana Oculus alkoi keskittyä enemmän itsenäiseen laitteistoon, mikä tarkoitti sitä, että lasit ei enään tarvinnut erillistä tietokonetta prosessointiin, ja näin pystyttiin alentamaan teknologian hintaa.
 
 Vuonna 2018 Oculus julkaisi Oculus Gon, joka pystyi tarjoamaan 3 DoF:n paikallaan olevan VR-kokemuksen edullisesti ilman lisälaskentaa. Tämä oli itsenäisen vallankumouksen alku.
 
