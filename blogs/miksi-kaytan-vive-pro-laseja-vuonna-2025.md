@@ -12,7 +12,7 @@ Siitä lähtien eri toimittajat ovat julkaisseet puolivuosittain uusia laitteita
 
 Aluksi kaikki ottivat käyttöön Valven seurantajärjestelmän, joka pystyi tarjoamaan todellisen huoneen mittakaavan seurannan sellaisella luotettavuudella, johon kilpailijat eivät tuolloin pystyneet vastaamaan.
 
-Syntyi uusi ongelma: ihmiset olivat tyytyväisiä nykyiseen laitteistoonsa, joten he eivät halunneet käyttää älyttömältä tuntuvaa summaa lisäpäivitykseen. Tänä aikana Oculus alkoi keskittyä enemmän itsenäiseen laitteistoon, mikä tarkoitti sitä, että kuulokkeiden ei tarvinnut luottaa kuulokkeiden virransyöttöön tarkoitettuun tietokoneeseen, ja näin pystyttiin alentamaan teknologian käyttöönottokustannuksia.
+Syntyi uusi ongelma: ihmiset olivat tyytyväisiä nykyiseen laitteistoonsa, joten he eivät halunneet käyttää älyttömältä tuntuvaa summaa lisäpäivitykseen. Tänä aikana Oculus alkoi keskittyä enemmän itsenäiseen laitteistoon, mikä tarkoitti sitä, että lasien ei enään tarvinnut erillistä tietokonetta prosessointiin, ja näin pystyttiin alentamaan teknologian hintaa.
 
 Vuonna 2018 Oculus julkaisi Oculus Gon, joka pystyi tarjoamaan 3 DoF:n paikallaan olevan VR-kokemuksen edullisesti ilman lisälaskentaa. Tämä oli itsenäisen vallankumouksen alku.
 
@@ -41,11 +41,6 @@ Vive Pro käyttää 1440x1600 OLED-paneelia, jossa on Pentile-asettelu, joka tuo
 
 Vive Pro käyttää Lighthouse-seurantajärjestelmää, jonka etuja ovat kokovartaloseuranta ja kyky seurata pimeässä, tämä on suosimani seurantajärjestelmä, koska jokainen kohde pitää itsenäisen sijaintinsa, joten ohjainten tai jopa seurantalaitteiden ei tarvitse olla näköyhteydessä lasien kanssa.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/basestation.jpg" width="80%" height="80%"/>
-  <p>Picture: Valve Lighthouse, Source: Valve Software</p>
-</div>
-
 #### Mukavuus
 
 Vive Pron hihna ei ole paras mahdollinen, se vaatii paljon puuhastelua ja säätämistä, jotta se saadaan oikeaan asentoon, ja silloinkin se ei ole todella mukava pitkiä aikoja, suosittelisin hihnan muokkaamista johonkin muuhun.
@@ -67,7 +62,7 @@ Vive Pron mukana tulee Vive Hands, mutta koska käytän Valve knuckles en ole ko
 
 ### Joten miksi juuri Vive Pro?
 
-Olen investoinut Lighthouse-järjestelmään VR:ää varten sen ainutlaatuisten etujen vuoksi, ja tarvitsin halvan kuulokkeen, joten kun näin käytetyn Vive Pron suhteellisen kohtuulliseen hintaan, päätin ostaa sellaisen. 
+Olen investoinut Lighthouse-järjestelmään VR:ää varten sen ainutlaatuisten etujen vuoksi, ja tarvitsin halvat lasit, joten kun näin käytetyn Vive Pron suhteellisen kohtuulliseen hintaan, päätin ostaa sellaisen. 
 
 Mielestäni laitteen tekniset tiedot ovat käyttökelpoisia vuonna 2025, ostaisinko sellaisen, ellei se ole todella halpa? En oikeastaan. Mutta käytän laitetta mielelläni väliaikaisena laitteena ennen ennakoitavaa päivitystä.
 
@@ -75,6 +70,6 @@ Tiedän, että on olemassa muitakin Lighthouse-laitteen HMD-laitteita, mutta ne 
 
 Tietenkin valtava paino ostopäätöksessäni oli se, että se on Lighthouse-yhteensopiva. Kehitän Lighthouse-yhteensopivaa laitteistoa ja käytän Vive Trackersia.
 
-On olemassa yhteisön ratkaisu nimeltä [OpenVR-SpaceCalibrator](https://github.com/hyblocker/OpenVR-SpaceCalibrator), joka mahdollistaa Lighthouse-laitteiston, kuten Tundran tai Vive Trackersin tai Valve Knucklesin, käyttämisen kuulokkeissa, joita ei ole seurattu majakalla, mutta tässä menetelmässä on outoja piirteitä, jotka tekevät siitä erityisen ärsyttävän käyttää.
+On olemassa yhteisön ratkaisu nimeltä [OpenVR-SpaceCalibrator](https://github.com/hyblocker/OpenVR-SpaceCalibrator), joka mahdollistaa Lighthouse-laitteiston, kuten Tundran tai Vive Trackersin tai Valve Knucklesin, käyttämisen laseissa, joita ei ole seurattu majakalla, mutta tässä menetelmässä on outoja piirteitä, jotka tekevät siitä erityisen ärsyttävän käyttää.
 
 Pidän myös paljon langallisista näytöistä, koska tämä mahdollistaa erittäin alhaisen viiveen artefaktittoman kuvan, ja tätä arvostetaan nopeampivaiheisissa peleissä, kuten Beat Saberissa. Eikä pakkauksen artefaktien puuttuminen tee tietyistä kokemuksista, kuten Half Life Alyyx, BONEWORKS ja vastaavat, entistä mukaansatempaavampia.
