@@ -10,7 +10,7 @@ Oculus implemented their own proprietary tracking, whereas Valve made their ligh
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/trackingsystems.jpg" width="80%" height="80%"/>
-  <p>Picture: Oculus Tracking/Valve Lighthouse, Source: My Krita skills, License: Creative Commons</p>
+  <p>Picture: Oculus Tracking/Valve Lighthouse, Source: My Krita skills</p>
 </div>
 
 Since then there has been bi-yearly *ish* releases of new hardware by various of vendors, vendors had two choices: (A) they lease Valve's technology at a fee, only accounting for mandatory training (B) They implement their own technology for head and controller tracking.
@@ -23,21 +23,19 @@ In 2018, Oculus released the Oculus Go which was able to provide a 3 DoF station
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_go.jpg" width="80%" height="80%"/>
-  <p>Picture: Oculus Go, Source: Wired, License: Creative Commons</p>
+  <p>Picture: Oculus Go, Source: Wired</p>
 </div>
 
 In 2019, Oculus released their first ever 6 DoF room-scale standalone device called the Oculus Quest, this was an massive improvement over the Oculus Go, people now could play all of their immersive room-scale VR games on a device that doesn't need separate compute or sensors.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/oculus_quest1.jpg" width="80%" height="80%"/>
-  <p>Picture: Oculus Go, Source: GameBlast, License: Creative Commons</p>
+  <p>Picture: Oculus Go, Source: GameBlast</p>
 </div>
 
 This caused a shift in the focus of the market, companies started producing more hardware that is geared towards standalone and lighthouse compatible hardware production started to stagnate.
 
-### Specs
-
-I've listed below the general important technical specifications of the device to give rough idea of the device.
+### Specs of the Vive Pro
 
 #### Lenses
 
@@ -47,17 +45,12 @@ Which I've replaced with the GearVR optical lenses for enchanced clarity.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/lensshot.jpg" width="80%" height="80%"/>
-  <p>Picture: My Vive Pro lenses, Source: Me, License: All Rights Reserved</p>
+  <p>Picture: My Vive Pro lenses, Source: Me</p>
 </div>
 
 #### Displays
 
 Vive Pro uses a 1440x1600 OLED panel with Pentile layout, which at the time was good, the colour constrast and brightness are okay I think the display is still lacking in black depth, I have seen better displays and it also suffers from SDE (Screen Door Effect) which I personally don't mind.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/thedisplay.jpg" width="80%" height="80%"/>
-  <p>Picture: Vive Pro display, Source: Me, License: All Rights Reserved</p>
-</div>
 
 #### Tracking
 
@@ -65,7 +58,7 @@ Vive Pro uses Lighthouse tracking system which has advantages in Full Body Track
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/basestation.jpg" width="80%" height="80%"/>
-  <p>Picture: Oculus Tracking/Valve Lighthouse, Source: My Krita skills, License: Creative Commons</p>
+  <p>Picture: Valve Lighthouse, Source: Valve Softwarek</p>
 </div>
 
 #### Comfort
@@ -80,7 +73,7 @@ The passthrough boasts a whopping 640x480 stereo camera which is not great, it c
   <video loop autoplay muted>
     <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/passthrough_vp1.mp4" type="video/mp4">
   </video>
-  <p>Video: Vive Pro Passthrough in action, Source: Me, License: Rights Reserved</p>
+  <p>Video: Vive Pro Passthrough in action, Source: Me</p>
 </div>
 
 #### Controllers
