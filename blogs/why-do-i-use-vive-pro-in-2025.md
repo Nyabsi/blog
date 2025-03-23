@@ -44,11 +44,6 @@ Vive Pro uses a 1440x1600 OLED panel with Pentile layout, which at the time was 
 
 Vive Pro uses Lighthouse tracking system which has advantages in Full Body Tracking and ability to track in dark, this is my preferred tracking system as each object holds indepedent position so controllers or even trackers don't need to be in line of sight with the headset.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/basestation.jpg" width="80%" height="80%"/>
-  <p>Picture: Valve Lighthouse, Source: Valve Software</p>
-</div>
-
 #### Comfort
 
 the Vive Pro strap is not the best, it takes a lot of tinkering and adjusting to get it right, even then it's not really comfortable for long periods of time, I would recommend modding the strap to something else.
