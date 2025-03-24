@@ -60,6 +60,8 @@ The tracking is powered by a SLAM tracking algorithm which is used to know where
 
 it doesn't quite work in low-light conditions which is really an issue under certain conditions, it may also perform poorly in clean environments as the tracking algorithm benefits from noise (unique patterns, unpredictability, noise, etc)
 
+<!-- THE TRACKING DOES NOT WORK WITH LIGHTHOUSES OR MIXED VR WELL AT ALL -->
+
 ### Controllers
 
 Controller tracking used IR-Constellation based tracking with the same cameras that are used for SLAM.
@@ -138,7 +140,17 @@ The Pico 4 Ultra is relatively comfortable out of the box thanks to its weight b
 
 I bought the AMVR faceplate in attempt to increase comfort, but this was not good enough, so instead I 3D printed a custom faceplate which fits my face better, for the rearpad I took the old one out which is clipped in there and bought Oval TPU pad from Aliexpress to replace it with.
 
-## Battery Life
+## Performance
+
+### Framerate
+
+TBD
+
+### Thermals
+
+TBD
+
+### Battery Life
 
 100% brightness - 2 hours, depending on what you do, impossible to measure...
 
@@ -146,9 +158,11 @@ I bought the AMVR faceplate in attempt to increase comfort, but this was not goo
 
 ### OOBE (Out-of-box experience)
 
-The Pico 4 Ultra does not require account registration of any kind.
+The Pico 4 Ultra does not enforce account or cloud services for the device operation.
 
-When you first start the device it asks you to select your language set your IPD and then it asks your consent for data collection which you can decline, after the setup is done you're thrown into PicoOS which has few preinstalled demo applications you can try and experience the system.
+When you first boot the device it asks you for a few things: Your language, Your IPD and do you concept to giving analytics.
+
+Once the setup process is done, you are free to use the system however you like, it does bundle three demoes you can try out though.
 
 Without account however, some of the OS experience may be limited or non-functional but you can use the Headset in PCVR through PICO Connect without an account without an issue if you wish to do so.
 
@@ -156,7 +170,9 @@ Without account however, some of the OS experience may be limited or non-functio
 
 You do not need account,  credit card or to verify your phone number to get access to the Developer Mode, which can be enabled through Settings -> About -> Software Version and clicking it a few times.
 
-Developer mode enables USB Debug which lets you connect the Headset to your PC through ADB, developer mode also has a performance tuner which lets you change the resolution, refresh rate, gpu/cpu levels and ffr on per-game basis for tweaking performance and quality.
+Developer mode enables USB Debug which lets you connect the Headset to your PC through ADB.
+
+Developer mode also has a Performance Tuner which lets you adjust the resolution, refresh rate, CPU/GPU levels and ffr on per-application basis for tweaking performance and quality.
 
 ### Virtual Environments
 
@@ -192,19 +208,29 @@ It's really hard to explain through text, but it lets you take a snapshot in tim
 
 ### PC(VR) Streaming
 
-Pico 4 Ultra has multiple options for PCVR Streaming but I will be focusing and talking about PICO Connect as that's what you're getting when you purchase the headset.
+Pico 4 Ultra has multiple options for PCVR and Desktop streaming but I will be focusing and talking about PICO Connect as that's what you're getting when you purchase the headset.
+
+#### PCVR
 
 PICO Connects supports up to 1000 Mbps H.264 / 150 Mbps HEVC with Wired connection and 300 Mbps H.264 / 150 Mbps Wireless.
 
-Using PICO Connect with a wire at 1000 Mbps H.264 is the best PCVR visual clarity you can get out of the device, but if you prefer using wireless then 300 Mbps H.264 is also a great option it does look okay.
+Using PICO Connect with a wire at 1000 Mbps H.264 is the best PCVR visual clarity you can get out of the device, but if you prefer using wireless then 300 Mbps H.264 is also a great option.
 
 The PICO Connect has a lot of latency, which really for me personally makes it unbearable for fast-phased games like Beat Saber on Steam but some people are less prone to it.
 
+#### Desktop
+
 PICO Connect also supports streaming up to 3 monitors, and if you only have one, two or no monitors, no worries PICO Connect got you covered with upto 3 virtual monitors that you can create.
+
+When using PICO Connect with Desktop, you can optionally have a on-screen keyboard in the Headset that can be used to interact with the Desktop.
 
 ### Spatial Content
 
-As previously concluded, Pico can record and view spatial content inside the headset.
+Pico can record and view spatial content inside the headset, but it is also capable of importing foreign spatial content.
 
-But it also can import spatial content recorded with devices such as Apple Vision Pro, iPhone 16 or you can convert your existing pictures and videos into spatial content through the Pico headset and the Pico mobile app.
+The Pico is completely intercompatible with the Spatial format recorded by the Apple Vision Pro and iPhone 16, as other vendors that may exist.
+
+You can easily import this content by connecting the device to PC and dragging the content to the DCIM folder, you may also optionally import the content through the PICO phone application.
+
+The headset also can convert existing photos into spatial photos, and PICO phone app has cloud conversion from normal videos to MV-HEVC (spatial) videos.
 
