@@ -72,7 +72,7 @@ There is a bug, where sometimes when the controller doesn't move for a certain p
 
 ### Hand Tracking
 
-Hand Tracking on the Pico 4 Ultra is constantly being improved (I am writing this as of PicoOS 5.13.3) and it is usable for basic interaction.
+while Hand Tracking on the Pico 4 Ultra is constantly being improved I am writing this as of PicoOS 5.13.3 and it is usable for basic interaction.
 
 The tracking FoV is not great, it's on par with the original Leapmotion Controller 1 which was roughly 120 degrees, the algorithm also has a lot of latency that doesn't make it particularly enjoyable for more interactive experiences.
 
@@ -82,17 +82,15 @@ It can track your fingers pretty reliably if you aren't doing less common gestur
 
 The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration, and IMU trackers with a ML model for pose prediction, it can track all the 11 joints of human body.
 
-The tracking accuracy is okay, it's not like SteamVR trackers which can track it with sub 0.001m accuracy, however I would say they are on-par with SlimeVR trackers or even better.
+The tracking accuracy is okay, it's not quite accurate of course but for walking, standing, sitting and other common motions the trackers work extremely well, however the trackers seem to struggle in tracking above your knee, so if you pull your leg up at some point the tracking will stop, which is seemingly a limitation in the training data.
 
-You can sit or laydown with the trackers without them drifting, it is possible to cover the trackers for long period with a blanket, however this will prevent the occasional automatic drift correction from working correctly.
-
-For walking, standing, sitting and other more common poses the trackers work extremely well, however the trackers are not capable of tracking above your knee, so if you pull your leg up at some point the tracking will stop, which is a limitation of the training data.
+You can sit or laydown with the trackers without them drifting, it is possible to cover the trackers for long period with a blanket, however this will prevent the occasional automatic drift correction from working correctly which may cause accumplated yaw drift over time.
 
 ## Passthrough
 
-The passthrough is one of the highlights of the device, it really does shine, I have tried plenty of other devices like the Quest 3 and Varjo XR3 and such and the Pico 4 Ultra passthrough is genuinely impressive.
+The passthrough is one of the highlights of the device, it really does shine, I have tried plenty of other devices and the Pico 4 Ultra passthrough is genuinely impressive in comparison.
 
-I am able to use my mobile phone, ultrawide monitor and laptop through the passthrough without distortion, which I could not do with most of the other devices I have used, it was a rather poor experience, but Pico is able to do this.
+I am able to use my mobile phone, ultrawide monitor and laptop through the passthrough without distortion which is extremely handy if I don't want to take off the headsets but take a glance at something.
 
 Pico 4 Ultra performs best in high ambient light conditions, the noise and grain is greatly reduced in such conditions to the point where it's not really a problem anymore. But the device still struggles in low ambient light conditions.
 
@@ -104,15 +102,15 @@ Audio is subjective, so I can only give my own impression here, and describe wha
 
 ### Speakers
 
-The Pico 4 Ultra contains dual stereo speakers which produce reasonably neutral-ish sound.
+The Pico 4 Ultra contains dual stereo speakers which honestly to me sound just fine, they contain the right amount of bass, the right amount of vocals and the right amount of treble and it is pleasant to listen to.
 
-I think it has reasonable amount of bass, the low-end of the spectrum is a bit lacking, the mid-range is not undermined by either bass or treble I can still hear vocals without the bass or treble being lacking, the audio may be bit on the more bright side though.
-
-The speakers give a good sense of spatialization which sounds really good when content uses Spatial Audio.
+The speakers give a good sense of 3D audio perception which sounds really good when content uses binaural audio.
 
 ### Microphone
 
-The Pico 4 Ultra has high quality stereo microphone which sounds great.
+The Pico 4 Ultra has dual micrphone array positioned right on top of your mouth for a clear sound of your voice.
+
+<!-- a microphone test here -->
 
 ## Controllers
 
@@ -142,7 +140,7 @@ I bought the AMVR faceplate in attempt to increase comfort, but this was not goo
 
 ## Battery Life
 
-It's decent, lol. Idk I'll write some data here after actually measuring it.
+100% brightness - 2 hours, depending on what you do, impossible to measure...
 
 ## Software
 
@@ -162,9 +160,9 @@ Developer mode enables USB Debug which lets you connect the Headset to your PC t
 
 ### Virtual Environments
 
-The Pico 4 Ultra contains four exclusive high quality virtual environments, and as well the old environments from the older headsets.
+The Pico 4 Ultra contains four exclusive high quality virtual environments with audio, and as well the old environments from the older headsets.
 
-However thanks to the community efforts you can now download a wide range of custom environments using [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager)
+However thanks to the community efforts you can now download a wide range of custom environments using [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
 
 ### Android Support
 
@@ -180,6 +178,10 @@ Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" th
 
 Some applications may also if explictly set, display in the Dock, one of such applications is the system settings.
 
+I personally don't like how the 6 DoF windows behave as of right now you cannot adjust them freely, the transformation is still tied to the Dock and the rotation angle is bit low for my taste. There is still a lot of room for improvement.
+
+If window is too close to you, right now you cannot make the window smaller which is a bit of annoying.
+
 ### Recording
 
 Pico 4 Ultra lets you record footage in three different formats: raw, monoscopic, spatial with resolutions of 1920x1080 or 720x1280 on 1:1 or 16:9 aspect ratio.
@@ -187,4 +189,22 @@ Pico 4 Ultra lets you record footage in three different formats: raw, monoscopic
 Unique feature of Pico 4 Ultra is it's capability to take Spatial images and Videos through screen capture instead of a dedicated camera app, this allows you to record spatial footage even in games which can be viewed with the built Photos app.
 
 It's really hard to explain through text, but it lets you take a snapshot in time and eternally preserve it, and view it as if you were there. It's a really cool feature.
+
+### PC(VR) Streaming
+
+Pico 4 Ultra has multiple options for PCVR Streaming but I will be focusing and talking about PICO Connect as that's what you're getting when you purchase the headset.
+
+PICO Connects supports up to 1000 Mbps H.264 / 150 Mbps HEVC with Wired connection and 300 Mbps H.264 / 150 Mbps Wireless.
+
+Using PICO Connect with a wire at 1000 Mbps H.264 is the best PCVR visual clarity you can get out of the device, but if you prefer using wireless then 300 Mbps H.264 is also a great option it does look okay.
+
+The PICO Connect has a lot of latency, which really for me personally makes it unbearable for fast-phased games like Beat Saber on Steam but some people are less prone to it.
+
+PICO Connect also supports streaming up to 3 monitors, and if you only have one, two or no monitors, no worries PICO Connect got you covered with upto 3 virtual monitors that you can create.
+
+### Spatial Content
+
+As previously concluded, Pico can record and view spatial content inside the headset.
+
+But it also can import spatial content recorded with devices such as Apple Vision Pro, iPhone 16 or you can convert your existing pictures and videos into spatial content through the Pico headset and the Pico mobile app.
 
