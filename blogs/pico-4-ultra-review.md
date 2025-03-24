@@ -34,7 +34,7 @@ The Pico 4 Ultra uses a pair of SHARP 2.6" 2160x2160 RGB Stripe Oxide TFT-LCD pa
 
 <!-- NOTE: specs may be wrong -->
 
-However, once you put the headset on those specifications become utterly useless, as they don't tell the whole story. Optics and Displays are Intervened in a way that both affect each others performance.
+However, once you put the device on those specifications become utterly useless, as they don't tell the whole story. Optics and Displays are Intervened in a way that both affect each others performance.
 
 The colours are no longer washed out as they were on the Pico 4, thanks to the new colour calibration process they are vibrant and they provide a great viewing experience in both dark and bright scenes.
 
@@ -56,7 +56,7 @@ The tracking on the Pico 4 Ultra is a mixed bag of feelings, the performance is 
 
 ### Headset
 
-The tracking is powered by a SLAM tracking algorithm which is used to know where the headset currently is. 
+The tracking is powered by a SLAM tracking algorithm which is used to know where the device currently is. 
 
 it doesn't quite work in low-light conditions which is really an issue under certain conditions, it may also perform poorly in clean environments as the tracking algorithm benefits from noise (unique patterns, unpredictability, noise, etc)
 
@@ -82,29 +82,21 @@ It can track your fingers pretty reliably if you aren't doing less common gestur
 
 The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration, and IMU trackers with a ML model for pose prediction, it can track all the 11 joints of human body.
 
-#### Value
-
-For the price, these trackers are fantastic, they are lightweight (~10 grams) they don't require an extensive setup or calibration process and they don't require external sensors, they are an great alternative to both SteamVR trackers and IMU-based solutions.
-
-#### Convinience
-
-It takes less than 5 seconds from strapping the trackers to your body to getting ready to use them, the calibration software is extremely user friendly and convinient and you can not give anything else except praises for Pico.
-
-<!-- Video Pico Setup  -->
-
-#### Battery Life
-
-The Pico Motion Trackers last for around idk fuck the numbers.
-
-#### Accuracy
-
 The tracking accuracy is okay, it's not like SteamVR trackers which can track it with sub 0.001m accuracy, however I would say they are on-par with SlimeVR trackers or even better.
 
-You can sit or laydown with the trackers without them drifting, it is possible to cover the trackers for long period with a blanket, however this will cause the occasional automatic drift correction from work.
+You can sit or laydown with the trackers without them drifting, it is possible to cover the trackers for long period with a blanket, however this will prevent the occasional automatic drift correction from working correctly.
 
 For walking, standing, sitting and other more common poses the trackers work extremely well, however the trackers are not capable of tracking above your knee, so if you pull your leg up at some point the tracking will stop, which is a limitation of the training data.
 
 ## Passthrough
+
+The passthrough is one of the highlights of the device, it really does shine, I have tried plenty of other devices like the Quest 3 and Varjo XR3 and such and the Pico 4 Ultra passthrough is genuinely impressive.
+
+I am able to use my mobile phone, ultrawide monitor and laptop through the passthrough without distortion, which I could not do with most of the other devices I have used, it was a rather poor experience, but Pico is able to do this.
+
+Pico 4 Ultra performs best in high ambient light conditions, the noise and grain is greatly reduced in such conditions to the point where it's not really a problem anymore. But the device still struggles in low ambient light conditions.
+
+The latency of the passthrough is not really noticeable but it still contains some minor artifacts especially when moving your head fast that manifest as something which looks like motion blur.
 
 ## Audio
 
@@ -115,3 +107,23 @@ The Pico 4 Ultra contains dual stereo speakers which produce reasonably neutral-
 I think it has reasonable amount of bass, the low-end of the spectrum is a bit lacking, the mid-range is not undermined by either bass or treble I can still hear vocals without the bass or treble being lacking, the audio may be bit on the more bright side though.
 
 The speakers give a good sense of spatialization which sounds really good when content uses Spatial Audio.
+
+## Controllers
+
+### Weight
+
+Each controller weights 166 grams (batteries included)
+
+### Layout
+
+On both controllers you find a system button, which can be used to open the system dock or to recenter your game during game play.
+
+<!-- rlly? -->
+
+On the left controller you have a menu button, which can be used for anything by the developers, in Streaming this button is used as a binding for the SteamVR overlay, you can also find a XY buttons for general inputs with a trigger, side trigger and a thumbstick, all of these buttons contain capacitive sensor, except the side trigger.
+
+On the right controller you have a screenshot or record button, which allows you to at any moment of time take a screenshot or start screen recording, I personally have found this really useful. And then we have the rest of the buttons just like on the left controller.
+
+### Battery
+
+I haven't had the need to change batteries in these controllers for over 2 months, dual AA batteries last for a really long time even with a lot of extensive use.
