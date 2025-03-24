@@ -198,7 +198,7 @@ I personally don't like how the 6 DoF windows behave as of right now you cannot 
 
 If window is too close to you, right now you cannot make the window smaller which is a bit of annoying.
 
-### Recording
+### Screen Recording
 
 Pico 4 Ultra lets you record footage in three different formats: raw, monoscopic, spatial with resolutions of 1920x1080 or 720x1280 on 1:1 or 16:9 aspect ratio.
 
@@ -234,3 +234,10 @@ You can easily import this content by connecting the device to PC and dragging t
 
 The headset also can convert existing photos into spatial photos, and PICO phone app has cloud conversion from normal videos to MV-HEVC (spatial) videos.
 
+### Pico Motion Trackers
+
+You can pair the trackers through the Trackers application by following the instructions.
+
+Once the trackers are paired, you can put them on, the order doesn't matter, it will automatically determine which tracker belongs to which body part, You click, "Calibrate" and then stand up, look down, and the calibration is done. This is by far the easiest FBT I have ever used in my entire life.
+
+The convinience of these trackers is truly what makes them worth purchasing, if you own or plan to own a Pico 4 Ultra, these are a must buy.
