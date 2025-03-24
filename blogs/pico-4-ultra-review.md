@@ -102,11 +102,17 @@ The latency of the passthrough is not really noticeable but it still contains so
 
 Audio is subjective, so I can only give my own impression here, and describe what it sounds like to me, you may not end up liking the sound that they produce so you can take this section with a grain of salt.
 
+### Speakers
+
 The Pico 4 Ultra contains dual stereo speakers which produce reasonably neutral-ish sound.
 
 I think it has reasonable amount of bass, the low-end of the spectrum is a bit lacking, the mid-range is not undermined by either bass or treble I can still hear vocals without the bass or treble being lacking, the audio may be bit on the more bright side though.
 
 The speakers give a good sense of spatialization which sounds really good when content uses Spatial Audio.
+
+### Microphone
+
+The Pico 4 Ultra has high quality stereo microphone which sounds great.
 
 ## Controllers
 
@@ -124,6 +130,61 @@ On the left controller you have a menu button, which can be used for anything by
 
 On the right controller you have a screenshot or record button, which allows you to at any moment of time take a screenshot or start screen recording, I personally have found this really useful. And then we have the rest of the buttons just like on the left controller.
 
-### Battery
+### Battery Life
 
 I haven't had the need to change batteries in these controllers for over 2 months, dual AA batteries last for a really long time even with a lot of extensive use.
+
+## Comfort
+
+The Pico 4 Ultra is relatively comfortable out of the box thanks to its weight balance, however the stock faceplate and rearpad are not comfortable for long term wear, they add a pressure point you do not want.
+
+I bought the AMVR faceplate in attempt to increase comfort, but this was not good enough, so instead I 3D printed a custom faceplate which fits my face better, for the rearpad I took the old one out which is clipped in there and bought Oval TPU pad from Aliexpress to replace it with.
+
+## Battery Life
+
+It's decent, lol. Idk I'll write some data here after actually measuring it.
+
+## Software
+
+### OOBE (Out-of-box experience)
+
+The Pico 4 Ultra does not require account registration of any kind.
+
+When you first start the device it asks you to select your language set your IPD and then it asks your consent for data collection which you can decline, after the setup is done you're thrown into PicoOS which has few preinstalled demo applications you can try and experience the system.
+
+Without account however, some of the OS experience may be limited or non-functional but you can use the Headset in PCVR through PICO Connect without an account without an issue if you wish to do so.
+
+### Developer Mode
+
+You do not need account,  credit card or to verify your phone number to get access to the Developer Mode, which can be enabled through Settings -> About -> Software Version and clicking it a few times.
+
+Developer mode enables USB Debug which lets you connect the Headset to your PC through ADB, developer mode also has a performance tuner which lets you change the resolution, refresh rate, gpu/cpu levels and ffr on per-game basis for tweaking performance and quality.
+
+### Virtual Environments
+
+The Pico 4 Ultra contains four exclusive high quality virtual environments, and as well the old environments from the older headsets.
+
+However thanks to the community efforts you can now download a wide range of custom environments using [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager)
+
+### Android Support
+
+Pico 4 Ultra has first-party support for Android applications, so you can download Aurora Store and install things like Discord, Twitch or Netflix directly on the device from Google Play, which makes the device great for content consumption.
+
+However, it is not possible as of right now, to change the orientation of applications so if you have an application that does not respect landscape mode it may seem bit odd on the Pico.
+
+Pico 4 Ultra also provides L1 widevine certificate for apps such as Netflix that require it for drm protected content playback.
+
+### Window Management
+
+Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" this allows you to have up to 20 applications displayed either in a dome, or freely in a 6 DoF position placement.
+
+Some applications may also if explictly set, display in the Dock, one of such applications is the system settings.
+
+### Recording
+
+Pico 4 Ultra lets you record footage in three different formats: raw, monoscopic, spatial with resolutions of 1920x1080 or 720x1280 on 1:1 or 16:9 aspect ratio.
+
+Unique feature of Pico 4 Ultra is it's capability to take Spatial images and Videos through screen capture instead of a dedicated camera app, this allows you to record spatial footage even in games which can be viewed with the built Photos app.
+
+It's really hard to explain through text, but it lets you take a snapshot in time and eternally preserve it, and view it as if you were there. It's a really cool feature.
+
