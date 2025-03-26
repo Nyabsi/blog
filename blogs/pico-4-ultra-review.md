@@ -257,7 +257,7 @@ Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
 
 ## Pico Motion Trackers
 
-The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration and IMU trackers with a ML model for pose prediction, it can track all the 11 joints of human body.
+The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration & drift correction and IMU with a machine learning model for pose prediction, it can track 24 joints of human body.
 
 Currently the Pico 4 Ultra supports up to 3 Motion Trackers which you can pair through the Tracker application following the on screen instructions.
 
@@ -267,11 +267,13 @@ PICO has managed to make using the trackers very easy it doesn't require extensi
 
 ### Ergonomics
 
-The trackers are superlight and you won't even feel them (10 grams)
+The tracker weights 27 grams and the strap weights 12 grams for total of 39 grams per tracker.
+
+They are lightweight and very comfortable to use for hours.
 
 ### Battery & Charging
 
-They have a battery life of roughly 20+ hours and they easily last me the entire week without requiring charging.
+The trackers last for over 20 hours of continuous use, and last for weeks if used one hour average per day.
 
 ### Tracking
 
