@@ -98,7 +98,7 @@ It can track your fingers pretty reliably if you aren't doing less common gestur
 The Pico 4 Ultra controllers are different from Pico 4 controllers, the missing tracking ring is the most obvious part.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_controllers.jpg" width="75%" height="75%"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_controllers.jpg"/>
   <p>Pico Controllers</p>
 </div>
 
@@ -206,6 +206,8 @@ You may also use Developer Mode for performance profiling and performance tweaki
   </video>
 </div>
 
+<br/>
+
 #### Virtual Environments
 
 The Pico 4 Ultra contains four exclusive high quality virtual environments with audio, and as well the old environments from the older headsets.
@@ -215,6 +217,8 @@ The Pico 4 Ultra contains four exclusive high quality virtual environments with 
     <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_environments.mp4" type="video/mp4">
   </video>
 </div>
+
+<br/>
 
 However thanks to the community efforts you can now download a wide range of custom environments using [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
 
@@ -244,7 +248,7 @@ Screen Capture captures everything visible on the screen including passthrough.
 
 unique feature of Pico 4 Ultra is it's capability to take Spatial images and videos captures through Screen Capture
 
-PICO has made this feature extremely painless to use and it's definitely something I use often
+PICO has made this feature very easy to use and it's definitely something I use often
 
 #### PCVR Streaming
 
@@ -260,14 +264,15 @@ The PICO Connect has a lot of latency, which really for me personally makes it u
 
 PICO Connect supports streaming up to 3 monitors, and if you only have one, two or no monitors, no worries PICO Connect got you covered with up to 3 virtual monitors that you can create. When using PICO Connect with Desktop, you can optionally have a on-screen keyboard in the Headset that can be used to interact with the Desktop.
 
-Desktop streaming bitrate is variable, which means the quality may not be the optimal for flatscreen gaming.
-
-
 <div align="center">
   <video loop autoplay muted>
     <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_virtual_monitors.mp4" type="video/mp4">
   </video>
 </div>
+
+Desktop streaming bitrate is variable, which means the quality may not be the optimal for flatscreen gaming.
+
+<br/>
 
 #### Spatial Content
 
@@ -285,13 +290,18 @@ Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
 
 The Pico 4 Ultra supports High Power USB OTG which allows you to use more demanding peripherals such as external SSD.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/highpower_otg.jpg"/>
+</div>
+
+</br>
+
 ## Pico Motion Trackers
 
 The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration & drift correction and IMU with a machine learning model for pose prediction, it can track 24 joints of human body.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_motion_trackers.jpg" width="75%" height="75%"/>
-  <p>Pico Motion Trackers</p>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_motion_trackers.jpg"/>
 </div>
 
 </br>
