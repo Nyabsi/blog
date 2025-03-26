@@ -93,14 +93,6 @@ The tracking FoV is not great, it's on par with the original Leapmotion Controll
 
 It can track your fingers pretty reliably if you aren't doing less common gestures such as crossing fingers, pulling back joints or convering your fingers partially.
 
-### Full Body Tracking
-
-The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration and IMU trackers with a ML model for pose prediction, it can track all the 11 joints of human body.
-
-The tracking accuracy is okay, it's not quite accurate of course but for walking, standing, sitting and other common motions the trackers work extremely well, however the trackers seem to struggle in tracking above your knee, so if you pull your leg up at some point the tracking will stop, which is seemingly a limitation in the training data.
-
-You can sit or laydown with the trackers without them drifting, it is possible to cover the trackers for long period with a blanket, however this will prevent the occasional automatic drift correction from working correctly which may cause accumplated yaw drift over time.
-
 ## Controllers
 
 ### Layout
@@ -263,6 +255,8 @@ Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
 
 ## Pico Motion Trackers
 
+The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration and IMU trackers with a ML model for pose prediction, it can track all the 11 joints of human body.
+
 Currently the Pico 4 Ultra supports up to 3 Motion Trackers which you can pair through the Tracker application following the on screen instructions.
 
 Once the trackers are paired you can start the calibration process which should take at most 5 seconds or less, then you can hop into your favorite game and start using the trackers.
@@ -276,3 +270,13 @@ The trackers are superlight and you won't even feel them (10 grams)
 ### Battery & Charging
 
 They have a battery life of roughly 20+ hours and they easily last me the entire week without requiring charging.
+
+### Tracking
+
+The accuracy of the Pico Motion Trackers may vary, they are not by any means as good as a Vive Tracker but they provide tracking that works well for conveying human motion, such as walking, jumping, kicking you name it.
+
+As the accuracy is lacking, I feel like they don't provide enough presence for certain applications such as social VR because the the tracking doesn't match your physical movement, one very particular example being the trackers not being able to track above your hips.
+
+And if you feel like using a product called "Motion Tracker" for lazing, that's completely possible! You can use the Pico Motion Trackers to lay or sit without issue for extended period of time.
+
+Though their automatic yaw drift correction relies on movement so if you just keep sitting or laying you may notice some slight drift on yaw axis which will be corrected once you start moving.
