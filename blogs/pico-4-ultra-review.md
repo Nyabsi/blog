@@ -30,7 +30,7 @@ I would like to also mention, I have IPD of 56 mm which falls below the 58mm min
 
 ### Displays
 
-The Pico 4 Ultra uses a pair of SHARP 2.6" 2160x2160 RGB Stripe Oxide TFT-LCD panel with WLED backlight the panel is rated for 520 nit. The panel has the following colour gamut coverages; 100% sRGB, 87% DCI-P3 and 62% Rec.2020.
+The Pico 4 Ultra uses a pair of SHARP 2.56" 2160x2160 RGB Stripe Oxide TFT-LCD panel with WLED backlight the panel is rated for 520 nit. The panel has the following colour gamut coverages; 100% sRGB, 87% DCI-P3 and 62% Rec.2020.
 
 <!-- NOTE: specs may be wrong -->
 
@@ -158,9 +158,7 @@ The Pico 4 Ultra has dual micrphone array positioned right on top of your mouth 
 
 ### Passthrough
 
-the passthrough of the Pico 4 Ultra is way better any of the other devices I have tried, excluding Apple Vision Pro.
-
-it is clear enough to be able to used for everyday tasks such as looking at your monitor, phone and just wearing it while cooking or walking outside, even watching TV was not an issue in my books although I don't recommend you to do what I do.
+The passthrough of the Pico 4 Ultra is way better any of the other devices I have tried, excluding Apple Vision Pro, it is clear enough to be able to used for everyday tasks such as looking at your monitor, phone and just wearing it while cooking or walking outside, even watching TV was not an issue in my books although I don't recommend you to do what I do.
 
 however, the device performs it's best during high ambient light conditions such as living room with a lot of light coming out of windows, an office environment with well lit enviroment or outdoors usage. In sitatuations where light may be lacking the passthrough becomes noticeably more grainy but it's still perfectly usable.
 
@@ -174,23 +172,33 @@ I have noticed during outdoor use the passthrough resolution is not great when y
 
 TBA
 
+### Pico Motion Trackers
+
+Currently the Pico 4 Ultra supports up to 3 Motion Trackers which you can pair through the Tracker application following the on screen instructions.
+
+Once the trackers are paired you can start the calibration process which should take at most 5 seconds or less, then you can hop into your favorite game and start using the trackers.
+
+PICO has managed to make using the trackers very easy it doesn't require extensive set-up or calibration which makes really makes me prefer them over my Vive Trackers even.
+
+They have a battery life of roughly 20+ hours and they easily last me the entire week without requiring charging.
+
 ### Software
 
 #### OOBE (Out-of-box experience)
 
 The Pico 4 Ultra does not enforce account or cloud services for the device operation, when you first boot the device it asks you for a few things: Your language, Your IPD and your consent to collection of analytics, which can be declined of course.
 
-once the setup process is done, you are free to use the system however you like, it does bundle three demoes you can try out though.
+Once the intial setup is you may optionally login or create an account to access additional functionality such as the Pico Store.
 
-without account however, some of the OS experience may be limited or non-functional but you can use the Headset in PCVR through PICO Connect without an account without an issue if you wish to do so.
+Without account however, some of the OS experience may be limited or non-functional but you can use the Headset in PCVR through PICO Connect without an account without an issue if you wish to do so.
 
 #### Developer Mode
 
-You do not need account,  credit card or to verify your phone number to get access to the Developer Mode, which can be enabled through Settings -> About -> Software Version and clicking it a seven times.
+The Developer Mode can be enabled through Settings -> About -> Software Version and clicking it a seven times.
 
-Developer mode enables USB Debug which lets you connect the Headset to your PC through ADB.
+You enable USB Debug through the Developer Tab which lets you connect the Headset to your PC through ADB.
 
-Developer mode also has a Performance Tuner which lets you adjust the resolution, refresh rate, CPU/GPU levels and ffr on per-application basis for tweaking performance and quality.
+Developer Tab also has a Performance Tuner which lets you adjust the resolution, refresh rate, CPU/GPU levels and ffr on per-application basis for tweaking performance and quality.
 
 #### Virtual Environments
 
@@ -208,11 +216,11 @@ Pico 4 Ultra also provides L1 widevine certificate for apps such as Netflix that
 
 #### Window Management
 
-Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" this allows you to have up to 20 applications displayed either in a dome, or freely in a 6 DoF position placement.
+Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" this allows you to have up to 20 applications displayed either in a dome, or in a 6 DoF position placement.
 
 Some applications may also if explictly set, display in the Dock, one of such applications is the system settings.
 
-I personally don't like how the 6 DoF windows behave as of right now you cannot adjust them freely, the transformation is still tied to the Dock and the rotation angle is bit low for my taste. There is still a lot of room for improvement.
+I personally don't like how the 6 DoF windows behave as of right now you cannot adjust them freely only on two axies, the transformation is still tied to the Dock and the rotation angle is bit low for my taste. There is still a lot of room for improvement.
 
 If window is too close to you, right now you cannot make the window smaller which is a bit of annoying.
 
@@ -238,24 +246,18 @@ The PICO Connect has a lot of latency, which really for me personally makes it u
 
 #### Desktop Multi-Tasking
 
-PICO Connect also supports streaming up to 3 monitors, and if you only have one, two or no monitors, no worries PICO Connect got you covered with upto 3 virtual monitors that you can create.
+PICO Connect supports streaming up to 3 monitors, and if you only have one, two or no monitors, no worries PICO Connect got you covered with up to 3 virtual monitors that you can create. When using PICO Connect with Desktop, you can optionally have a on-screen keyboard in the Headset that can be used to interact with the Desktop.
 
-When using PICO Connect with Desktop, you can optionally have a on-screen keyboard in the Headset that can be used to interact with the Desktop.
+Desktop streaming bitrate is variable, which means the quality may not be the optimal for flatscreen gaming.
 
 #### Spatial Content
 
-Pico can record and view spatial content inside the headset, but it is also capable of importing foreign spatial content.
+the Pico 4 Ultra has inbuilt "Photos" app which supports Spatial videos and photos.
 
-The Pico is completely intercompatible with the Spatial format recorded by the Apple Vision Pro and iPhone 16, as other vendors that may exist.
+You can record Spatial Content either through the inbuilt "Camera" application or through "Screen Capture"
 
-You can easily import this content by connecting the device to PC and dragging the content to the DCIM folder, you may also optionally import the content through the PICO phone application.
+Optionally you can also import compatible media by dragging content to the DCIM folder on the device or, you can use the PICO application on your phone for importing content.
 
-The headset also can convert existing photos into spatial photos, and PICO phone app has cloud conversion from normal videos to MV-HEVC (spatial) videos.
+The device can convert 2D photos into Spatial photos locally on the device, for videos you can use the PICO application on your phone to convert videos into Spatial videos.
 
-#### Pico Motion Trackers
-
-You can pair the trackers through the Trackers application by following the instructions.
-
-Once the trackers are paired, you can put them on, the order doesn't matter, it will automatically determine which tracker belongs to which body part, You click, "Calibrate" and then stand up, look down, and the calibration is done. This is by far the easiest FBT I have ever used in my entire life.
-
-The convinience of these trackers is truly what makes them worth purchasing, if you own or plan to own a Pico 4 Ultra, these are a must buy.
+Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
