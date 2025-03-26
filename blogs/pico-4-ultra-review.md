@@ -200,9 +200,21 @@ Developer Mode enables you access additional capabilities when connected to a PC
 
 You may also use Developer Mode for performance profiling and performance tweaking.
 
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_developer_mode.mp4" type="video/mp4">
+  </video>
+</div>
+
 #### Virtual Environments
 
 The Pico 4 Ultra contains four exclusive high quality virtual environments with audio, and as well the old environments from the older headsets.
+
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_environments.mp4" type="video/mp4">
+  </video>
+</div>
 
 However thanks to the community efforts you can now download a wide range of custom environments using [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
 
@@ -249,6 +261,13 @@ The PICO Connect has a lot of latency, which really for me personally makes it u
 PICO Connect supports streaming up to 3 monitors, and if you only have one, two or no monitors, no worries PICO Connect got you covered with up to 3 virtual monitors that you can create. When using PICO Connect with Desktop, you can optionally have a on-screen keyboard in the Headset that can be used to interact with the Desktop.
 
 Desktop streaming bitrate is variable, which means the quality may not be the optimal for flatscreen gaming.
+
+
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_virtual_monitors.mp4" type="video/mp4">
+  </video>
+</div>
 
 #### Spatial Content
 
