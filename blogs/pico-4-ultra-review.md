@@ -265,15 +265,15 @@ Once the trackers are paired you can start the calibration process which should 
 
 PICO has managed to make using the trackers very easy it doesn't require extensive set-up or calibration which makes really makes me prefer them over my Vive Trackers even.
 
-### Ergonomics
-
-The tracker weights 27 grams and the strap weights 12 grams for total of 39 grams per tracker.
-
-They are lightweight and very comfortable to use for hours.
-
 ### Battery & Charging
 
 The trackers last for over 20 hours of continuous use, and last for weeks if used one hour average per day.
+
+### Ergonomics
+
+The tracker weights 27 grams and the hstrap weights 12 grams for total of 39 grams per tracker.
+
+They are lightweight and very comfortable to use for hours.
 
 ### Tracking
 
