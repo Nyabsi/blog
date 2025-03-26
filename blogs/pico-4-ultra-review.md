@@ -229,11 +229,13 @@ PICO has made this feature extremely painless to use and it's definitely somethi
 
 #### PCVR Streaming
 
+You can play all of your favorite PCVR games through PICO Connect which offers a wide range of features/
+
 PICO Connects supports up to 1000 Mbps H.264 / 150 Mbps HEVC with Wired connection and 300 Mbps H.264 / 150 Mbps Wireless.
 
 Using PICO Connect with a wire at 1000 Mbps H.264 is the best PCVR visual clarity you can get out of the device, but if you prefer using wireless then 300 Mbps H.264 is also a great option.
 
-The PICO Connect has a lot of latency, which really for me personally makes it unbearable for fast-phased games like Beat Saber on Steam but some people are less prone to it.
+The PICO Connect has a lot of latency, which really for me personally makes it unbearable for faster games like Beat Saber on Steam but some people are less prone to it.
 
 #### Desktop Multi-Tasking
 
