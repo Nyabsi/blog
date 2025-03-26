@@ -216,13 +216,11 @@ Pico 4 Ultra also provides L1 widevine certificate for apps such as Netflix that
 
 #### Window Management
 
-Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" this allows you to have up to 20 applications displayed either in a dome, or in a 6 DoF position placement.
+Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" this allows you to have up to 20 applications displayed either in a dome, or in a free position placement, which are freely resizable.
 
-Some applications may also if explictly set, display in the Dock, one of such applications is the system settings.
+Some applications may also show display in the application dock, if explicitly specified.
 
-I personally don't like how the 6 DoF windows behave as of right now you cannot adjust them freely only on two axies, the transformation is still tied to the Dock and the rotation angle is bit low for my taste. There is still a lot of room for improvement.
-
-If window is too close to you, right now you cannot make the window smaller which is a bit of annoying.
+There is room for improvement in the current implementation of a free position window as you are not able to rotate them freely, and if window is too close the current minimum window size for free position window's feels bit too large.
 
 #### Screen Capture
 
