@@ -42,13 +42,23 @@ The displays are high resolution at 2160x2160 which eliminates SDE (Screen-Door-
 
 <!-- Picture of Black dot pattern -->
 
-### CPU/RAM/Storage
+### Processing
 
 the Pico 4 Ultra uses Snapdragon XR2 Gen 2 with a proper thermal solution, which allows you to push the XR2 Gen 2 to it's limits and achieving extremely impressive performance.
 
 the device has 12 GB of RAM which means developers have more resources to build their experiences which for example may allow higher fidelity textures.
 
 the device has of 256 GB of inbuilt UFS 3.2 storage, that is enough to fit Super Mario 64 32,768 times into your device.
+
+### Weight
+
+#### Headset
+
+the Pico 4 Ultra weights roughly 580 grams which is evenly distributed on the front and rear, the processing, optics, displays and such are on the front, where as the battery of the device is in the back.
+
+#### Controllers
+
+Each controller weights roughly around 166 grams.
 
 ## Tracking
 
@@ -88,7 +98,49 @@ The tracking accuracy is okay, it's not quite accurate of course but for walking
 
 You can sit or laydown with the trackers without them drifting, it is possible to cover the trackers for long period with a blanket, however this will prevent the occasional automatic drift correction from working correctly which may cause accumplated yaw drift over time.
 
-## Passthrough
+## Controllers
+
+### Layout
+
+On both controllers you find a system button, which can be used to open the system dock or to recenter your game during game play.
+
+On the left controller you have a menu button, which can be used for anything by the developers, in Streaming this button is used as a binding for the SteamVR overlay, you can also find a XY buttons for general inputs with a trigger, side trigger and a thumbstick, all of these buttons contain capacitive sensor, except the side trigger.
+
+On the right controller you have a screenshot or record button, which allows you to at any moment of time take a screenshot or start screen recording, I personally have found this really useful. And then we have the rest of the buttons just like on the left controller.
+
+### Battery & Charging
+
+The controllers are powered with dual AA batteries which last over two months without having to charge, or replace the batteries.
+
+### Ergonomics
+
+The controllers are shaped for a comfortable grip and they feel great in your hand, they are not too large or small, but this may wary for you as people have different sized hands.
+
+## Headset
+
+### Comfort
+
+The Pico 4 Ultra is relatively comfortable out of the box thanks to its weight balance, however the stock faceplate and rearpad are not comfortable for long term wear, they add a pressure point you do not want.
+
+I bought the AMVR faceplate in attempt to increase comfort, but this was not good enough, so instead I 3D printed a custom faceplate which fits my face better, for the rearpad I took the old one out which is clipped in there and bought Oval TPU pad from Aliexpress to replace it with.
+
+### Audio
+
+Audio is subjective, so I can only give my own impression here, and describe what it sounds like to me, you may not end up liking the sound that they produce so you can take this section with a grain of salt.
+
+#### Speakers
+
+The Pico 4 Ultra contains dual stereo speakers which honestly to me sound just fine, they contain the right amount of bass, the right amount of vocals and the right amount of treble and it is pleasant to listen to.
+
+The speakers give a good sense of 3D audio perception which sounds really good when content uses binaural audio.
+
+#### Microphone
+
+The Pico 4 Ultra has dual micrphone array positioned right on top of your mouth for a clear sound of your voice.
+
+<!-- a microphone test here -->
+
+### Passthrough
 
 The passthrough is one of the highlights of the device, it really does shine, I have tried plenty of other devices and the Pico 4 Ultra passthrough is genuinely impressive in comparison.
 
@@ -98,65 +150,9 @@ Pico 4 Ultra performs best in high ambient light conditions, the noise and grain
 
 The latency of the passthrough is not really noticeable but it still contains some minor artifacts especially when moving your head fast that manifest as something which looks like motion blur.
 
-## Audio
+### Software
 
-Audio is subjective, so I can only give my own impression here, and describe what it sounds like to me, you may not end up liking the sound that they produce so you can take this section with a grain of salt.
-
-### Speakers
-
-The Pico 4 Ultra contains dual stereo speakers which honestly to me sound just fine, they contain the right amount of bass, the right amount of vocals and the right amount of treble and it is pleasant to listen to.
-
-The speakers give a good sense of 3D audio perception which sounds really good when content uses binaural audio.
-
-### Microphone
-
-The Pico 4 Ultra has dual micrphone array positioned right on top of your mouth for a clear sound of your voice.
-
-<!-- a microphone test here -->
-
-## Controllers
-
-### Weight
-
-Each controller weights 166 grams (batteries included)
-
-### Layout
-
-On both controllers you find a system button, which can be used to open the system dock or to recenter your game during game play.
-
-<!-- rlly? -->
-
-On the left controller you have a menu button, which can be used for anything by the developers, in Streaming this button is used as a binding for the SteamVR overlay, you can also find a XY buttons for general inputs with a trigger, side trigger and a thumbstick, all of these buttons contain capacitive sensor, except the side trigger.
-
-On the right controller you have a screenshot or record button, which allows you to at any moment of time take a screenshot or start screen recording, I personally have found this really useful. And then we have the rest of the buttons just like on the left controller.
-
-### Battery Life
-
-I haven't had the need to change batteries in these controllers for over 2 months, dual AA batteries last for a really long time even with a lot of extensive use.
-
-## Comfort
-
-The Pico 4 Ultra is relatively comfortable out of the box thanks to its weight balance, however the stock faceplate and rearpad are not comfortable for long term wear, they add a pressure point you do not want.
-
-I bought the AMVR faceplate in attempt to increase comfort, but this was not good enough, so instead I 3D printed a custom faceplate which fits my face better, for the rearpad I took the old one out which is clipped in there and bought Oval TPU pad from Aliexpress to replace it with.
-
-## Performance
-
-### Framerate
-
-TBD
-
-### Thermals
-
-TBD
-
-### Battery Life
-
-100% brightness - 2 hours, depending on what you do, impossible to measure...
-
-## Software
-
-### OOBE (Out-of-box experience)
+#### OOBE (Out-of-box experience)
 
 The Pico 4 Ultra does not enforce account or cloud services for the device operation.
 
@@ -166,7 +162,7 @@ Once the setup process is done, you are free to use the system however you like,
 
 Without account however, some of the OS experience may be limited or non-functional but you can use the Headset in PCVR through PICO Connect without an account without an issue if you wish to do so.
 
-### Developer Mode
+#### Developer Mode
 
 You do not need account,  credit card or to verify your phone number to get access to the Developer Mode, which can be enabled through Settings -> About -> Software Version and clicking it a few times.
 
@@ -174,13 +170,13 @@ Developer mode enables USB Debug which lets you connect the Headset to your PC t
 
 Developer mode also has a Performance Tuner which lets you adjust the resolution, refresh rate, CPU/GPU levels and ffr on per-application basis for tweaking performance and quality.
 
-### Virtual Environments
+#### Virtual Environments
 
 The Pico 4 Ultra contains four exclusive high quality virtual environments with audio, and as well the old environments from the older headsets.
 
 However thanks to the community efforts you can now download a wide range of custom environments using [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
 
-### Android Support
+#### Android Support
 
 Pico 4 Ultra has first-party support for Android applications, so you can download Aurora Store and install things like Discord, Twitch or Netflix directly on the device from Google Play, which makes the device great for content consumption.
 
@@ -188,7 +184,7 @@ However, it is not possible as of right now, to change the orientation of applic
 
 Pico 4 Ultra also provides L1 widevine certificate for apps such as Netflix that require it for drm protected content playback.
 
-### Window Management
+#### Window Management
 
 Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" this allows you to have up to 20 applications displayed either in a dome, or freely in a 6 DoF position placement.
 
@@ -198,7 +194,7 @@ I personally don't like how the 6 DoF windows behave as of right now you cannot 
 
 If window is too close to you, right now you cannot make the window smaller which is a bit of annoying.
 
-### Screen Recording
+#### Screen Recording
 
 Pico 4 Ultra lets you record footage in three different formats: raw, monoscopic, spatial with resolutions of 1920x1080 or 720x1280 on 1:1 or 16:9 aspect ratio.
 
@@ -206,11 +202,8 @@ Unique feature of Pico 4 Ultra is it's capability to take Spatial images and Vid
 
 It's really hard to explain through text, but it lets you take a snapshot in time and eternally preserve it, and view it as if you were there. It's a really cool feature.
 
-### PC(VR) Streaming
+#### PCVR Streaming
 
-Pico 4 Ultra has multiple options for PCVR and Desktop streaming but I will be focusing and talking about PICO Connect as that's what you're getting when you purchase the headset.
-
-#### PCVR
 
 PICO Connects supports up to 1000 Mbps H.264 / 150 Mbps HEVC with Wired connection and 300 Mbps H.264 / 150 Mbps Wireless.
 
@@ -218,13 +211,13 @@ Using PICO Connect with a wire at 1000 Mbps H.264 is the best PCVR visual clarit
 
 The PICO Connect has a lot of latency, which really for me personally makes it unbearable for fast-phased games like Beat Saber on Steam but some people are less prone to it.
 
-#### Desktop
+#### Desktop Multi-Tasking
 
 PICO Connect also supports streaming up to 3 monitors, and if you only have one, two or no monitors, no worries PICO Connect got you covered with upto 3 virtual monitors that you can create.
 
 When using PICO Connect with Desktop, you can optionally have a on-screen keyboard in the Headset that can be used to interact with the Desktop.
 
-### Spatial Content
+#### Spatial Content
 
 Pico can record and view spatial content inside the headset, but it is also capable of importing foreign spatial content.
 
@@ -234,7 +227,7 @@ You can easily import this content by connecting the device to PC and dragging t
 
 The headset also can convert existing photos into spatial photos, and PICO phone app has cloud conversion from normal videos to MV-HEVC (spatial) videos.
 
-### Pico Motion Trackers
+#### Pico Motion Trackers
 
 You can pair the trackers through the Trackers application by following the instructions.
 
