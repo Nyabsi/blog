@@ -258,7 +258,8 @@ Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
 ## Pico Motion Trackers
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_motion_trackers.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_motion_trackers.jpg" width="50%" height="50%"/>
+  <p>Pico Motion Trackers</p>
 </div>
 
 The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration & drift correction and IMU with a machine learning model for pose prediction, it can track 24 joints of human body.
