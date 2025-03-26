@@ -66,11 +66,11 @@ The tracking on the Pico 4 Ultra is a mixed bag of feelings, the performance is 
 
 ### Headset
 
-The tracking is powered by a SLAM tracking algorithm which is used to know where the device currently is. 
+the tracking is powered by a SLAM tracking algorithm which is used to know where the device currently is. 
 
 it doesn't quite work in low-light conditions which is really an issue under certain conditions, it may also perform poorly in clean environments as the tracking algorithm benefits from noise (unique patterns, unpredictability, noise, etc)
 
-<!-- THE TRACKING DOES NOT WORK WITH LIGHTHOUSES OR MIXED VR WELL AT ALL -->
+and I cannot recommend the Pico 4 Ultra for MixedVR tracking setups as it doesn't work, the Pico tracking seems to drift which is unnoticeable under normal operation but with lighthouse tracking for controllers paired through OpenVR-SpaceCalibrator this becomes very noticeable and painful to work with.
 
 ### Controllers
 
@@ -122,7 +122,23 @@ The controllers are shaped for a comfortable grip and they feel great in your ha
 
 The Pico 4 Ultra is relatively comfortable out of the box, one of the best I have tried thanks to the balanced design, however the stock faceplate and rearpad are not comfortable for long term wear in my opinion, this waries on shape of your face and other factors.
 
+I could wear the device for few hours til my forehead started feeling too much pressure due to the incompatible shape of the faceplate which forces me to end my session for relief.
+
 They do also provide a glasses space in the box, which lets users with glasses wear the headset more comfortably.
+
+### Battery & Charging
+
+The device supports up to 55W supercharging which allows you to charge the device from 0% -> 100% in a hour.
+
+<!-- voltage / wattage measurement overtime -->
+
+The battery life of the device depends on various of configurations but I have tested the device extensively to release a rough numbers on how long the battery lasts on various of levels of brightness and scenarios of use.
+
+#### Measurements
+
+100% Brightness / Passthrough Enabled / 2 hours
+
+TBD
 
 ### Audio
 
@@ -148,27 +164,29 @@ it is clear enough to be able to used for everyday tasks such as looking at your
 
 however, the device performs it's best during high ambient light conditions such as living room with a lot of light coming out of windows, an office environment with well lit enviroment or outdoors usage. In sitatuations where light may be lacking the passthrough becomes noticeably more grainy but it's still perfectly usable.
 
-there is also some distortion in the passthrough which may be noticed in situations with weird geometry, such as when you're moving across rooms it may distro when walking through a door frame, it may also distort when you're looking at a very symmetrical geometry though these distortion are very minor and not noticeable unless you look for them.
+there is also some distortion in the passthrough which may be noticed in situations with weird geometry, such as when you're moving across rooms it may distort when walking through a door frame, it may also distort when you're looking at a very symmetrical geometry though these distortion are very minor and not noticeable unless you look for them.
 
 the passthrough still doesn't handle certain edge cases of contrast, for example you're sitting in a room and there is a window, because the headset corrects the passthrough for the current ambient light the window will look very bloomy until you get closer to it which the headset then is able to adjust the lighting conditions.
 
-I have noticed during outdoor use the passthrough resolution is very great when you're looking things in a reasonable distance, such as anything inside your home, but when you go outside you may notice objects such as trees or buildings will start lacking detail and may even look bit soft.
+I have noticed during outdoor use the passthrough resolution is not great when you're looking things in a far distance, such as objects such as trees or buildings will start lacking detail and the image ends up looking a bit soft. However this is not an issue in indoors where you're looking everything at reasonable distance.
+
+### Performance & Thermals
+
+TBA
 
 ### Software
 
 #### OOBE (Out-of-box experience)
 
-The Pico 4 Ultra does not enforce account or cloud services for the device operation.
+The Pico 4 Ultra does not enforce account or cloud services for the device operation, when you first boot the device it asks you for a few things: Your language, Your IPD and your consent to collection of analytics, which can be declined of course.
 
-When you first boot the device it asks you for a few things: Your language, Your IPD and do you concept to giving analytics.
+once the setup process is done, you are free to use the system however you like, it does bundle three demoes you can try out though.
 
-Once the setup process is done, you are free to use the system however you like, it does bundle three demoes you can try out though.
-
-Without account however, some of the OS experience may be limited or non-functional but you can use the Headset in PCVR through PICO Connect without an account without an issue if you wish to do so.
+without account however, some of the OS experience may be limited or non-functional but you can use the Headset in PCVR through PICO Connect without an account without an issue if you wish to do so.
 
 #### Developer Mode
 
-You do not need account,  credit card or to verify your phone number to get access to the Developer Mode, which can be enabled through Settings -> About -> Software Version and clicking it a few times.
+You do not need account,  credit card or to verify your phone number to get access to the Developer Mode, which can be enabled through Settings -> About -> Software Version and clicking it a seven times.
 
 Developer mode enables USB Debug which lets you connect the Headset to your PC through ADB.
 
@@ -180,7 +198,7 @@ The Pico 4 Ultra contains four exclusive high quality virtual environments with 
 
 However thanks to the community efforts you can now download a wide range of custom environments using [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager).
 
-#### Android Support
+#### Android Application Support
 
 Pico 4 Ultra has first-party support for Android applications, so you can download Aurora Store and install things like Discord, Twitch or Netflix directly on the device from Google Play, which makes the device great for content consumption.
 
@@ -204,9 +222,11 @@ Pico 4 Ultra lets you record footage in three different formats: raw, monoscopic
 
 supported resolutions are 1920x1080 or 720x1280 with 1:1 or 16:9 aspect ratio.
 
-unique feature of Pico 4 Ultra is it's capability to take Spatial images and videos captures through the Screen Capture feature which allows you to seamlessly capture gaming footage, passthrough or anything else that is seen in your screen.
+Screen Capture captures everything visible on the screen including passthrough.
 
-I personally use this feature a lot and it's amazing.
+unique feature of Pico 4 Ultra is it's capability to take Spatial images and videos captures through Screen Capture
+
+PICO has made this feature extremely painless to use and it's definitely something I use often
 
 #### PCVR Streaming
 
