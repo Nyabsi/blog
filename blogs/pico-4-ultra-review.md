@@ -95,6 +95,11 @@ It can track your fingers pretty reliably if you aren't doing less common gestur
 
 ## Controllers
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_controllers.jpg" width="75%" height="75%"/>
+  <p>Pico Controllers</p>
+</div>
+
 ### Layout
 
 On both controllers you find a system button, which can be used to open the system dock or to recenter your game during game play.
