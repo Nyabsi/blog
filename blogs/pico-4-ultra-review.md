@@ -183,16 +183,6 @@ You also can tweak the performance of VR applications through Developer Settings
 
 Here is a list of measurements taken in various of VR applications on the Pico 4 Ultra to demonstrate the performance in a real world.
 
-### Pico Motion Trackers
-
-Currently the Pico 4 Ultra supports up to 3 Motion Trackers which you can pair through the Tracker application following the on screen instructions.
-
-Once the trackers are paired you can start the calibration process which should take at most 5 seconds or less, then you can hop into your favorite game and start using the trackers.
-
-PICO has managed to make using the trackers very easy it doesn't require extensive set-up or calibration which makes really makes me prefer them over my Vive Trackers even.
-
-They have a battery life of roughly 20+ hours and they easily last me the entire week without requiring charging.
-
 ### Software
 
 #### OOBE (Out-of-box experience)
@@ -270,3 +260,19 @@ Optionally you can also import compatible media by dragging content to the DCIM 
 The device can convert 2D photos into Spatial photos locally on the device, for videos you can use the PICO application on your phone to convert videos into Spatial videos.
 
 Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
+
+## Pico Motion Trackers
+
+Currently the Pico 4 Ultra supports up to 3 Motion Trackers which you can pair through the Tracker application following the on screen instructions.
+
+Once the trackers are paired you can start the calibration process which should take at most 5 seconds or less, then you can hop into your favorite game and start using the trackers.
+
+PICO has managed to make using the trackers very easy it doesn't require extensive set-up or calibration which makes really makes me prefer them over my Vive Trackers even.
+
+### Ergonomics
+
+The trackers are superlight and you won't even feel them (10 grams)
+
+### Battery & Charging
+
+They have a battery life of roughly 20+ hours and they easily last me the entire week without requiring charging.
