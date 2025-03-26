@@ -118,11 +118,11 @@ The controllers are shaped for a comfortable grip and they feel great in your ha
 
 ## Headset
 
-### Comfort
+### Ergonomics
 
-The Pico 4 Ultra is relatively comfortable out of the box thanks to its weight balance, however the stock faceplate and rearpad are not comfortable for long term wear, they add a pressure point you do not want.
+The Pico 4 Ultra is relatively comfortable out of the box, one of the best I have tried thanks to the balanced design, however the stock faceplate and rearpad are not comfortable for long term wear in my opinion, this waries on shape of your face and other factors.
 
-I bought the AMVR faceplate in attempt to increase comfort, but this was not good enough, so instead I 3D printed a custom faceplate which fits my face better, for the rearpad I took the old one out which is clipped in there and bought Oval TPU pad from Aliexpress to replace it with.
+They do also provide a glasses space in the box, which lets users with glasses wear the headset more comfortably.
 
 ### Audio
 
@@ -142,13 +142,17 @@ The Pico 4 Ultra has dual micrphone array positioned right on top of your mouth 
 
 ### Passthrough
 
-The passthrough is one of the highlights of the device, it really does shine, I have tried plenty of other devices and the Pico 4 Ultra passthrough is genuinely impressive in comparison.
+the passthrough of the Pico 4 Ultra is way better any of the other devices I have tried, excluding Apple Vision Pro.
 
-I am able to use my mobile phone, ultrawide monitor and laptop through the passthrough without distortion which is extremely handy if I don't want to take off the headsets but take a glance at something.
+it is clear enough to be able to used for everyday tasks such as looking at your monitor, phone and just wearing it while cooking or walking outside, even watching TV was not an issue in my books although I don't recommend you to do what I do.
 
-Pico 4 Ultra performs best in high ambient light conditions, the noise and grain is greatly reduced in such conditions to the point where it's not really a problem anymore. But the device still struggles in low ambient light conditions.
+however, the device performs it's best during high ambient light conditions such as living room with a lot of light coming out of windows, an office environment with well lit enviroment or outdoors usage. In sitatuations where light may be lacking the passthrough becomes noticeably more grainy but it's still perfectly usable.
 
-The latency of the passthrough is not really noticeable but it still contains some minor artifacts especially when moving your head fast that manifest as something which looks like motion blur.
+there is also some distortion in the passthrough which may be noticed in situations with weird geometry, such as when you're moving across rooms it may distro when walking through a door frame, it may also distort when you're looking at a very symmetrical geometry though these distortion are very minor and not noticeable unless you look for them.
+
+the passthrough still doesn't handle certain edge cases of contrast, for example you're sitting in a room and there is a window, because the headset corrects the passthrough for the current ambient light the window will look very bloomy until you get closer to it which the headset then is able to adjust the lighting conditions.
+
+I have noticed during outdoor use the passthrough resolution is very great when you're looking things in a reasonable distance, such as anything inside your home, but when you go outside you may notice objects such as trees or buildings will start lacking detail and may even look bit soft.
 
 ### Software
 
@@ -194,16 +198,17 @@ I personally don't like how the 6 DoF windows behave as of right now you cannot 
 
 If window is too close to you, right now you cannot make the window smaller which is a bit of annoying.
 
-#### Screen Recording
+#### Screen Capture
 
-Pico 4 Ultra lets you record footage in three different formats: raw, monoscopic, spatial with resolutions of 1920x1080 or 720x1280 on 1:1 or 16:9 aspect ratio.
+Pico 4 Ultra lets you record footage in three different formats: raw, monoscopic, spatial.
 
-Unique feature of Pico 4 Ultra is it's capability to take Spatial images and Videos through screen capture instead of a dedicated camera app, this allows you to record spatial footage even in games which can be viewed with the built Photos app.
+supported resolutions are 1920x1080 or 720x1280 with 1:1 or 16:9 aspect ratio.
 
-It's really hard to explain through text, but it lets you take a snapshot in time and eternally preserve it, and view it as if you were there. It's a really cool feature.
+unique feature of Pico 4 Ultra is it's capability to take Spatial images and videos captures through the Screen Capture feature which allows you to seamlessly capture gaming footage, passthrough or anything else that is seen in your screen.
+
+I personally use this feature a lot and it's amazing.
 
 #### PCVR Streaming
-
 
 PICO Connects supports up to 1000 Mbps H.264 / 150 Mbps HEVC with Wired connection and 300 Mbps H.264 / 150 Mbps Wireless.
 
