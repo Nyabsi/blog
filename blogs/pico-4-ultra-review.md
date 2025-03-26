@@ -99,7 +99,6 @@ The Pico 4 Ultra controllers are different from Pico 4 controllers, the missing 
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_controllers.jpg"/>
-  <p>Pico Controllers</p>
 </div>
 
 ### Layout
@@ -331,3 +330,23 @@ As the accuracy is lacking, I feel like they don't provide enough presence for c
 And if you feel like using a product called "Motion Tracker" for lazing, that's completely possible! You can use the Pico Motion Trackers to lay or sit without issue for extended period of time.
 
 Though their automatic yaw drift correction relies on movement so if you just keep sitting or laying you may notice some slight drift on yaw axis which will be corrected once you start moving.
+
+## The Conclusion
+
+I'm not a hardware reviewer, journalist or influencer nor am I paid to write this review so I won't be endorcing the product or telling you to purchase it through my affliate link.
+
+This review was made from pure appreciation of the device and the software it runs on, as it's commonly misinterpreted due to shitty journalism and influencers who are unable to do their job properly, shame on them.
+
+However I do believe the device is not for everyone and I want to be clear about this, having observed most people purchase these devices for games, the Pico 4 Ultra is a great gaming device because of it's performance, but the problem is the lack of content, so if you're looking to play the latest hot games like Batman or Resident Evil 4 VR unfortunately you wont find that from Pico because they're Meta exclusive.
+
+But when games support Pico such as VRChat or Blade & Sorcery, thanks to the native integration these games run better than on the Quest 3 at higher resolution with lower fan noise and if the title supports it, you also get Full Body Tracking which lets you kick enemies or lay on your couch while you're watching a movie.
+
+Gaming aside, I think the biggest misconception with the Pico 4 Ultra is that it's not just a *gaming device* it excels at productivity thanks to it's impressive multi-tasking capabilities and its also really great for entertainment thanks the to  widevine L1 certificate services like Netflix, Hulu and Amazon Prime works out of box, which means you can enjoy all your series and movies on the device with ease.
+
+I would argue that the Pico 4 Ultra is a tinkerers dream when it comes to Android based Standalone headsets, Pico OS is extremely open and well optimized system that really makes you appreciate using the system, you can tell the developers who work on the system, actually use their own product instead of just digging their nose.
+
+I must say though, I do not recommend this headset for MixedVR setups, such as mixing lighthouse devices and Pico headset, it's an horrible experience and yeah you wont have a good experience. But if you're using the PCVR streaming without any kind of weird setups, it's very standard wireless experience without much complains.
+
+I am also impressed by the Spatial capabilities of the device; passthrough, viewing Spatial Videos & Photos and Recording of Spatial content. It provides such different experience for viewing media that once you experience it, it's hard to go back to boring old 2D unfortunately there is not much content to consume.
+
+That's pretty much my conclusion of the device, feel free to disagree, agree or perhaps not have an opinion. I'm sharing this just because I like what I bought, I can't say that about every device I have owned and because I think the device is undermined due to bad presentation publicly.
