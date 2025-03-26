@@ -73,15 +73,15 @@ the tracking is powered by a SLAM tracking algorithm which is used to know where
 
 it doesn't quite work in low-light conditions which is really an issue under certain conditions, it may also perform poorly in clean environments as the tracking algorithm benefits from noise (unique patterns, unpredictability, noise, etc)
 
-and I cannot recommend the Pico 4 Ultra for MixedVR tracking setups as it doesn't work, the Pico tracking seems to drift which is unnoticeable under normal operation but with lighthouse tracking for controllers paired through OpenVR-SpaceCalibrator this becomes very noticeable and painful to work with.
+The tracking has a lot jitter which makes it not compatible with OpenVR-SpaceCalibrator, your mileage may vary on a various of factors, in my personal experience when using with Index Controllers the position gets disaligned constantly, you are required to use Continious Tracking, but even the Pico tracking has an offset which may annoy some people.
 
 ### Controllers
 
 Controller tracking used IR-Constellation based tracking with the same cameras that are used for SLAM.
 
-The controllers are able to track even if Headset Tracking is turned off without an issue, but if you have Headset Tracking enabled, the algorithm will fuse Hand Tracking and Controller Tracking together for improved tracking accuracy.
+The controllers are able to track even if Headset Tracking is turned off without an issue, but if it is enabled the algorithm will fuse Hand Tracking and Controller Tracking together for improved tracking accuracy.
 
-The tracking is generally very precise, I can play fast-phased games without no issue. But the tracking accuracy may suffer if the controller is partially covered or goes too much behind your back, as the Pico 4 Ultra controllers no longer have tracking rings which improved tracking capability in these edge cases.
+The tracking is perfectly okay but the tracking accuracy may suffer if the controller is partially covered or goes too much behind your back, as the Pico 4 Ultra controllers no longer have tracking rings which improved tracking capability in these edge cases.
 
 There is a bug, where sometimes when the controller doesn't move for a certain period, it will attach to your hand as it uses this information to help tracking data when the controller may not be able to track itself precisely.
 
@@ -95,7 +95,7 @@ It can track your fingers pretty reliably if you aren't doing less common gestur
 
 ### Full Body Tracking
 
-The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration, and IMU trackers with a ML model for pose prediction, it can track all the 11 joints of human body.
+The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration and IMU trackers with a ML model for pose prediction, it can track all the 11 joints of human body.
 
 The tracking accuracy is okay, it's not quite accurate of course but for walking, standing, sitting and other common motions the trackers work extremely well, however the trackers seem to struggle in tracking above your knee, so if you pull your leg up at some point the tracking will stop, which is seemingly a limitation in the training data.
 
@@ -163,17 +163,25 @@ The Pico 4 Ultra has dual micrphone array positioned right on top of your mouth 
 
 The passthrough of the Pico 4 Ultra is way better any of the other devices I have tried, excluding Apple Vision Pro, it is clear enough to be able to used for everyday tasks such as looking at your monitor, phone and just wearing it while cooking or walking outside, even watching TV was not an issue in my books although I don't recommend you to do what I do.
 
-however, the device performs it's best during high ambient light conditions such as living room with a lot of light coming out of windows, an office environment with well lit enviroment or outdoors usage. In sitatuations where light may be lacking the passthrough becomes noticeably more grainy but it's still perfectly usable.
+However, the device performs it's best during high ambient light conditions such as living room with a lot of light coming out of windows, an office environment with well lit enviroment or outdoors usage. In sitatuations where light may be lacking the passthrough becomes noticeably more grainy but it's still perfectly usable.
 
-there is also some distortion in the passthrough which may be noticed in situations with weird geometry, such as when you're moving across rooms it may distort when walking through a door frame, it may also distort when you're looking at a very symmetrical geometry though these distortion are very minor and not noticeable unless you look for them.
+There is also some distortion in the passthrough which may be noticed in situations with weird geometry, such as when you're moving across rooms it may distort when walking through a door frame, it may also distort when you're looking at a very symmetrical geometry though these distortion are very minor and not noticeable unless you look for them.
 
-the passthrough still doesn't handle certain edge cases of contrast, for example you're sitting in a room and there is a window, because the headset corrects the passthrough for the current ambient light the window will look very bloomy until you get closer to it which the headset then is able to adjust the lighting conditions.
+The passthrough still doesn't handle certain edge cases of contrast, for example you're sitting in a room and there is a window, because the headset corrects the passthrough for the current ambient light the window will look very bloomy until you get closer to it which the headset then is able to adjust the lighting conditions.
 
 I have noticed during outdoor use the passthrough resolution is not great when you're looking things in a far distance, such as objects such as trees or buildings will start lacking detail and the image ends up looking a bit soft. However this is not an issue in indoors where you're looking everything at reasonable distance.
 
 ### Performance & Thermals
 
-TBA
+The performance of the Pico 4 Ultra is great, I can play demanding standalone games with high fidelity and the frametime and framerate is consistent, the device doesn't get too loud or hot thanks to it's well thought thermal design.
+
+It also does provide performant experience for Android applications which lets you run multiple demanding applications, in the settings you have option to prioritize the visual clarity of the environment or increased performance for 2D applications.
+
+You also can tweak the performance of VR applications through Developer Settings which let's you adjust the framerate, resolution, CPU/GPU level and ffr level, which let's the user decide if they want higher image clarity or perhaps even more battery life by decreasing it.
+
+#### Measurements
+
+Here is a list of measurements taken in various of VR applications on the Pico 4 Ultra to demonstrate the performance in a real world.
 
 ### Pico Motion Trackers
 
@@ -199,9 +207,9 @@ Without account however, some of the OS experience may be limited or non-functio
 
 The Developer Mode can be enabled through Settings -> About -> Software Version and clicking it a seven times.
 
-You enable USB Debug through the Developer Tab which lets you connect the Headset to your PC through ADB.
+Developer Mode enables you access additional capabilities when connected to a PC with USB Debugging.
 
-Developer Tab also has a Performance Tuner which lets you adjust the resolution, refresh rate, CPU/GPU levels and ffr on per-application basis for tweaking performance and quality.
+You may also use Developer Mode for performance profiling and performance tweaking.
 
 #### Virtual Environments
 
