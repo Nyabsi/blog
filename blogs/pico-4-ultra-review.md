@@ -262,6 +262,10 @@ The device can convert 2D photos into Spatial photos locally on the device, for 
 
 Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
 
+#### High Power USB OTG
+
+The Pico 4 Ultra supports High Power USB OTG which allows you to use more demanding peripherals such as external SSD.
+
 ## Pico Motion Trackers
 
 The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration & drift correction and IMU with a machine learning model for pose prediction, it can track 24 joints of human body.
