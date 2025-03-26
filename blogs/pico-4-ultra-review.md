@@ -10,6 +10,9 @@ I have owned the Pico 4 Ultra now for over 4 months, over these past months I ha
 
 This article is more of an overview and review of the device, what it is capable of and what I like about it as well as the things that could still be improved upon. It's an amazing device with some less so amazing quirks.
 
+> [!NOTE]
+> This review is written as of PicoOS 5.13.3 software update, the device receives regular updates, some of the mentioned issues/limitations may be invalid in the future.
+
 ## Specs
 
 Let's begin with specs, I won't bore you with the technical details, however I will quickly write about topics such as Optics, Image Quality, Processor and so on.
@@ -84,7 +87,7 @@ There is a bug, where sometimes when the controller doesn't move for a certain p
 
 ### Hand Tracking
 
-while Hand Tracking on the Pico 4 Ultra is constantly being improved I am writing this as of PicoOS 5.13.3 and it is usable for basic interaction.
+Hand Tracking capabilities of the Pico 4 Ultra are usable for basic interaction.
 
 The tracking FoV is not great, it's on par with the original Leapmotion Controller 1 which was roughly 120 degrees, the algorithm also has a lot of latency that doesn't make it particularly enjoyable for more interactive experiences.
 
