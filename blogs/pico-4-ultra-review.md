@@ -95,6 +95,8 @@ It can track your fingers pretty reliably if you aren't doing less common gestur
 
 ## Controllers
 
+The Pico 4 Ultra controllers are different from Pico 4 controllers, the missing tracking ring is the most obvious part.
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_controllers.jpg" width="75%" height="75%"/>
   <p>Pico Controllers</p>
@@ -262,14 +264,14 @@ Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
 
 ## Pico Motion Trackers
 
+The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration & drift correction and IMU with a machine learning model for pose prediction, it can track 24 joints of human body.
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_motion_trackers.jpg" width="75%" height="75%"/>
   <p>Pico Motion Trackers</p>
 </div>
 
 </br>
-
-The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration & drift correction and IMU with a machine learning model for pose prediction, it can track 24 joints of human body.
 
 Currently the Pico 4 Ultra supports up to 3 Motion Trackers which you can pair through the Tracker application following the on screen instructions.
 
@@ -283,7 +285,7 @@ The trackers last for over 20 hours of continuous use, and last for weeks if use
 
 ### Ergonomics
 
-The tracker weights 27 grams and the hstrap weights 12 grams for total of 39 grams per tracker.
+The tracker weights 27 grams and the strap weights 12 grams for total of 39 grams per tracker.
 
 They are lightweight and very comfortable to use for hours.
 
