@@ -164,6 +164,12 @@ Pico 4 Ultra -näytön suorituskyky on loistava, voin pelata vaativia itsenäisi
 
 Se tarjoaa myös suorituskykyisen kokemuksen Android-sovelluksille, joiden avulla voit ajaa useita vaativia sovelluksia, asetuksissa on mahdollisuus asettaa ympäristön visuaalinen selkeys tai 2D-sovellusten suorituskyvyn lisääminen etusijalle.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_performance_tuner.jpg"/>
+</div>
+
+<br/>
+
 Voit myös säätää VR-sovellusten suorituskykyä Kehittäjäasetusten kautta, joissa voit säätää ruudunpäivitysnopeutta, resoluutiota, CPU/GPU-tasoa ja ffr-tasoa, jolloin käyttäjä voi päättää, haluaako hän suuremman kuvanlaadun selkeyden tai ehkä jopa enemmän akkukestoa vähentämällä sitä.
 
 ### Software
@@ -247,6 +253,12 @@ Tuetut resoluutiot ovat 1920x1080 tai 720x1280 kuvasuhteella 1:1 tai 16:9.
 Screen Capture kaappaa kaiken näytöllä näkyvän, mukaan lukien passthrough.
 
 Pico 4 Ultran ainutlaatuisena ominaisuutena on sen kyky ottaa spatiaalisia kuvia ja videoita Screen Capturen avulla.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/screen_capture_settings.jpg"/>
+</div>
+
+<br/>
 
 PICO on tehnyt tästä ominaisuudesta erittäin helppokäyttöisen, ja käytän sitä varmasti usein.
 
