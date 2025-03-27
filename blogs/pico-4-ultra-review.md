@@ -4,6 +4,12 @@ outline: deep
 
 # Pico 4 Ultra: So close, yet so far
 
+
+> [!NOTE]
+> You can read this [here](/blogs/miksi-kaytan-vive-pro-laseja-vuonna-2025.html) in Finnish.
+
+<br/>
+
 <!-- Banner image here-->
 
 I have owned the Pico 4 Ultra now for over 4 months, over these past months I have used the device for hours nearly every day be it inside, outside or in the car. I've put this device through it's upper limits.
