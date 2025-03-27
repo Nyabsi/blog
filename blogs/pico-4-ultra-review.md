@@ -134,6 +134,13 @@ I could wear the device for few hours til my forehead started feeling too much p
 
 They do also provide a glasses space in the box, which lets users with glasses wear the headset more comfortably.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico4ultra.jpg"/>
+  <p>My modified Pico 4 Ultra for extended comfort</p>
+</div>
+
+<br/>
+
 ### Battery & Charging
 
 The device supports up to 55W supercharging which allows you to charge the device from 0% -> 100% in a hour.
