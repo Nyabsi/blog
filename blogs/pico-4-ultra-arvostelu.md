@@ -124,6 +124,13 @@ Pystyin käyttämään laitetta muutaman tunnin ajan, kunnes otsani alkoi tuntea
 
 Laatikossa on myös silmälasitila, jonka ansiosta silmälasien käyttäjät voivat käyttää kuulokkeita mukavammin.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico4ultra.jpg"/>
+  <p>Minun muokattu Pico 4 Ultra laajennettua mukavuutta varten</p>
+</div>
+
+<br/>
+
 ### Battery & Charging
 
 Laite tukee jopa 55 W:n superlatausta, jonka avulla voit ladata laitteen 0 % -> 100 % tunnissa.
