@@ -222,11 +222,27 @@ Pico 4 Ultra has first-party support for Android applications, so you can downlo
 
 However, it is not possible as of right now, to change the orientation of applications so if you have an application that does not respect landscape mode it may seem bit odd on the Pico.
 
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_android_apps.mp4" type="video/mp4">
+  </video>
+</div>
+
+<br/>
+
 Pico 4 Ultra also provides L1 widevine certificate for apps such as Netflix that require it for drm protected content playback.
 
 #### Window Management
 
 Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" this allows you to have up to 20 applications displayed either in a dome, or in a free position placement, which are freely resizable.
+
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_window_management.mp4" type="video/mp4">
+  </video>
+</div>
+
+<br/>
 
 Some applications may also show display in the application dock, if explicitly specified.
 
