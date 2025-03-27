@@ -175,7 +175,7 @@ The performance of the Pico 4 Ultra is great, I can play demanding standalone ga
 It also does provide performant experience for Android applications which lets you run multiple demanding applications, in the settings you have option to prioritize the visual clarity of the environment or increased performance for 2D applications.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pcio_performance_tuner.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_performance_tuner.jpg"/>
 </div>
 
 <br/>
