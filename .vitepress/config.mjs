@@ -20,7 +20,8 @@ export default defineConfig({
         items: [
           { text: 'Make it, if it\'s so easy.', link: '/blogs/make-it-if-its-so-easy' },
           { text: 'Oh, you want environments? ', link: '/blogs/oh-you-want-environments' },
-          { text: 'Why do I use a Vive Pro in 2025?', link: '/blogs/why-do-i-use-vive-pro-in-2025' }
+          { text: 'Why do I use a Vive Pro in 2025?', link: '/blogs/why-do-i-use-vive-pro-in-2025' },
+          { text: 'Pico 4 Ultra: So close, yet so far ', link: '/blogs/pico-4-ultra-review' }
         ]
       }
     ],
