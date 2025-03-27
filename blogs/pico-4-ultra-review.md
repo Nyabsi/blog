@@ -6,7 +6,7 @@ outline: deep
 
 
 > [!NOTE]
-> You can read this [here](/blogs/miksi-kaytan-vive-pro-laseja-vuonna-2025.html) in Finnish.
+> You can read this [here](/blogs/pico-4-ultra-arvostelu.html) in Finnish.
 
 <br/>
 
