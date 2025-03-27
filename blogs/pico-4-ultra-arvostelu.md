@@ -212,11 +212,27 @@ Pico 4 Ultrassa on ensimmäisen osapuolen tuki Android-sovelluksille, joten voit
 
 Sovellusten orientaatiota ei kuitenkaan ole toistaiseksi mahdollista muuttaa, joten jos sinulla on sovellus, joka ei kunnioita maisematilaa, se voi näyttää hieman oudolta Picon näytössä.
 
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_android_apps.mp4" type="video/mp4">
+  </video>
+</div>
+
+<br/>
+
 Pico 4 Ultra tarjoaa myös L1-widevine-sertifikaatin Netflixin kaltaisille sovelluksille, jotka vaativat sitä drm-suojatun sisällön toistamiseen.
 
 #### Window Management
 
 Pico 4 Ultra tarjoaa joustavan ikkunanhallintajärjestelmän nimeltä ”PanoScreen”, jonka avulla voit näyttää jopa 20 sovellusta joko kupolissa tai vapaassa asennossa, joiden kokoa voidaan vapaasti muuttaa.
+
+<div align="center">
+  <video loop autoplay muted>
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_window_management.mp4" type="video/mp4">
+  </video>
+</div>
+
+<br/>
 
 Jotkin sovellukset voivat näkyä myös sovellusten telakalla, jos se on erikseen määritetty.
 
