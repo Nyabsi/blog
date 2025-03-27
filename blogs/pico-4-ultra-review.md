@@ -35,7 +35,8 @@ I would like to also mention, I have IPD of 56 mm which falls below the 58mm min
 
 The Pico 4 Ultra uses a pair of SHARP 2.56" 2160x2160 RGB Stripe Oxide TFT-LCD panel with WLED backlight the panel is rated for 520 nit. The panel has the following colour gamut coverages; 100% sRGB, 87% DCI-P3 and 62% Rec.2020.
 
-<!-- NOTE: specs may be wrong -->
+> [!NOTE]
+> Specs are outsourced from publicly available data based on parts numbers extracted from the headset, this data may be inaccurate and serves as general basis.
 
 However, once you put the device on those specifications become utterly useless, as they don't tell the whole story. Optics and Displays are Intervened in a way that both affect each others performance.
 
