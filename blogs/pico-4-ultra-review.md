@@ -25,7 +25,7 @@ Let's begin with specs, I won't bore you with the technical details, however I w
 
 ### Optics
 
-the Pico 4 Ultra has Pancake Lenses, which are known for their enchanced image clarity compared to Fresnel lenses, however these do come with the downside of efficiency, even Pico 4 Ultra with it's LCD panels is only capable of 25% light efficiency at best, which makes optics very dim in comparison to alternatives.
+the Pico 4 Ultra has Pancake Lenses, which are known for their enhanced image clarity compared to Fresnel lenses, however these do come with the downside of efficiency, even Pico 4 Ultra with it's LCD panels is only capable of 25% light efficiency at best, which makes optics very dim in comparison to alternatives.
 
 Optics which Pico 4 Ultra uses have amazing binocular overlap which I've measured consistently as over 90%+ using [wimfov](https://boll.itch.io/wimfov) with a Field of View of roughly 102 for both Horizontal and Vertical which is impressive.
 
@@ -76,15 +76,11 @@ The tracking on the Pico 4 Ultra is a mixed bag of feelings, the performance is 
 
 ### Headset
 
-the tracking is powered by a SLAM tracking algorithm which is used to know where the device currently is. 
-
 it doesn't quite work in low-light conditions which is really an issue under certain conditions, it may also perform poorly in clean environments as the tracking algorithm benefits from noise (unique patterns, unpredictability, noise, etc)
 
 The tracking has a lot jitter which makes it not compatible with OpenVR-SpaceCalibrator, your mileage may vary on a various of factors, in my personal experience when using with Index Controllers the position gets disaligned constantly, you are required to use Continious Tracking, but even the Pico tracking has an offset which may annoy some people.
 
 ### Controllers
-
-Controller tracking used IR-Constellation based tracking with the same cameras that are used for SLAM.
 
 The controllers are able to track even if Headset Tracking is turned off without an issue, but if it is enabled the algorithm will fuse Hand Tracking and Controller Tracking together for improved tracking accuracy.
 
@@ -159,7 +155,7 @@ The speakers give a good sense of 3D audio perception which sounds really good w
 
 #### Microphone
 
-The Pico 4 Ultra has dual micrphone array positioned right on top of your mouth for a clear sound of your voice.
+The Pico 4 Ultra has dual microhone array positioned right on top of your mouth for a clear sound of your voice.
 
 <!-- a microphone test here -->
 
