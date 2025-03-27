@@ -174,6 +174,12 @@ The performance of the Pico 4 Ultra is great, I can play demanding standalone ga
 
 It also does provide performant experience for Android applications which lets you run multiple demanding applications, in the settings you have option to prioritize the visual clarity of the environment or increased performance for 2D applications.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pcio_performance_tuner.jpg"/>
+</div>
+
+<br/>
+
 You also can tweak the performance of VR applications through Developer Settings which let's you adjust the framerate, resolution, CPU/GPU level and ffr level, which let's the user decide if they want higher image clarity or perhaps even more battery life by decreasing it.
 
 ### Software
@@ -258,6 +264,12 @@ Screen Capture captures everything visible on the screen including passthrough.
 
 unique feature of Pico 4 Ultra is it's capability to take Spatial images and videos captures through Screen Capture
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/screen_capture_settings.jpg"/>
+</div>
+
+<br/>
+
 PICO has made this feature very easy to use and it's definitely something I use often
 
 #### PCVR Streaming
@@ -280,9 +292,9 @@ PICO Connect supports streaming up to 3 monitors, and if you only have one, two 
   </video>
 </div>
 
-Desktop streaming bitrate is variable, which means the quality may not be the optimal for flatscreen gaming.
-
 <br/>
+
+Desktop streaming bitrate is variable, which means the quality may not be the optimal for flatscreen gaming.
 
 #### Spatial Content
 
