@@ -131,15 +131,7 @@ They do also provide a glasses space in the box, which lets users with glasses w
 
 The device supports up to 55W supercharging which allows you to charge the device from 0% -> 100% in a hour.
 
-<!-- voltage / wattage measurement overtime -->
-
-The battery life of the device depends on various of configurations but I have tested the device extensively to release a rough numbers on how long the battery lasts on various of levels of brightness and scenarios of use.
-
-#### Measurements
-
-100% Brightness / Passthrough Enabled / 2 hours
-
-TBD
+The battery life of the device depends on various of configurations it lasts roughly 100% when the device is used with constant passthrough, in general you can expect battery life of 3 hours or so when not using passthrough.
 
 ### Audio
 
@@ -176,10 +168,6 @@ The performance of the Pico 4 Ultra is great, I can play demanding standalone ga
 It also does provide performant experience for Android applications which lets you run multiple demanding applications, in the settings you have option to prioritize the visual clarity of the environment or increased performance for 2D applications.
 
 You also can tweak the performance of VR applications through Developer Settings which let's you adjust the framerate, resolution, CPU/GPU level and ffr level, which let's the user decide if they want higher image clarity or perhaps even more battery life by decreasing it.
-
-#### Measurements
-
-Here is a list of measurements taken in various of VR applications on the Pico 4 Ultra to demonstrate the performance in a real world.
 
 ### Software
 
