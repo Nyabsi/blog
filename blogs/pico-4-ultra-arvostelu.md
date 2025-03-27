@@ -35,7 +35,8 @@ Haluaisin myös mainita, että minulla on 56 mm IPD, joka jää alle Picon 58 mm
 
 Pico 4 Ultra käyttää paria SHARPin 2,56 tuuman 2160x2160 RGB Stripe Oxide TFT-LCD-paneelia, jossa on WLED-taustavalo ja jonka teho on 520 nit. Paneeli kattaa seuraavat väriskaalat: 100 % sRGB, 87 % DCI-P3 ja 62 % Rec.2020.
 
-<!-- NOTE: specs may be wrong -->
+> [!NOTE]
+> Tekniset tiedot on hankittu julkisesti saatavilla olevista tiedoista, jotka perustuvat kuulokkeista poimittuihin osanumeroihin, nämä tiedot voivat olla epätarkkoja ja toimivat yleisenä tietopohjana.
 
 Kun laitetta kuitenkin käytetään, näistä tiedoista tulee täysin hyödyttömiä, sillä ne eivät kerro koko tarinaa. Optiikka ja näytöt vaikuttavat toisiinsa siten, että molemmat vaikuttavat toistensa suorituskykyyn.
 
