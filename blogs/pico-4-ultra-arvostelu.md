@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Pico 4 Ultra: So close, yet so far
+# Pico 4 Ultra: Melkein, mutta ei kuiteskaan
 
 <!-- Banner image here-->
 
