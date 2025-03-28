@@ -13,11 +13,11 @@ Tämä artikkeli on enemmänkin yleiskatsaus ja arvostelu laitteesta, mihin se p
 > [!NOTE]
 > Tämä arvostelu on kirjoitettu PicoOS 5.13.3 -ohjelmistopäivityksestä lähtien, laite saa säännöllisiä päivityksiä, jotkin mainituista ongelmista/rajoituksista saattavat olla tulevaisuudessa mitätöitävissä.
 
-## Specs
+## Specit
 
 Aloitetaan teknisistä tiedoista, en kyllästytä sinua teknisillä yksityiskohdilla, mutta kirjoitan kuitenkin nopeasti sellaisista aiheista kuin optiikka, kuvanlaatu, prosessori ja niin edelleen.
 
-### Optics
+### Optiikka
 
 Pico 4 Ultrassa on Pancake-linssit, jotka ovat tunnettuja niiden parantuneesta kuvan kirkkaudesta verrattuna Fresnel-linsseihin, mutta niillä on kuitenkin tehokkuuden haittapuoli, jopa Pico 4 Ultra LCD-paneeleineen pystyy parhaimmillaan vain 25 prosentin valotehokkuuteen, mikä tekee optiikasta hyvin hämärän verrattuna vaihtoehtoihin.
 
@@ -31,7 +31,7 @@ Vaikka Pico 4 Ultralla on kohtuullisen suuri sweetspot, jossa en löydä vikaa, 
 
 Haluaisin myös mainita, että minulla on 56 mm IPD, joka jää alle Picon 58 mm: n vähimmäisalueen, jotkut käyttäjät voivat käyttää pienempää IPD: tä kuin heidän fyysinen IPD, joka mahdollistaa täydellisen 100-prosenttisen binokulaarisen päällekkäisyyden saavuttamisen.
 
-### Displays
+### Näytöt
 
 Pico 4 Ultra käyttää paria SHARPin 2,56 tuuman 2160x2160 RGB Stripe Oxide TFT-LCD-paneelia, jossa on WLED-taustavalo ja jonka teho on 520 nit. Paneeli kattaa seuraavat väriskaalat: 100 % sRGB, 87 % DCI-P3 ja 62 % Rec.2020.
 
@@ -46,7 +46,7 @@ Näytöt ovat korkearesoluutioisia 2160x2160, mikä eliminoi SDE:n (Screen-Door-
 
 <!-- Picture of Black dot pattern -->
 
-### Processing
+### Prosessointikyky
 
 Pico 4 Ultra käyttää Snapdragon XR2 Gen 2:ta, jossa on asianmukainen lämpöratkaisu, jonka avulla voit viedä XR2 Gen 2:n äärirajoille ja saavuttaa erittäin vaikuttavan suorituskyvyn.
 
@@ -54,17 +54,17 @@ laitteessa on 12 gigatavua RAM-muistia, mikä tarkoittaa, että kehittäjillä o
 
 laitteessa on 256 Gt sisäänrakennettua UFS 3.2 -tallennustilaa, joka riittää Super Mario 64:n 32 768 kertaa mahtumiseen laitteeseen.
 
-### Weight
+### Paino
 
 #### Headset
 
 Pico 4 Ultra painaa noin 580 grammaa, joka jakautuu tasaisesti etu- ja takapuolelle, prosessointi, optiikka, näytöt ja vastaavat ovat etupuolella, kun taas laitteen akku on takana.
 
-#### Controllers
+#### Ohjaimet
 
 Kumpikin ohjain painaa noin 166 grammaa.
 
-## Tracking
+## Seuranta
 
 Pico 4 Ultra -laitteen seuranta on sekalainen, ja suorituskyky on joskus pettymys, mutta meidän on tarkasteltava kokonaisuutta, jotta voimme tehdä johtopäätöksen.
 
@@ -74,7 +74,7 @@ se ei oikein toimi hämärässä, mikä on todella ongelma tietyissä olosuhteis
 
 Seurannassa on paljon jitteriä, mikä tekee siitä yhteensopimattoman OpenVR-SpaceCalibratorin kanssa, kilometritietosi voivat vaihdella useiden tekijöiden mukaan, henkilökohtaisen kokemukseni mukaan, kun käytät Index-ohjaimien kanssa, sijainti muuttuu jatkuvasti, sinun on käytettävä Continious Tracking -seurantaa, mutta jopa Pico-seurannassa on offset, joka voi ärsyttää joitakin ihmisiä.
 
-### Controllers
+### Ohjaimet
 
 Ohjaimet pystyvät seuraamaan, vaikka Headset Tracking olisi pois päältä ilman ongelmia, mutta jos se on käytössä, algoritmi yhdistää Hand Trackingin ja Controller Trackingin toisiinsa parantaakseen seurannan tarkkuutta.
 
@@ -82,7 +82,7 @@ Seuranta on täysin kunnossa, mutta seurantatarkkuus voi kärsiä, jos ohjain on
 
 On olemassa bugi, jossa joskus kun ohjain ei liiku tiettyyn aikaan, se kiinnittyy käteesi, koska se käyttää tätä tietoa apuna seurantatiedoissa, kun ohjain ei välttämättä pysty seuraamaan itseään tarkasti.
 
-### Hand Tracking
+### Käsiseuranta
 
 Pico 4 Ultran kädenseurantaominaisuudet ovat käyttökelpoisia perustason vuorovaikutukseen.
 
@@ -90,7 +90,7 @@ Seuranta FoV ei ole loistava, se on alkuperäisen Leapmotion Controller 1:n taso
 
 Se pystyy seuraamaan sormiasi melko luotettavasti, jos et tee harvinaisempia eleitä, kuten sormien risteyttämistä, nivelten vetämistä taaksepäin tai sormien osittaista lähentämistä.
 
-## Controllers
+## Ohjaimet
 
 Pico 4 Ultra -ohjaimet eroavat Pico 4 -ohjaimista, puuttuva seurantarengas on ilmeisin osa.
 
@@ -98,7 +98,7 @@ Pico 4 Ultra -ohjaimet eroavat Pico 4 -ohjaimista, puuttuva seurantarengas on il
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_controllers.jpg"/>
 </div>
 
-### Layout
+### Näppäinasettelu
 
 Molemmissa ohjaimissa on järjestelmäpainike, jolla voit avata järjestelmätelakan tai siirtää pelin uudelleen pelin aikana.
 
@@ -106,17 +106,17 @@ Vasemmalla ohjaimella on valikkopainike, jota kehittäjät voivat käyttää mih
 
 Oikealla ohjaimella on kuvakaappaus- tai tallennuspainike, jonka avulla voit milloin tahansa ottaa kuvakaappauksen tai aloittaa näytön tallentamisen, olen itse pitänyt tätä todella hyödyllisenä. Ja sitten meillä on muut painikkeet aivan kuten vasemmassa ohjaimessa.
 
-### Battery & Charging
+### Akunkesto
 
 Ohjaimet toimivat kahdella AA-paristolla, jotka kestävät yli kaksi kuukautta ilman latausta tai paristojen vaihtoa.
 
-### Ergonomics
+### Ergonomia
 
 Ohjaimet on muotoiltu niin, että niistä saa mukavan otteen, ja ne tuntuvat hyvältä kädessäsi, eivätkä ne ole liian suuria tai pieniä, mutta tämä voi olla varoittavaa, sillä ihmisillä on erikokoiset kädet.
 
 ## Headset
 
-### Ergonomics
+### Ergonomia
 
 Pico 4 Ultra on suhteellisen mukava ulos laatikosta, yksi parhaista kokeilemistani tasapainoisen suunnittelun ansiosta, mutta varastossa oleva etulevy ja takapehmuste eivät mielestäni ole mukavia pitkäaikaiseen käyttöön, tämä riippuu kasvojen muodosta ja muista tekijöistä.
 
@@ -131,29 +131,29 @@ Laatikossa on myös silmälasitila, jonka ansiosta silmälasien käyttäjät voi
 
 <br/>
 
-### Battery & Charging
+### Akunkesto
 
 Laite tukee jopa 55 W:n superlatausta, jonka avulla voit ladata laitteen 0 % -> 100 % tunnissa.
 
 Laitteen akun kesto riippuu eri kokoonpanoista, se kestää noin 100 %, kun laitetta käytetään jatkuvalla läpiviennillä, yleensä voit odottaa akun kestävän noin 3 tuntia, kun et käytä läpivientiä.
 
-### Audio
+### Ääni
 
 Ääni on subjektiivista, joten voin antaa tässä vain oman vaikutelmani ja kuvata, miltä se kuulostaa minusta, et ehkä lopulta pidä niiden tuottamasta äänestä, joten voit suhtautua tähän osioon varauksella.
 
-#### Speakers
+#### Kuulokkeet
 
 Pico 4 Ultra sisältää kaksi stereokaiutinta, jotka rehellisesti sanottuna kuulostavat minusta aivan hyvältä, ne sisältävät oikean määrän bassoa, oikean määrän laulua ja oikean määrän diskanttia, ja niitä on miellyttävä kuunnella.
 
 Kaiuttimet antavat hyvän 3D-äänituntuman, joka kuulostaa todella hyvältä, kun sisällössä käytetään binauraalista ääntä.
 
-#### Microphone
+#### Mikrophooni
 
 Pico 4 Ultra -puhelimessa on kaksoismikrofoniryhmä, joka on sijoitettu suoraan suusi päälle, jotta äänesi kuulostaa selkeältä.
 
 <!-- a microphone test here -->
 
-### Passthrough
+### Läpinäky
 
 Pico 4 Ultran läpivienti on paljon parempi kuin mikään muu kokeilemani laite, pois lukien Apple Vision Pro, se on tarpeeksi selkeä, jotta sitä voi käyttää jokapäiväisiin tehtäviin, kuten näytön tai puhelimen katsomiseen ja sen käyttämiseen ruoanlaiton aikana tai kävellessäsi ulkona, jopa television katsominen ei ollut ongelma kirjoissani, vaikka en suosittele sinua tekemään sitä, mitä minä teen.
 
@@ -165,7 +165,7 @@ Läpivienti ei edelleenkään käsittele tiettyjä ääritapauksia kontrastin su
 
 Olen huomannut, että ulkokäytössä läpivientitarkkuus ei ole hyvä, kun etsit kaukana olevia asioita, kuten puita tai rakennuksia, jolloin yksityiskohdat alkavat puuttua ja kuva näyttää lopulta hieman pehmeältä. Tämä ei kuitenkaan ole ongelma sisätiloissa, joissa katsot kaikkea kohtuullisen kaukaa.
 
-### Performance & Thermals
+### Suorityskyky
 
 Pico 4 Ultra -näytön suorituskyky on loistava, voin pelata vaativia itsenäisiä pelejä erittäin uskollisesti ja frametime ja framerate ovat tasaisia, laite ei ole liian äänekäs tai kuuma hyvin harkitun lämpösuunnittelun ansiosta.
 
@@ -179,7 +179,7 @@ Se tarjoaa myös suorituskykyisen kokemuksen Android-sovelluksille, joiden avull
 
 Voit myös säätää VR-sovellusten suorituskykyä Kehittäjäasetusten kautta, joissa voit säätää ruudunpäivitysnopeutta, resoluutiota, CPU/GPU-tasoa ja ffr-tasoa, jolloin käyttäjä voi päättää, haluaako hän suuremman kuvanlaadun selkeyden tai ehkä jopa enemmän akkukestoa vähentämällä sitä.
 
-### Software
+### Ohjelmisto
 
 #### OOBE (Out-of-box experience)
 
@@ -189,7 +189,7 @@ Kun alkuasetukset on tehty, voit valinnaisesti kirjautua sisään tai luoda tili
 
 Ilman tiliä osa käyttöjärjestelmäkokemuksesta voi kuitenkin olla rajoitettu tai olla toimimaton, mutta voit halutessasi käyttää kuulokkeita PCVR:ssä PICO Connectin kautta ilman tiliä ilman ongelmia.
 
-#### Developer Mode
+#### Kehittäjä tila
 
 Kehittäjätila voidaan ottaa käyttöön Asetukset -> Tietoja -> Ohjelmistoversio ja napsauttamalla sitä seitsemän kertaa.
 
@@ -205,7 +205,7 @@ Voit myös käyttää Kehittäjätilaa suorituskyvyn profilointiin ja suoritusky
 
 <br/>
 
-#### Virtual Environments
+#### Virtuaali ympäristöt
 
 Pico 4 Ultra sisältää neljä korkealaatuista virtuaalista ympäristöä, joissa on ääni, sekä vanhoja ympäristöjä vanhemmista kuulokkeista.
 
@@ -219,7 +219,7 @@ Pico 4 Ultra sisältää neljä korkealaatuista virtuaalista ympäristöä, jois
 
 Yhteisön ansiosta voit kuitenkin nyt ladata laajan valikoiman mukautettuja ympäristöjä [PicoThemeManager](https://github.com/Nyabsi/PicoThemeManager) -ohjelman avulla.
 
-#### Android Application Support
+#### Android sovellus tuki
 
 Pico 4 Ultrassa on ensimmäisen osapuolen tuki Android-sovelluksille, joten voit ladata Aurora Storen ja asentaa esimerkiksi Discordin, Twitchin tai Netflixin suoraan laitteeseen Google Playsta, mikä tekee laitteesta erinomaisen sisällönkulutukseen.
 
@@ -235,7 +235,7 @@ Sovellusten orientaatiota ei kuitenkaan ole toistaiseksi mahdollista muuttaa, jo
 
 Pico 4 Ultra tarjoaa myös L1-widevine-sertifikaatin Netflixin kaltaisille sovelluksille, jotka vaativat sitä drm-suojatun sisällön toistamiseen.
 
-#### Window Management
+#### Ohjelma hallinta
 
 Pico 4 Ultra tarjoaa joustavan ikkunanhallintajärjestelmän nimeltä ”PanoScreen”, jonka avulla voit näyttää jopa 20 sovellusta joko kupolissa tai vapaassa asennossa, joiden kokoa voidaan vapaasti muuttaa.
 
@@ -251,7 +251,7 @@ Jotkin sovellukset voivat näkyä myös sovellusten telakalla, jos se on eriksee
 
 Vapaan sijainnin ikkunan nykyisessä toteutuksessa on parantamisen varaa, koska niitä ei voi kiertää vapaasti, ja jos ikkuna on liian lähellä, vapaan sijainnin ikkunan nykyinen vähimmäisikkunakoko tuntuu hieman liian suurelta.
 
-#### Screen Capture
+#### Näytönkappaus
 
 Pico 4 Ultralla voit tallentaa materiaalia kolmessa eri muodossa: Raaka, monoskooppinen, spatiaalinen.
 
@@ -269,7 +269,7 @@ Pico 4 Ultran ainutlaatuisena ominaisuutena on sen kyky ottaa spatiaalisia kuvia
 
 PICO on tehnyt tästä ominaisuudesta erittäin helppokäyttöisen, ja käytän sitä varmasti usein.
 
-#### PCVR Streaming
+#### PCVR suoratoisto
 
 Voit pelata kaikkia suosikki PCVR-pelejäsi PICO Connectin kautta, joka tarjoaa laajan valikoiman ominaisuuksia/
 
@@ -279,7 +279,7 @@ PICO Connectin käyttäminen langallisen yhteyden kanssa 1000 Mbps H.264:n nopeu
 
 PICO Connectissa on paljon latenssia, mikä tekee siitä minulle henkilökohtaisesti sietämättömän nopeammille peleille, kuten Beat Saberille Steamissa, mutta jotkut ihmiset ovat vähemmän alttiita sille.
 
-#### Desktop Multi-Tasking
+#### Työpöytä monikäyttö
 
 PICO Connect tukee suoratoistoa jopa kolmesta näytöstä, ja jos sinulla on vain yksi, kaksi tai ei yhtään näyttöä, ei hätää, PICO Connect tarjoaa sinulle jopa kolme virtuaalista näyttöä, jotka voit luoda. Kun käytät PICO Connectia työpöydän kanssa, kuulokkeissa voi olla valinnaisesti näytön näppäimistö, jota voi käyttää vuorovaikutuksessa työpöydän kanssa.
 
@@ -293,7 +293,7 @@ Työpöydän suoratoiston bittinopeus vaihtelee, mikä tarkoittaa, että laatu e
 
 <br/>
 
-#### Spatial Content
+#### Immersiivinen sisältö
 
 Pico 4 Ultrassa on sisäänrakennettu ”Valokuvat”-sovellus, joka tukee spatiaalisia videoita ja valokuvia.
 
@@ -333,17 +333,17 @@ Kun seurantalaitteet on pariliitetty, voit aloittaa kalibrointiprosessin, jonka 
 
 PICO on onnistunut tekemään seurantalaitteiden käytöstä erittäin helppoa, se ei vaadi laajoja asetuksia tai kalibrointia, mikä saa minut suosimaan niitä jopa Vive-seurantalaitteitteni sijaan.
 
-### Battery & Charging
+### Akunkesto
 
 Seurantalaitteet kestävät yli 20 tuntia jatkuvassa käytössä ja kestävät viikkoja, jos niitä käytetään keskimäärin tunti päivässä.
 
-### Ergonomics
+### Ergonomia
 
 Seurantalaite painaa 27 grammaa ja hihna 12 grammaa, joten seurantalaite painaa yhteensä 39 grammaa.
 
 Ne ovat kevyitä ja erittäin mukavia käyttää tuntikausia.
 
-### Tracking
+### Seuranta
 
 Pico Motion Trackerien tarkkuus voi vaihdella, ne eivät ole missään nimessä yhtä hyviä kuin Vive Tracker, mutta ne tarjoavat seurannan, joka toimii hyvin ihmisen liikkeiden, kuten kävelyn, hyppäämisen, potkimisen, välittämiseen.
 Koska tarkkuus on puutteellinen, minusta tuntuu, että ne eivät tarjoa tarpeeksi läsnäoloa tietyissä sovelluksissa, kuten sosiaalisessa VR:ssä, koska seuranta ei vastaa fyysistä liikettäsi, yksi hyvin erityinen esimerkki on se, että ne eivät pysty seuraamaan lantion yläpuolella.
@@ -352,7 +352,7 @@ Ja jos haluat käyttää tuotetta nimeltä ”Motion Tracker” laiskotteluun, s
 
 Tosin niiden automaattinen yaw-drift-korjaus perustuu liikkeisiin, joten jos vain istut tai makaat, saatat huomata pientä ajelehtimista yaw-akselilla, joka korjaantuu, kun alat liikkua.
 
-## The Conclusion
+## Johtopäätös
 
 En ole laitteiston arvioija, toimittaja tai vaikuttaja eikä minulle makseta tämän arvostelun kirjoittamisesta, joten en suosittele tuotetta tai kehota sinua ostamaan sitä affliate-linkkini kautta.
 
