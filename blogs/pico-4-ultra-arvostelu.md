@@ -36,7 +36,7 @@ Haluaisin myös mainita, että minulla on 56 mm IPD, joka jää alle Picon 58 mm
 Pico 4 Ultra käyttää paria SHARPin 2,56 tuuman 2160x2160 RGB Stripe Oxide TFT-LCD-paneelia, jossa on WLED-taustavalo ja jonka teho on 520 nit. Paneeli kattaa seuraavat väriskaalat: 100 % sRGB, 87 % DCI-P3 ja 62 % Rec.2020.
 
 > [!NOTE]
-> Tekniset tiedot on hankittu julkisesti saatavilla olevista tiedoista, jotka perustuvat kuulokkeista poimittuihin osanumeroihin, nämä tiedot voivat olla epätarkkoja ja toimivat yleisenä tietopohjana.
+> Tekniset tiedot on hankittu julkisesti saatavilla olevista tiedoista, jotka perustuvat laitteesta poimittuihin osanumeroihin, nämä tiedot voivat olla epätarkkoja ja toimivat yleisenä tietopohjana.
 
 Kun laitetta kuitenkin käytetään, näistä tiedoista tulee täysin hyödyttömiä, sillä ne eivät kerro koko tarinaa. Optiikka ja näytöt vaikuttavat toisiinsa siten, että molemmat vaikuttavat toistensa suorituskykyyn.
 
@@ -122,7 +122,7 @@ Pico 4 Ultra on suhteellisen mukava ulos laatikosta, yksi parhaista kokeilemista
 
 Pystyin käyttämään laitetta muutaman tunnin ajan, kunnes otsani alkoi tuntea liikaa painetta kasvolevyjen yhteensopimattoman muodon vuoksi, mikä pakotti minut lopettamaan istuntoni helpotuksen saamiseksi.
 
-Laatikossa on myös silmälasitila, jonka ansiosta silmälasien käyttäjät voivat käyttää kuulokkeita mukavammin.
+Laatikossa on myös silmälasitila, jonka ansiosta silmälasien käyttäjät voivat käyttää laitetta mukavammin.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico4ultra.jpg"/>
@@ -161,7 +161,7 @@ Laite toimii kuitenkin parhaiten olosuhteissa, joissa on paljon valoa, kuten olo
 
 Läpivalaisussa on myös jonkin verran vääristymiä, jotka voi huomata tilanteissa, joissa on outo geometria, esimerkiksi kun liikut huoneiden välillä, se voi vääristyä, kun kävelet ovenkarmin läpi, ja se voi myös vääristyä, kun katsot hyvin symmetristä geometriaa, mutta nämä vääristymät ovat hyvin vähäisiä, eikä niitä huomaa, ellet etsi niitä.
 
-Läpivienti ei edelleenkään käsittele tiettyjä ääritapauksia kontrastin suhteen, esimerkiksi kun istut huoneessa ja siellä on ikkuna, koska kuulokkeet korjaavat läpiviennin nykyisen ympäristön valon mukaan, ikkuna näyttää hyvin epäselvältä, kunnes menet lähemmäs sitä, jolloin kuulokkeet pystyvät säätämään valaistusolosuhteita.
+Läpivienti ei edelleenkään käsittele tiettyjä ääritapauksia kontrastin suhteen, esimerkiksi kun istut huoneessa ja siellä on ikkuna, koska laite korjaavat läpiviennin nykyisen ympäristön valon mukaan, ikkuna näyttää hyvin epäselvältä, kunnes menet lähemmäs sitä, jolloin late pystyy säätämään valaistusolosuhteita.
 
 Olen huomannut, että ulkokäytössä läpivientitarkkuus ei ole hyvä, kun etsit kaukana olevia asioita, kuten puita tai rakennuksia, jolloin yksityiskohdat alkavat puuttua ja kuva näyttää lopulta hieman pehmeältä. Tämä ei kuitenkaan ole ongelma sisätiloissa, joissa katsot kaikkea kohtuullisen kaukaa.
 
@@ -187,7 +187,7 @@ Pico 4 Ultra ei pakota tili- tai pilvipalveluja laitteen toimintaan, mutta kun k
 
 Kun alkuasetukset on tehty, voit valinnaisesti kirjautua sisään tai luoda tilin käyttääksesi lisätoimintoja, kuten Pico Storea.
 
-Ilman tiliä osa käyttöjärjestelmäkokemuksesta voi kuitenkin olla rajoitettu tai olla toimimaton, mutta voit halutessasi käyttää kuulokkeita PCVR:ssä PICO Connectin kautta ilman tiliä ilman ongelmia.
+Ilman tiliä osa käyttöjärjestelmäkokemuksesta voi kuitenkin olla rajoitettu tai olla toimimaton, mutta voit halutessasi käyttää laitetta PCVR:ssä PICO Connectin kautta ilman tiliä ilman ongelmia.
 
 #### Kehittäjä tila
 
@@ -207,7 +207,7 @@ Voit myös käyttää Kehittäjätilaa suorituskyvyn profilointiin ja suoritusky
 
 #### Virtuaali ympäristöt
 
-Pico 4 Ultra sisältää neljä korkealaatuista virtuaalista ympäristöä, joissa on ääni, sekä vanhoja ympäristöjä vanhemmista kuulokkeista.
+Pico 4 Ultra sisältää neljä korkealaatuista virtuaalista ympäristöä, joissa on ääni, sekä vanhoja ympäristöjä vanhemmista laitteista.
 
 <div align="center">
   <video loop autoplay muted>
@@ -281,7 +281,7 @@ PICO Connectissa on paljon latenssia, mikä tekee siitä minulle henkilökohtais
 
 #### Työpöytä monikäyttö
 
-PICO Connect tukee suoratoistoa jopa kolmesta näytöstä, ja jos sinulla on vain yksi, kaksi tai ei yhtään näyttöä, ei hätää, PICO Connect tarjoaa sinulle jopa kolme virtuaalista näyttöä, jotka voit luoda. Kun käytät PICO Connectia työpöydän kanssa, kuulokkeissa voi olla valinnaisesti näytön näppäimistö, jota voi käyttää vuorovaikutuksessa työpöydän kanssa.
+PICO Connect tukee suoratoistoa jopa kolmesta näytöstä, ja jos sinulla on vain yksi, kaksi tai ei yhtään näyttöä, ei hätää, PICO Connect tarjoaa sinulle jopa kolme virtuaalista näyttöä, jotka voit luoda. Kun käytät PICO Connectia työpöydän kanssa, laiteessa on valinnaisesti näytön näppäimistö, jota voi käyttää vuorovaikutuksessa työpöydän kanssa.
 
 <div align="center">
   <video loop autoplay muted>
@@ -304,8 +304,6 @@ Voit myös tuoda yhteensopivaa mediaa raahaamalla sisältöä laitteen DCIM-kans
 Laite voi muuntaa 2D-valokuvia Spatial-valokuviksi paikallisesti laitteessa, videoita varten voit käyttää puhelimen PICO-sovellusta videoiden muuntamiseen Spatial-videoiksi.
 
 Pico on yhteensopiva iPhone 16:lla tai Apple Vision Pro -laitteella otettujen kuvien kanssa.
-
-Translated with DeepL.com (free version)
 
 #### High Power USB OTG
 
@@ -363,8 +361,8 @@ Mutta kun pelit tukevat Picoa, kuten VRChat tai Blade & Sorcery, natiivin integr
 
 Pelaaminen syrjään, Mielestäni suurin väärinkäsitys Pico 4 Ultra on, että se ei ole vain *pelilaite* se loistaa tuottavuudessa ansiosta se on vaikuttava moniajo-ominaisuuksia ja sen myös todella suuri viihde kiitos widevine L1 todistus palvelut kuten Netflix, Hulu ja Amazon Prime toimii valmiiksi, mikä tarkoittaa, että voit nauttia kaikki sarjat ja elokuvat laitteessa helposti.
 
-Väittäisin, että Pico 4 Ultra on tinkerers unelma, kun se tulee Android-pohjainen Standalone-kuulokkeet, Pico OS on erittäin avoin ja hyvin optimoitu järjestelmä, joka todella tekee sinusta arvostaa käyttämällä järjestelmää, voit kertoa kehittäjät, jotka työskentelevät järjestelmän, todella käyttää omaa tuotettaan sen sijaan, että vain kaivaa nenänsä.
-Minun on kuitenkin sanottava, että en suosittele tätä kuuloketta MixedVR-asetelmiin, kuten Lighthouse-laitteiden ja Pico-kuulokkeiden sekoittamiseen, se on kauhea kokemus ja kyllä sinulla ei ole hyvää kokemusta. Mutta jos käytät PCVR streamingia ilman mitään outoja asetelmia, se on hyvin tavallinen langaton kokemus ilman paljon valituksia.
+Väittäisin, että Pico 4 Ultra on tinkerers unelma, kun se tulee Android-pohjainen Standalone-laite, Pico OS on erittäin avoin ja hyvin optimoitu järjestelmä, joka todella tekee sinusta arvostaa käyttämällä järjestelmää, voit kertoa kehittäjät, jotka työskentelevät järjestelmän, todella käyttää omaa tuotettaan sen sijaan, että vain kaivaa nenänsä.
+Minun on kuitenkin sanottava, että en suosittele tätä kuuloketta MixedVR-asetelmiin, kuten Lighthouse-laitteiden ja Pico-laitteen sekoittamiseen, se on kauhea kokemus ja kyllä sinulla ei ole hyvää kokemusta. Mutta jos käytät PCVR streamingia ilman mitään outoja asetelmia, se on hyvin tavallinen langaton kokemus ilman paljon valituksia.
 
 Olen myös vaikuttunut laitteen spatiaalisista ominaisuuksista; läpivienti, spatiaalisten videoiden ja valokuvien katselu sekä spatiaalisen sisällön tallentaminen. Se tarjoaa niin erilaisen kokemuksen median katselusta, että kun sen kerran kokee, on vaikea palata vanhaan tylsään 2D:hen, mutta valitettavasti sisältöä ei ole paljon tarjolla.
 
