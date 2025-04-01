@@ -70,9 +70,9 @@ Pico 4 Ultra -laitteen seuranta on sekalainen, ja suorituskyky on joskus pettymy
 
 ### Headset
 
-se ei oikein toimi hämärässä, mikä on todella ongelma tietyissä olosuhteissa, se voi myös toimia huonosti puhtaissa ympäristöissä, koska seuranta-algoritmi hyötyy kohinasta (ainutlaatuiset kuviot, arvaamattomuus, kohina jne.).
+se ei oikein toimi hämärässä, mikä on todella ongelma tietyissä olosuhteissa, se voi myös toimia huonosti puhtaissa ympäristöissä, koska seuranta-algoritmi hyötyy kohinasta (ainutlaatuiset kuviot, arvaamattomuus, jne.).
 
-Seurannassa on paljon jitteriä, mikä tekee siitä yhteensopimattoman OpenVR-SpaceCalibratorin kanssa, kilometritietosi voivat vaihdella useiden tekijöiden mukaan, henkilökohtaisen kokemukseni mukaan, kun käytät Index-ohjaimien kanssa, sijainti muuttuu jatkuvasti, sinun on käytettävä Continious Tracking -seurantaa, mutta jopa Pico-seurannassa on offset, joka voi ärsyttää joitakin ihmisiä.
+Seurannassa on paljon jitteriä, mikä tekee siitä yhteensopimattoman OpenVR-SpaceCalibratorin kanssa, vakaus voi vaihdella useiden tekijöiden mukaan, henkilökohtaisen kokemukseni mukaan, kun käytät Index-ohjaimien kanssa, sijainti muuttuu jatkuvasti, sinun on käytettävä Continious Tracking -seurantaa, mutta jopa Pico-seurannassa on offset, joka voi ärsyttää joitakin ihmisiä.
 
 ### Ohjaimet
 
@@ -149,7 +149,7 @@ Kaiuttimet antavat hyvän 3D-äänituntuman, joka kuulostaa todella hyvältä, k
 
 #### Mikrophooni
 
-Pico 4 Ultra -puhelimessa on kaksoismikrofoniryhmä, joka on sijoitettu suoraan suusi päälle, jotta äänesi kuulostaa selkeältä.
+Pico 4 Ultra -laitteessa on mikrofoniryhmä, joka on sijoitettu suoraan suusi päälle, jotta äänesi kuulostaa selkeältä.
 
 <!-- a microphone test here -->
 
@@ -167,7 +167,7 @@ Olen huomannut, että ulkokäytössä läpivientitarkkuus ei ole hyvä, kun etsi
 
 ### Suorityskyky
 
-Pico 4 Ultra -näytön suorituskyky on loistava, voin pelata vaativia itsenäisiä pelejä erittäin uskollisesti ja frametime ja framerate ovat tasaisia, laite ei ole liian äänekäs tai kuuma hyvin harkitun lämpösuunnittelun ansiosta.
+Pico 4 Ultra -näytön suorituskyky on loistava, voin pelata vaativia pelejä myös frametime ja framerate ovat tasaisia, laite ei ole liian äänekäs tai kuuma hyvin harkitun lämpösuunnittelun ansiosta.
 
 Se tarjoaa myös suorituskykyisen kokemuksen Android-sovelluksille, joiden avulla voit ajaa useita vaativia sovelluksia, asetuksissa on mahdollisuus asettaa ympäristön visuaalinen selkeys tai 2D-sovellusten suorituskyvyn lisääminen etusijalle.
 
@@ -183,7 +183,7 @@ Voit myös säätää VR-sovellusten suorituskykyä Kehittäjäasetusten kautta,
 
 #### OOBE (Out-of-box experience)
 
-Pico 4 Ultra ei pakota tili- tai pilvipalveluja laitteen toimintaan, mutta kun käynnistät laitteen ensimmäisen kerran, se kysyy sinulta muutamia asioita: Kieli, IPD ja suostumuksesi analytiikan keräämiseen, jonka voi tietysti kieltäytyä.
+Pico 4 Ultra ei pakota tiliä tai pilvipalveluja laitteen toimintaan, mutta kun käynnistät laitteen ensimmäisen kerran, se kysyy sinulta muutamia asioita: Kieli, IPD ja suostumuksesi analytiikan keräämiseen, jonka voi tietysti kieltäytyä.
 
 Kun alkuasetukset on tehty, voit valinnaisesti kirjautua sisään tai luoda tilin käyttääksesi lisätoimintoja, kuten Pico Storea.
 
@@ -223,7 +223,7 @@ Yhteisön ansiosta voit kuitenkin nyt ladata laajan valikoiman mukautettuja ymp�
 
 Pico 4 Ultrassa on ensimmäisen osapuolen tuki Android-sovelluksille, joten voit ladata Aurora Storen ja asentaa esimerkiksi Discordin, Twitchin tai Netflixin suoraan laitteeseen Google Playsta, mikä tekee laitteesta erinomaisen sisällönkulutukseen.
 
-Sovellusten orientaatiota ei kuitenkaan ole toistaiseksi mahdollista muuttaa, joten jos sinulla on sovellus, joka ei kunnioita maisematilaa, se voi näyttää hieman oudolta Picon näytössä.
+Sovellusten orientaatiota ei kuitenkaan ole toistaiseksi mahdollista muuttaa, joten jos sinulla on sovellus, joka ei kunnioita tablettitilaa, se voi olla väärässä asetellussa mikä voi näyttää höpsöltä.
 
 <div align="center">
   <video loop autoplay muted>
