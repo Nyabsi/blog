@@ -191,7 +191,7 @@ Ilman tiliä osa käyttöjärjestelmäkokemuksesta voi kuitenkin olla rajoitettu
 
 #### Kehittäjä tila
 
-Kehittäjätila voidaan ottaa käyttöön Asetukset -> Tietoja -> Ohjelmistoversio ja napsauttamalla sitä muutaman kertaa.
+Kehittäjätila voidaan ottaa käyttöön Asetukset -> Tietoja -> Ohjelmistoversio ja napsauttamalla sitä muutaman kertaan.
 
 Kehittäjätilan avulla saat käyttöösi lisäominaisuuksia, kun laite on kytketty tietokoneeseen USB-vianmäärityksen avulla.
 
