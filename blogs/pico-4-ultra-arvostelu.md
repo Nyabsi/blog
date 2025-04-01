@@ -21,11 +21,11 @@ Aloitetaan teknisistä tiedoista, en kyllästytä sinua teknisillä yksityiskohd
 
 Pico 4 Ultrassa on Pancake-linssit, jotka ovat tunnettuja niiden parantuneesta kuvan kirkkaudesta verrattuna Fresnel-linsseihin, mutta niillä on kuitenkin tehokkuuden haittapuoli, jopa Pico 4 Ultra LCD-paneeleineen pystyy parhaimmillaan vain 25 prosentin valotehokkuuteen, mikä tekee optiikasta hyvin hämärän verrattuna vaihtoehtoihin.
 
-Pico 4 Ultran käyttämässä optiikassa on hämmästyttävä binokulaarinen päällekkäisyys, jonka olen mitannut johdonmukaisesti yli 90 %:ksi käyttämällä [wimfov](https://boll.itch.io/wimfov) ja jonka näkökenttä on noin 102 sekä vaaka- että pystysuunnassa, mikä on vaikuttavaa.
+Pico 4 Ultran käyttämässä optiikassa on hyvä binokulaarinen päällekkäisyys, jonka olen mitannut johdonmukaisesti yli 90 %:ksi käyttämällä [wimfov](https://boll.itch.io/wimfov) ja jonka näkökenttä on noin 102 sekä vaaka- että pystysuunnassa, mikä on vaikuttavaa.
 
 <!-- wimfov measurement image here -->
 
-Pico 4 Ultran kirkkautta on parannettu edeltäjäänsä Pico 4:ään verrattuna, jonka kirkkaus on parantunut jopa 25 prosenttiin, mikä tekee Pico 4 Ultrasta mukavan kirkkaan, mutta se on silti puutteellinen verrattuna muihin kokeilemiini laitteisiin.
+Pico 4 Ultran kirkkautta on parannettu edeltäjäänsä Pico 4:ään verrattuna, jonka kirkkaus on parantunut jopa 25 prosenttiin, mikä tekee Ultrasta mukavan kirkkaan, mutta se on silti puutteellinen verrattuna muihin kokeilemiini laitteisiin.
 
 Vaikka Pico 4 Ultralla on kohtuullisen suuri sweetspot, jossa en löydä vikaa, sillä ei ole parasta E2EC:tä (Edge to Edge Clarity) Näen jonkin verran epätarkkuutta viimeisessä 5%:ssa ulommasta näkyvästä FoV:stä näkökentässäni, jota en pidä yhtä ärsyttävänä.
 
@@ -52,7 +52,7 @@ Pico 4 Ultra käyttää Snapdragon XR2 Gen 2:ta, jossa on asianmukainen lämpör
 
 laitteessa on 12 gigatavua RAM-muistia, mikä tarkoittaa, että kehittäjillä on enemmän resursseja kokemustensa rakentamiseen, mikä voi esimerkiksi mahdollistaa entistä uskollisemmat tekstuurit.
 
-laitteessa on 256 Gt sisäänrakennettua UFS 3.2 -tallennustilaa, joka riittää Super Mario 64:n 32 768 kertaa mahtumiseen laitteeseen.
+laitteessa on 256 Gt sisäänrakennettua UFS 3.2 -tallennustilaa, joka riittää Super Mario 64:n 32,768 kertaa mahtumiseen laitteeseen.
 
 ### Paino
 
@@ -66,7 +66,7 @@ Kumpikin ohjain painaa noin 166 grammaa.
 
 ## Seuranta
 
-Pico 4 Ultra -laitteen seuranta on sekalainen, ja suorituskyky on joskus pettymys, mutta meidän on tarkasteltava kokonaisuutta, jotta voimme tehdä johtopäätöksen.
+Pico 4 Ultra -laitteen seuranta on hyväksyttävä, ja suorituskyky on joskus pettymys, mutta meidän on tarkasteltava kokonaisuutta, jotta voimme tehdä johtopäätöksen.
 
 ### Headset
 
@@ -191,7 +191,7 @@ Ilman tiliä osa käyttöjärjestelmäkokemuksesta voi kuitenkin olla rajoitettu
 
 #### Kehittäjä tila
 
-Kehittäjätila voidaan ottaa käyttöön Asetukset -> Tietoja -> Ohjelmistoversio ja napsauttamalla sitä seitsemän kertaa.
+Kehittäjätila voidaan ottaa käyttöön Asetukset -> Tietoja -> Ohjelmistoversio ja napsauttamalla sitä muutaman kertaa.
 
 Kehittäjätilan avulla saat käyttöösi lisäominaisuuksia, kun laite on kytketty tietokoneeseen USB-vianmäärityksen avulla.
 
@@ -253,7 +253,7 @@ Vapaan sijainnin ikkunan nykyisessä toteutuksessa on parantamisen varaa, koska 
 
 #### Näytönkappaus
 
-Pico 4 Ultralla voit tallentaa materiaalia kolmessa eri muodossa: Raaka, monoskooppinen, spatiaalinen.
+Pico 4 Ultralla voit tallentaa materiaalia kolmessa eri muodossa: Raw, Monoscopic, Spatial.
 
 Tuetut resoluutiot ovat 1920x1080 tai 720x1280 kuvasuhteella 1:1 tai 16:9.
 
