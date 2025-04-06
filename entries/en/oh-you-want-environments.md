@@ -1,11 +1,15 @@
 ---
 outline: deep
+
+# disable navigation
+prev: false
+next: false
 ---
 
-# Oh, you want environments?
-
 > [!NOTE]
-> You can read this [here](/blogs/ai-teemoja-vai.html) in Finnish.
+> You can read this [here](/entries/fi/ai-teemoja-vai.html) in Finnish.
+
+# Understanding internals of PicoOS environments
 
 Recently I purchased a new gadget last year December, the Pico 4 Ultra virtual reality glasses, which had released in August of 2024. I like the device in many aspects, but the lack of ability to create or use custom themes was not there, I thought it would be a fun challenge.
 
@@ -13,7 +17,7 @@ That in mind, I decided to take on the challenge so I spent some time time figur
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/virtual_environment.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/pico_environments/virtual_environment.mp4" type="video/mp4">
   </video>
   <p>Fig 1: Video showcasing the Pico Environment Selection</p>
 </div>
@@ -36,7 +40,7 @@ go to Settings -> About -> Software Version (click 7 times)
 and new Tab called "Developer" appeared which allowed me to enable "USB Debug" that enables ADB debugging.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/pico_developer.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/pico_environments/images/pico_developer.jpg"/>
   <p>Fig 2: Developer Mode</p>
 </div>
 
@@ -244,7 +248,7 @@ adb shell settings put global current_scene /assets/scene/[Name]/Scene_[Name]_1_
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/custom_theme.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/pico_environments/custom_theme.mp4" type="video/mp4">
   </video>
   <p>Fig 3: Unity Default scene theme loaded on Pico</p>
 </div>
@@ -263,7 +267,7 @@ So instead I decided to replicate the functionality of the official software wit
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/pico_theme_manager.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/pico_environments/pico_theme_manager.mp4" type="video/mp4">
   </video>
   <p>Fig 4: PicoThemeManager</p>
 </div>

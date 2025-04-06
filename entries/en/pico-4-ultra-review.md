@@ -1,8 +1,12 @@
 ---
 outline: deep
+
+# disable navigation
+prev: false
+next: false
 ---
 
-# Pico 4 Ultra: So close, yet so far
+# Pico 4 Ultra: The Budget Apple Vision Pro
 
 
 > [!NOTE]
@@ -101,7 +105,7 @@ It can track your fingers pretty reliably if you aren't doing less common gestur
 The Pico 4 Ultra controllers are different from Pico 4 controllers, the missing tracking ring is the most obvious part.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_controllers.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/pico_controllers.jpg"/>
 </div>
 
 ### Layout
@@ -131,7 +135,7 @@ I could wear the device for few hours til my forehead started feeling too much p
 They do also provide a glasses space in the box, which lets users with glasses wear the headset more comfortably.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico4ultra.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/pico4ultra.jpg"/>
   <p>My modified Pico 4 Ultra for extended comfort</p>
 </div>
 
@@ -178,7 +182,7 @@ The performance of the Pico 4 Ultra is great, I can play demanding standalone ga
 It also does provide performant experience for Android applications which lets you run multiple demanding applications, in the settings you have option to prioritize the visual clarity of the environment or increased performance for 2D applications.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_performance_tuner.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/pico_performance_tuner.jpg"/>
 </div>
 
 <br/>
@@ -205,7 +209,7 @@ You may also use Developer Mode for performance profiling and performance tweaki
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_developer_mode.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_developer_mode.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -217,7 +221,7 @@ The Pico 4 Ultra contains four exclusive high quality virtual environments with 
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_environments.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_environments.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -233,7 +237,7 @@ However, it is not possible as of right now, to change the orientation of applic
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_android_apps.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_android_apps.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -247,7 +251,7 @@ Pico 4 Ultra provides a flexible Window Management system called "PanoScreen" th
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_window_management.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_window_management.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -268,7 +272,7 @@ Screen Capture captures everything visible on the screen including passthrough.
 unique feature of Pico 4 Ultra is it's capability to take Spatial images and videos captures through Screen Capture
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/screen_capture_settings.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/screen_capture_settings.jpg"/>
 </div>
 
 <br/>
@@ -291,7 +295,7 @@ PICO Connect supports streaming up to 3 monitors, and if you only have one, two 
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_virtual_monitors.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_virtual_monitors.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -316,7 +320,7 @@ Pico is compatible with images taken with iPhone 16 or the Apple Vision Pro.
 The Pico 4 Ultra supports High Power USB OTG which allows you to use more demanding peripherals such as external SSD.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/highpower_otg.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/highpower_otg.jpg"/>
 </div>
 
 </br>
@@ -326,7 +330,7 @@ The Pico 4 Ultra supports High Power USB OTG which allows you to use more demand
 The Pico Motion Trackers are affordable Full Body Tracking solution which uses combination of IR-Constellation for calibration & drift correction and IMU with a machine learning model for pose prediction, it can track 24 joints of human body.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_motion_trackers.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/pico_motion_trackers.jpg"/>
 </div>
 
 </br>

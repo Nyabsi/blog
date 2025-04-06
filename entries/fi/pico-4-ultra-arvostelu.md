@@ -1,5 +1,9 @@
 ---
 outline: deep
+
+# disable navigation
+prev: false
+next: false
 ---
 
 # Pico 4 Ultra: Melkein, mutta ei kuiteskaan
@@ -95,7 +99,7 @@ Se pystyy seuraamaan sormiasi melko luotettavasti, jos et tee harvinaisempia ele
 Pico 4 Ultra -ohjaimet eroavat Pico 4 -ohjaimista, puuttuva seurantarengas on ilmeisin osa.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_controllers.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/pico_controllers.jpg"/>
 </div>
 
 ### Näppäinasettelu
@@ -125,7 +129,7 @@ Pystyin käyttämään laitetta muutaman tunnin ajan, kunnes otsani alkoi tuntea
 Laatikossa on myös silmälasitila, jonka ansiosta silmälasien käyttäjät voivat käyttää laitetta mukavammin.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico4ultra.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/pico4ultra.jpg"/>
   <p>Minun muokattu Pico 4 Ultra laajennettua mukavuutta varten</p>
 </div>
 
@@ -172,7 +176,7 @@ Pico 4 Ultra -näytön suorituskyky on loistava, voin pelata vaativia pelejä my
 Se tarjoaa myös suorituskykyisen kokemuksen Android-sovelluksille, joiden avulla voit ajaa useita vaativia sovelluksia, asetuksissa on mahdollisuus asettaa ympäristön visuaalinen selkeys tai 2D-sovellusten suorituskyvyn lisääminen etusijalle.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_performance_tuner.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/pico_performance_tuner.jpg"/>
 </div>
 
 <br/>
@@ -199,7 +203,7 @@ Voit myös käyttää Kehittäjätilaa suorituskyvyn profilointiin ja suoritusky
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_developer_mode.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_developer_mode.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -211,7 +215,7 @@ Pico 4 Ultra sisältää neljä korkealaatuista virtuaalista ympäristöä, jois
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_environments.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_environments.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -227,7 +231,7 @@ Sovellusten orientaatiota ei kuitenkaan ole toistaiseksi mahdollista muuttaa, jo
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_android_apps.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_android_apps.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -241,7 +245,7 @@ Pico 4 Ultra tarjoaa joustavan ikkunanhallintajärjestelmän nimeltä ”PanoScr
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_window_management.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_window_management.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -262,7 +266,7 @@ Screen Capture kaappaa kaiken näytöllä näkyvän, mukaan lukien passthrough.
 Pico 4 Ultran ainutlaatuisena ominaisuutena on sen kyky ottaa spatiaalisia kuvia ja videoita Screen Capturen avulla.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/screen_capture_settings.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/screen_capture_settings.jpg"/>
 </div>
 
 <br/>
@@ -285,7 +289,7 @@ PICO Connect tukee suoratoistoa jopa kolmesta näytöstä, ja jos sinulla on vai
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/p4u_review/pico_virtual_monitors.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/p4u_review/pico_virtual_monitors.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -310,7 +314,7 @@ Pico on yhteensopiva iPhone 16:lla tai Apple Vision Pro -laitteella otettujen ku
 Pico 4 Ultra tukee High Power USB OTG:tä, jonka avulla voit käyttää vaativampia oheislaitteita, kuten ulkoista SSD-levyä.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/highpower_otg.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/highpower_otg.jpg"/>
 </div>
 
 </br>
@@ -320,7 +324,7 @@ Pico 4 Ultra tukee High Power USB OTG:tä, jonka avulla voit käyttää vaativam
 Pico Motion Trackerit ovat kohtuuhintaisia kokovartaloseurantaratkaisuja, jotka käyttävät kalibrointiin ja ajelehtimisen korjaamiseen IR-Constellationin ja IMU:n yhdistelmää, jossa on koneoppimisen malli asennon ennustamiseen, ja ne voivat seurata 24 ihmiskehon niveltä.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/p4u_review/pico_motion_trackers.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/p4u_review/pico_motion_trackers.jpg"/>
 </div>
 
 </br>

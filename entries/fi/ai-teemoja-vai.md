@@ -1,5 +1,9 @@
 ---
 outline: deep
+
+# disable navigation
+prev: false
+next: false
 ---
 
 # Ai, teemoja vai?
@@ -10,7 +14,7 @@ Tämä mielessä, päätin ottaa haasteen vastaan, joten vietin jonkin aikaa sel
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/virtual_environment.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/pico_environments/virtual_environment.mp4" type="video/mp4">
   </video>
   <p>Fig 1: Video showcasing the Pico Environment Selection</p>
 </div>
@@ -33,7 +37,7 @@ Mene kohtaan Asetukset -> Tietoja -> Ohjelmistoversio (klikkaa 7 kertaa).
 ja uusi välilehti nimeltä ”Developer” ilmestyi, jonka avulla voit ottaa käyttöön ”USB Debug” joka mahdollistaa ADB-vianmäärityksen.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/pico_developer.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/pico_environments/pico_developer.jpg"/>
   <p>Fig 2: Kehittäjätila</p>
 </div>
 
@@ -241,7 +245,7 @@ adb shell settings put global current_scene /assets/scene/[Nimi]/Scene_[Nimi]_1_
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/custom_theme.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/pico_environments/custom_theme.mp4" type="video/mp4">
   </video>
   <p>Fig 3: Unity Default scene -teema ladattuna Picoon</p>
 </div>
@@ -260,7 +264,7 @@ Sen sijaan päätin kopioida virallisen ohjelmiston toiminnallisuuden tekemäll�
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/pico_theme_manager.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/pico_environments/pico_theme_manager.mp4" type="video/mp4">
   </video>
   <p>Fig 4: PicoThemeManager</p>
 </div>

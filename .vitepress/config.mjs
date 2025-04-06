@@ -7,30 +7,39 @@ const hostname = 'https://blog.sovellus.cc'
 
 export default defineConfig({
   base: '/',
-  title: "Nyabsi's Blog",
-  description: "A blog where I dump my thoughts when I feel like it.",
+  title: "Nyabsi's Diary",
+  description: "Thoughts, Reverse Engineering, Spatial Computing, Virtual Reality and Programming!",
   themeConfig: {
-    nav: [
-      { text: 'About', link: '/' },
-    ],
-
+    nav: [],
     sidebar: [
       {
-        text: 'Blogs',
+        text: 'Ramblings',
         items: [
-          { text: 'Make it, if it\'s so easy.', link: '/blogs/make-it-if-its-so-easy' },
-          { text: 'Oh, you want environments? ', link: '/blogs/oh-you-want-environments' },
-          { text: 'Why do I use a Vive Pro in 2025?', link: '/blogs/why-do-i-use-vive-pro-in-2025' },
-          { text: 'Pico 4 Ultra: So close, yet so far ', link: '/blogs/pico-4-ultra-review' }
+          { text: 'Make it, if it\'s so easy.', link: '/entries/en/make-it-if-its-so-easy' },
+          { text: 'Why do I use a Vive Pro in 2025?', link: '/entries/en/why-do-i-use-vive-pro-in-2025' }
+        ]
+      },
+      {
+        text: 'Projects',
+        items: [
+          { text: 'Understanding internals of PicoOS environments', link: '/entries/en/oh-you-want-environments' }
+        ]
+      },
+      {
+        text: 'Reviews',
+        items: [
+          { text: 'Pico 4 Ultra: The Budget Apple Vision Pro', link: '/entries/en/pico-4-ultra-review' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Nyabsi' }
+      { icon: 'github', link: 'https://github.com/Nyabsi' },
+      { icon: 'kofi', link: 'https://ko-fi.com/nyabsi' }
     ]
   },
   buildEnd: async (config) => {
+    /*
     const feed = new Feed({
       title: 'Nyabsi\'s Blog',
       description: 'A blog where I dump my thoughts when I feel like it.',
@@ -71,5 +80,6 @@ export default defineConfig({
     }
   
     writeFileSync(path.join(config.outDir, 'feed.rss'), feed.rss2())
+    */
   }
 })

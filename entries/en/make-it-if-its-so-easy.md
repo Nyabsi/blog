@@ -1,5 +1,9 @@
 ---
 outline: deep
+
+# disable navigation
+prev: false
+next: false
 ---
 
 # Make it, if it's so easy.

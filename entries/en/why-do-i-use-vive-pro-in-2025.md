@@ -1,5 +1,9 @@
 ---
 outline: deep
+
+# disable navigation
+prev: false
+next: false
 ---
 
 # Why do I use a Vive Pro in 2025?
@@ -32,7 +36,7 @@ Vive Pro has Fresnel lenses that are not that great, the clarity is heavily redu
 Which I've replaced with the GearVR optical lenses for enchanced clarity.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/lensshot.jpg" width="80%" height="80%"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/vp1_ramble/images/lensshot.jpg" width="80%" height="80%"/>
   <p>Picture: My Vive Pro lenses, Source: Me</p>
 </div>
 
@@ -54,7 +58,7 @@ The passthrough boasts a whopping 640x480 stereo camera which is not great, it c
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/passthrough_vp1.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/vp1_ramble/videos/passthrough_vp1.mp4" type="video/mp4">
   </video>
   <p>Video: Vive Pro Passthrough in action, Source: Me</p>
 </div>

@@ -1,5 +1,9 @@
 ---
 outline: deep
+
+# disable navigation
+prev: false
+next: false
 ---
 
 # Miksi käytän Vive Pro Virtuaalitodellisuus laseja vuonna 2025?
@@ -29,7 +33,7 @@ Vive Prossa on Fresnel-linssit, jotka eivät ole kovin hyviä, selkeys on heiken
 Jonka olen korvannut GearVR:n optisilla linsseillä, jotka parantavat selkeyttä.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/images/lensshot.jpg" width="80%" height="80%"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/vp1_ramble/lensshot.jpg" width="80%" height="80%"/>
   <p>Picture: My Vive Pro lenses, Source: Me</p>
 </div>
 
@@ -51,7 +55,7 @@ Läpinäkymä ylpeilee huikealla 640x480 stereokameralla, joka ei ole suuri, sit
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/videos/passthrough_vp1.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/vp1_ramble/passthrough_vp1.mp4" type="video/mp4">
   </video>
   <p>Video: Vive Pro Passthrough in action, Source: Me</p>
 </div>
