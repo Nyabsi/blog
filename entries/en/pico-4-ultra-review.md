@@ -6,13 +6,10 @@ prev: false
 next: false
 ---
 
-# Pico 4 Ultra: The Budget Apple Vision Pro
-
-
 > [!NOTE]
-> You can read this [here](/blogs/pico-4-ultra-arvostelu.html) in Finnish.
+> You can read this [here](/entries/fi/pico-4-ultra-arvostelu.html) in Finnish.
 
-<br/>
+# Pico 4 Ultra: The Budget Apple Vision Pro
 
 <!-- Banner image here-->
 

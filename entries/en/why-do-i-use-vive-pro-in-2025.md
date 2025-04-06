@@ -6,10 +6,10 @@ prev: false
 next: false
 ---
 
-# Why do I use a Vive Pro in 2025?
-
 > [!NOTE]
-> You can read this [here](/blogs/miksi-kaytan-vive-pro-laseja-vuonna-2025.html) in Finnish.
+> You can read this [here](/entries/fi/miksi-kaytan-vive-pro-laseja-vuonna-2025.html) in Finnish.
+
+# Why do I use a Vive Pro in 2025?
 
 In 2016, the first Virtual Reality devices (Oculus Rift, HTC Vive) were commercialized for the consumer market, such devices were marketed towards entertainment. These devices boasted specifications that for the first time in history made Virtual Reality actually enjoyable and immersive experience.
 
