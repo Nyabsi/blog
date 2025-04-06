@@ -36,7 +36,7 @@ Vive Pro has Fresnel lenses that are not that great, the clarity is heavily redu
 Which I've replaced with the GearVR optical lenses for enchanced clarity.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/vp1_ramble/images/lensshot.jpg" width="80%" height="80%"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/vp1_ramble/lensshot.jpg" width="80%" height="80%"/>
   <p>Picture: My Vive Pro lenses, Source: Me</p>
 </div>
 

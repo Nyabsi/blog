@@ -40,7 +40,7 @@ go to Settings -> About -> Software Version (click 7 times)
 and new Tab called "Developer" appeared which allowed me to enable "USB Debug" that enables ADB debugging.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/pico_environments/images/pico_developer.jpg"/>
+  <img src="https://raw.githubusercontent.com/Nyabsi/blog/refs/heads/main/static/images/pico_environments/pico_developer.jpg"/>
   <p>Fig 2: Developer Mode</p>
 </div>
 
