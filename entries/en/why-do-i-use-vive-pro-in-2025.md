@@ -58,7 +58,7 @@ The passthrough boasts a whopping 640x480 stereo camera which is not great, it c
 
 <div align="center">
   <video loop autoplay muted>
-    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/vp1_ramble/videos/passthrough_vp1.mp4" type="video/mp4">
+    <source src="https://github.com/Nyabsi/blog/raw/refs/heads/main/static/videos/vp1_ramble/passthrough_vp1.mp4" type="video/mp4">
   </video>
   <p>Video: Vive Pro Passthrough in action, Source: Me</p>
 </div>
