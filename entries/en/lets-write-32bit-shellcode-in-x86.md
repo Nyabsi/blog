@@ -524,7 +524,7 @@ cleanup:
     xor edi, edi
 ```
 
-### Chapter 6: Final words
+## Chapter 6: Final words
 
 This was an interesting journey of learning more about OS internals and how to write position-independent code.
 
