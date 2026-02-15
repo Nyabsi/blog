@@ -156,7 +156,7 @@ Take the relative virtual address from `DataDirectory` and convert it to a virtu
 PIMAGE_EXPORT_DIRECTORY exportDirectory = reinterpret_cast<PIMAGE_EXPORT_DIRECTORY>((reinterpret_cast<BYTE*>(modlib) + dataDirectory.VirtualAddress));
 ```
 
-Now that we have a valid address`` we should loop through each function export and try to match LoadLibraryA.
+Now that we have a valid address `exportDirectory` we should loop through each function export and try to match LoadLibraryA.
 
 ```c
 DWORD* AddressOfNames = reinterpret_cast<DWORD*>(
@@ -349,8 +349,7 @@ And this would invoke the function correctly.
 
 ## Chapter 5: Putting it all together
 
-Now that we understand the individual concepts, we can stick everything together to build a final code.
-
+Now that we have all the building blocks, let's assemble the final code to execute `calc` through `ShellExecuteA` from our shellcode:
 
 ```asm
     mov eax, fs: [0x30]             ; Process Information Block
@@ -524,7 +523,7 @@ cleanup:
     xor edi, edi
 ```
 
-## Chapter 6: Final words
+### Chapter 6: Final words
 
 This was an interesting journey of learning more about OS internals and how to write position-independent code.
 
