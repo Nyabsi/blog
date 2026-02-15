@@ -296,8 +296,6 @@ If this was `__cdecl` we would have to add `+4` because the caller is responsibl
     add esp, 16
 ```
 
-But since 32-bit uses `__stdcall` we do not have to worry about this.
-
 ## Chapter 4: Pushing Stack
 
 Let's say we have `ShellExecuteA` which has the following API definition:
