@@ -22,7 +22,8 @@ export default defineConfig({
       {
         text: 'Projects',
         items: [
-          { text: 'Understanding internals of PicoOS environments', link: '/entries/en/oh-you-want-environments' }
+          { text: 'Understanding internals of PicoOS environments', link: '/entries/en/oh-you-want-environments' },
+          { text: 'Let\'s write 32-bit shellcode in x86!', link: '/entries/en/lets-write-32bit-shellcode-in-x86' }
         ]
       },
       {
