@@ -351,17 +351,11 @@ And this would invoke the function correctly.
 
 Now that we understand the individual concepts, we can stick everything together to build a final code.
 
-### 1. Get a list of modules from PEB loaderData
 
 ```asm
     mov eax, fs: [0x30]             ; Process Information Block
     mov eax, [eax + 0xC]            ; PEB->Ldr
     lea edi, [eax + 0x14]           ; PEB->Ldr->InMemoryOrderModuleList
-```
-
-### 2. Loop through InMemoryOrderModuleList til we find KERNEL32.dll
-
-```asm
     mov esi, [edi]                  ; Flink
 loop_til_kernel32_found:
     cmp esi, edi                    ; current != head
@@ -386,11 +380,7 @@ found_kernel32:
     
     mov edx, [ebx + 0x78]           ; OptionalHeader->DataDirectory[0]
     add edx, eax                    ; RVA -> VA
-```
 
-### 3. Iterate through IMAGE_DIRECTORY_ENTRY_EXPORT from KERNEL32.dll to find LoadLibrary and resolve the address
-
-```asm
     mov ebx, [edx + 0x18]           ; NumberOfNames
     dec ebx
 
@@ -429,11 +419,7 @@ loadlibrary_found:
 
     mov ecx, [esi + edi * 4]
     add ecx, eax
-```
 
-### 4. Use the LoadLibrary function to resolve SHELL32.dll base address
-
-```asm
     sub esp, 12
     mov byte ptr [esp], 0x73
     mov byte ptr [esp + 1], 0x68
@@ -456,11 +442,7 @@ loadlibrary_found:
     add esp, 12
     test eax, eax
     jz cleanup
-```
 
-### 5. Iterate through IMAGE_DIRECTORY_ENTRY_EXPORT from SHELL32.dll to find ShellexecuteA and resolve the address
-
-```asm
     mov ebx, [eax + 0x3C]
     add ebx, eax
 
@@ -507,11 +489,7 @@ shellexecute_found :
     add esi, eax
     mov ecx, [esi + edi * 4]
     add ecx, eax
-```
 
-### 6. invoke ShellExecuteA
-
-```asm
     sub esp, 10
     mov byte ptr [esp], 0x6F
     mov byte ptr [esp + 1], 0x70
@@ -536,11 +514,7 @@ shellexecute_found :
     push 0                          ; hwnd
     call ecx
     add esp, 10
-```
 
-### 7. Cleanup registers
-
-```asm
 cleanup:
     xor eax, eax
     xor ebx, ebx
@@ -557,5 +531,3 @@ This was an interesting journey of learning more about OS internals and how to w
 However, my implementation is far from perfect, it is the result of two days of experimentation and it's not intended to work on all environments.
 
 It has been tested and ran on Windows 11 but I cannot guarantee it working on any other system.
-
-If you want to see the full code, you can do it at https://gist.github.com/Nyabsi/e3d279fa1b544df8bc7ca7e7de62eba2
