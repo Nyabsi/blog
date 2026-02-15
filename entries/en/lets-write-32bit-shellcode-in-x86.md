@@ -8,27 +8,18 @@ next: false
 
 # Let's write 32-bit shellcode in x86!
 
-For a long time, I've been intrigued by computers, that's why I enjoy working with low-level languages such as C and C++.
+For a long time, I've been intrigued by computers; that's why I enjoy working with low-level languages such as C++. But I came to the realization that I am actually just still programming with interfaces such as the Win32 API.
 
-But I came to the realization that, I am actually just still programming with interfaces such as the Win32 API.
-
-So, I begun looking at how does `LoadLibraryA` work internally or how does an program resolvelibrary exports from them.
-
-This is where I stumpled eventually upon the concept of position-independent code (PIC) what this means, it's code that can execute from memory regardless of its current position.
-
-It comes with restrictions such as not being able to use dynamic linking or dynamic addressing.
+So, I began looking at how LoadLibraryA works internally or how a program resolves library exports from them. This is where I stumbled eventually upon the concept of position-independent code (PIC). What this means is it's code that can execute from memory regardless of its current position. It comes with restrictions such as not being able to use dynamic linking or dynamic addressing.
 
 ## Chapter 1: The Process Environment Block
 
-When we write position-independent code (PIC) we cannot use dynamic addressing, linking or such convinience.
+When we write position-independent code (PIC), we cannot use dynamic addressing, linking, or such conveniences.
 
-So resolving functions such as `LoadLibraryA`, `MessageBoxA` and `ShellExecuteA` becomes impossible, or does it?
+So resolving functions such as `LoadLibraryA`, `MessageBoxA` and `ShellExecuteA` becomes impossible, or does it? Lucky for us. The process environment block contains a `Ldr` (loaderData) section that imports system libraries, i.e., `NTDLL.dll` and `KERNEL32.dll`.
 
-Lucky for us. Process Environment Block contains an `Ldr` (loaderData) section which imports system libraries ie. `NTDLL.dll` and `KERNEL32.dll`.
 
-And we can parse the PE Header manually to resolve function exports from these system libraries to use Win32 API.
-
-We can access this from the FS segment register at `0x30` on x86 Win32:
+We can parse the PE header manually to resolve function exports from these system libraries to use the Win32 API. We can access this from the FS segment register at `0x30` on x86 Win32:
 
 ```asm
     mov eax, fs: [0x30]
@@ -60,24 +51,20 @@ typedef struct _PEB {
 } PEB, *PPEB;
 ```
 
-As we can see, the `Ldr` is the fifth member of the `PEB` structure, since guessing the offset is stupid, we can use a bit of C to figure out the offset:
+As we can see, the `Ldr` is the fifth member of the `PEB` structure. Since guessing the offset is stupid, we can use a bit of C to figure out the offset:
 
 ```c
 printf("PEB->Ldr: %02x\n", offsetof(PEB, Ldr));
 ```
 
-which returns:
-
-```
-PEB->Ldr: 0c
-```
-
-we can access the Ldr by dereferencing eax with the offset of `0xC`
+The result is `0c`.
 
 ```asm
     mov eax, fs: [0x30]             ; Process Information Block
     mov eax, [eax + 0xC]            ; PEB->Ldr
 ```
+
+So we can access the Ldr by dereferencing eax with the offset of `0xC`.
 
 ```c
 typedef struct _PEB_LDR_DATA {
@@ -87,8 +74,7 @@ typedef struct _PEB_LDR_DATA {
 } PEB_LDR_DATA, *PPEB_LDR_DATA;
 ```
 
-Next we do same for `InMemoryOrderModuleList` in `PEB_LDR_DATA`, once we know `Ldr` is `0xC` and `InMemoryOrderModuleList` is `0x14`. We can load the effective address of `InMemoryOrderModuleList` and iterate through it.
-
+Next we do the same for `InMemoryOrderModuleList` in `PEB_LDR_DATA`, once we know `Ldr` is `0xC` and `InMemoryOrderModuleList` is `0x14`. We can load the effective address of `InMemoryOrderModuleList` and iterate through it.
 
 ```asm
     mov eax, fs: [0x30]             ; Process Information Block
@@ -96,7 +82,7 @@ Next we do same for `InMemoryOrderModuleList` in `PEB_LDR_DATA`, once we know `L
     lea edi, [eax + 0x14]           ; PEB->Ldr->InMemoryOrderModuleList
 ```
 
-There is something to note, `LDR_DATA_TABLE_ENTRY` does not contain an entry where only the dll name is listed *officially* however it seems that `Reserved4` seems to contain an `UNICODE_STRING` which contains only the dll name ie. `NTDLL.DLL` or `KERNEL32.DLL`.
+There is something to note: `LDR_DATA_TABLE_ENTRY` does not contain an entry where only the DLL name is listed officially; however, it seems that `Reserved4` seems to contain a `UNICODE_STRING` that contains only the DLL name, i.e., `NTDLL.DLL` or `KERNEL32.DLL`.
 
 ```c
 typedef struct _LDR_DATA_TABLE_ENTRY {
@@ -117,8 +103,7 @@ typedef struct _LDR_DATA_TABLE_ENTRY {
 } LDR_DATA_TABLE_ENTRY, *PLDR_DATA_TABLE_ENTRY;
 ```
 
-
-So we use that instead and compare if the length of the `UNICODE_STRING` is 24 to find `KERNEL32.DLL` because there should never be two dlls with the same length, and due to it being unicode the actual size of the string is multiplied by two, so if `KERNEL32.DLL` is 12 characters long, our comparison is 24.
+So we use that instead and compare if the length of the `UNICODE_STRING` is 24 to find `KERNEL32.DLL` because there should never be two DLLs with the same length, and due to it being Unicode, the actual size of the string is multiplied by two, so if `KERNEL32.DLL` is 12 characters long, our comparison is 24.
 
 ```asm
     mov esi, [edi]                  ; Flink
@@ -145,9 +130,7 @@ Now that we have loaded the `DllBase` to we have to start parsing the PE header.
 
 ## Chapter 3: PE Header & Data Directories
 
-PE header can be considered the "metadata" of an file, it tells us what it embeds, where the code is located at, does it import or export libraries.
-
-by parsing this file we can get access to other Win32 functionality through KERNEL32.dll
+The PE header can be considered the "metadata" of a file; it tells us what it embeds, where the code is located, and whether it imports or exports libraries. By parsing this file, we can get access to other Win32 functionality through KERNEL32.dll.
 
 Let's walk through the process of implementing GetProcAddr from scratch:
 
@@ -167,13 +150,13 @@ MAGE_OPTIONAL_HEADER32 optionalHeader ntHeader->OptionalHeader;
 IMAGE_DATA_DIRECTORY dataDirectory = optionalHeader.DataDirectory[IMAGE_DIRECTORY_ENTRY_EXPORT];
 ```
 
-Take the relative virtual address from `DataDirectory` and convert it to virtual address.
+Take the relative virtual address from `DataDirectory` and convert it to a virtual address.
 
 ```c
 PIMAGE_EXPORT_DIRECTORY exportDirectory = reinterpret_cast<PIMAGE_EXPORT_DIRECTORY>((reinterpret_cast<BYTE*>(modlib) + dataDirectory.VirtualAddress));
 ```
 
-Now that we have an valid address to `exportDirectory` we should loop through each function export and try to match LoadLibraryA
+Now that we have a valid address`` we should loop through each function export and try to match LoadLibraryA.
 
 ```c
 DWORD* AddressOfNames = reinterpret_cast<DWORD*>(
@@ -201,9 +184,7 @@ for (int i = 0; i < exportDirectory->NumberOfNames; i++) {
 }
 ```
 
-Now that we have an reference of how this is implemented in C++ how do we implement this in assembly?
-
-Let's say that `eax = DllBase`
+Now that we have a reference of how this is implemented in C++, how do we implement this in assembly? Let's say that `eax = DllBase`.
 
 ```asm
     mov ebx, [eax + 0x3C]           ; IMAGE_DOS_HEADER e_lfanew
@@ -217,21 +198,21 @@ First we load the NT header to `ebx` by loading e_lfanew from the DOS header at 
     add edx, eax                    ; RVA -> VA
 ```
 
-Next, load `IMAGE_DIRECTORY_ENTRY_EXPORT` from `ebx` which is pointing to the NT header, we can do this by knowing that OptionalHeader is at `0x60` and is within `0x18` in DataDirectory, then convert relative address to absolute.
+Next, load `IMAGE_DIRECTORY_ENTRY_EXPORT` from `ebx` which is pointing to the NT header. We can do this by knowing that OptionalHeader is at `0x60` and is within `0x18` in DataDirectory, then converting the relative address to absolute.
 
 ```asm
     mov ebx, [edx + 0x18]           ; NumberOfNames
     dec ebx
 ```
 
-Since we're implementing an reverse loop, we move the number of exports to `ebx` and immediately decrement the register to ensure we don't get out of bounds check.
+Since we're implementing a reverse loop, we move the number of exports to `ebx` and immediately decrement the register to ensure we don't get an out-of-bounds check.
 
 ```asm
     mov esi, [edx + 0x20]           ; AddressOfNames
     add esi, eax
 ```
 
-We are loading the base pointer of `AddressOfNames` outside of the loop, so we don't have to re-calculate it everytime.
+We are loading the base pointer of `AddressOfNames` outside of the loop, so we don't have to recalculate it every everytime.
 
 ```asm
 loop_til_loadlibrary_found:
@@ -239,7 +220,7 @@ loop_til_loadlibrary_found:
     je cleanup
 ```
 
-Check if `ebx` is zero, if it is it means we did not find LoadLibraryA before `AddressOfNames` ran out, so just cleanup.
+Check if `ebx` is zero; if it is, it means we did not find LoadLibraryA before `AddressOfNames` ran out, so just clean up.
 
 ```asm
     mov edi, [esi + ebx * 4]        ; AddressOfNames[ebx]
@@ -264,7 +245,7 @@ Load the `AddressOfNames` based on the current index of `ebx` and convert the re
     jmp loadlibrary_found
 ```
 
-Compare DWORD in chunks to `edi` which holds the current export name, if all of them match then we found our match, otherwise continue loop.
+Compare DWORD in chunks to `edi` which holds the current export name; if all of them match, then we found our match; otherwise, continue the loop.
 
 ```asm
 not_loadlibrary:
@@ -272,7 +253,7 @@ not_loadlibrary:
     jmp loop_til_loadlibrary_found
 ```
 
-Decrement the `ebx` register and jump back to top of the loop, as this routine only triggers when match was not found.
+Decrement the `ebx` register and jump back to the top of the loop, as this routine only triggers when a match was not found.
 
 ```asm
 loadlibrary_found:
@@ -287,17 +268,13 @@ loadlibrary_found:
     add ecx, eax
 ```
 
-Load the current ordinal into `esi` register and then use the ordinal to get the function pointer and store it to `ecx`
-
-And there it is, that's how we can manually implement functionality equivalent of GetProcAddr without having to use it.
+Load the current ordinal into the `esi` register and then use the ordinal to get the function pointer and store it to `ecx` And there it is; that's how we can manually implement functionality equivalent to GetProcAddr without having to use it.
 
 ## Chapter 3: Calling Conventions
 
-Now that we have an address to our function, we need to figure out how to invoke it.
+Now that we have an address to our function, we need to figure out how to invoke it. This can widely differ depending on the calling convention of the function; Win32 uses  `__stdcall`.
 
-This can widely differ depending on the calling convention of the function, Win32 might use  `__stdcall` or `__cdecl`
-
-When using `__stdcall` we need don't have to clean the stack so we only have to clean our own allocation:
+When using `__stdcall` we don't have to clean the stack, so we only have to clean our own allocation:
 
 ```asm
     sub esp, 12
@@ -336,7 +313,7 @@ HINSTANCE ShellExecuteA(
 );
 ```
 
-to call it in C, we would write something like this.
+To call it in C, we would write something like this.
 
 ```c
 ShellExecuteA(0, "open", "calc", 0, 0, 0);
@@ -354,11 +331,9 @@ push 0      ; nShowCmd
 call ShellExecuteA
 ```
 
-For sake of example, let's assume `eax = "open"` and `ebx = "calc"` which both have been allocated on the stack.
+For the sake of example, let's assume `eax = "open"` and `ebx = "calc"` which both have been allocated on the stack. This code does not work, because in assembly the way to push a stack is actually reversed compared to the programmatic definition of the same function.
 
-this code does not work, because in assembly the way to push stack is actually reversed compared to programatical definition of the same function
-
-so the way it would be done is:
+So the way it would be done is:
 
 ```asm
 push 0      ; nShowCmd
@@ -370,11 +345,11 @@ push 0      ; hwnd
 call ShellExecuteA
 ```
 
-and this would invoke the function correctly.
+And this would invoke the function correctly.
 
 ## Chapter 5: Putting it all together
 
-Now that we understand the individual concepts we can stick everything together to build an final code:
+Now that we understand the individual concepts, we can stick everything together to build a final code.
 
 ### 1. Get a list of modules from PEB loaderData
 
