@@ -16,7 +16,8 @@ export default defineConfig({
         text: 'Ramblings',
         items: [
           { text: 'Make it, if it\'s so easy.', link: '/entries/en/make-it-if-its-so-easy' },
-          { text: 'Why do I use a Vive Pro in 2025?', link: '/entries/en/why-do-i-use-vive-pro-in-2025' }
+          { text: 'Why do I use a Vive Pro in 2025?', link: '/entries/en/why-do-i-use-vive-pro-in-2025' },
+          { text: 'Parallel Reality, or is it?', link: '/entries/en/parallel-reality-or-is-it' }
         ]
       },
       {
